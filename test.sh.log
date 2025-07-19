@@ -1,0 +1,162 @@
+Running test with user davgalle
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Generating ;/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c
+-- Building executable including ;/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/build
+[ 10%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 20%] Linking C static library libunity.a
+[ 20%] Built target unity
+[ 30%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating test/unity_runner.c
+[ 40%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 60%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 70%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 80%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 90%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment2 ~/Documentos/aesd/repo/assignment-2-4trastos
+~/Documentos/aesd/repo/assignment-2-4trastos/finder-app ~/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment2 ~/Documentos/aesd/repo/assignment-2-4trastos
+rm -f writer writer.o
+gcc -Wall -Wextra -Werror -c writer.c -o writer.o
+gcc -Wall -Wextra -Werror -o writer writer.o
+Error: Invalid number of arguments
+Usage: ./writer <file> <string>
+Error: Invalid number of arguments
+Usage: ./writer <file> <string>
+Performing make clean
+rm -f writer writer.o
+rm -f writer writer.o
+gcc -Wall -Wextra -Werror -c writer.c -o writer.o
+gcc -Wall -Wextra -Werror -o writer writer.o
+success
+Test of assignment assignment2 complete with success
+Running test with user davgalle
+-- Generating ;/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c
+-- Building executable including ;/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/build
+[ 10%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 20%] Linking C static library libunity.a
+[ 20%] Built target unity
+[ 30%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating test/unity_runner.c
+[ 40%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 60%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 70%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 80%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 90%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment2 ~/Documentos/aesd/repo/assignment-2-4trastos
+~/Documentos/aesd/repo/assignment-2-4trastos/finder-app ~/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment2 ~/Documentos/aesd/repo/assignment-2-4trastos
+rm -f writer writer.o
+gcc -Wall -Wextra -Werror -c writer.c -o writer.o
+gcc -Wall -Wextra -Werror -o writer writer.o
+Error: Invalid number of arguments
+Usage: ./writer <file> <string>
+Error: Invalid number of arguments
+Usage: ./writer <file> <string>
+Performing make clean
+rm -f writer writer.o
+rm -f writer writer.o
+gcc -Wall -Wextra -Werror -c writer.c -o writer.o
+gcc -Wall -Wextra -Werror -o writer writer.o
+success
+Test of assignment assignment2 complete with success
+Running test with user davgalle
+-- Generating ;/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c
+-- Building executable including ;/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/build
+[ 10%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 20%] Linking C static library libunity.a
+[ 20%] Built target unity
+[ 30%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating test/unity_runner.c
+[ 40%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 60%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 70%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 80%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 90%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment2 ~/Documentos/aesd/repo/assignment-2-4trastos
+~/Documentos/aesd/repo/assignment-2-4trastos/finder-app ~/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment2 ~/Documentos/aesd/repo/assignment-2-4trastos
+rm -f writer writer.o
+gcc -Wall -Wextra -Werror -c writer.c -o writer.o
+gcc -Wall -Wextra -Werror -o writer writer.o
+Error: Invalid number of arguments
+Usage: ./writer <file> <string>
+Error: Invalid number of arguments
+Usage: ./writer <file> <string>
+Performing make clean
+rm -f writer writer.o
+rm -f writer writer.o
+gcc -Wall -Wextra -Werror -c writer.c -o writer.o
+gcc -Wall -Wextra -Werror -o writer writer.o
+success
+Test of assignment assignment2 complete with success
