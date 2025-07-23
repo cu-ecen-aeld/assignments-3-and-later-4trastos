@@ -1,8 +1,8 @@
 assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o: \
- /home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/Unity/src/unity.c \
+ /home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/Unity/src/unity.c \
  /usr/include/stdc-predef.h \
- /home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/Unity/src/unity.h \
- /home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/Unity/src/unity_internals.h \
+ /home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/Unity/src/unity.h \
+ /home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/Unity/src/unity_internals.h \
  /usr/include/setjmp.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

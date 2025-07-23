@@ -8,24 +8,28 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/examples/autotest-validate/autotest-validate.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o.d"
-  "/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_assignment_validate.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o.d"
-  "/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o.d"
-  "/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_hello.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o.d"
-  "/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_hello_Runner.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o.d"
-  "/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/unity_runner.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o.d"
+  "/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/examples/autotest-validate/autotest-validate.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o.d"
+  "/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/examples/systemcalls/systemcalls.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/systemcalls/systemcalls.c.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/systemcalls/systemcalls.c.o.d"
+  "/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/assignment1/Test_assignment_validate.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o.d"
+  "/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o.d"
+  "/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/assignment1/Test_hello.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o.d"
+  "/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/assignment1/Test_hello_Runner.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o.d"
+  "/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/assignment3/Test_systemcalls.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment3/Test_systemcalls.c.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment3/Test_systemcalls.c.o.d"
+  "/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment3/Test_systemcalls_Runner.c.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment3/Test_systemcalls_Runner.c.o.d"
+  "/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/unity_runner.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o.d"
   )
 
 # Pairs of files generated by the same build rule.
 set(CMAKE_MULTIPLE_OUTPUT_PAIRS
-  "/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c" "/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_hello_Runner.c"
-  "/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/unity_runner.c" "/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_hello_Runner.c"
+  "/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c" "/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/assignment1/Test_hello_Runner.c"
+  "/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c" "/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/assignment1/Test_hello_Runner.c"
+  "/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/unity_runner.c" "/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/assignment1/Test_hello_Runner.c"
   )
 
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/build/assignment-autotest/Unity/src/CMakeFiles/unity.dir/DependInfo.cmake"
+  "/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/build/assignment-autotest/Unity/src/CMakeFiles/unity.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/davgalle/Documentos/aesd/repo/assignment-2-4trastos
+CMAKE_SOURCE_DIR = /home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/build
+CMAKE_BINARY_DIR = /home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/build/CMakeFiles /home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/build/CMakeFiles /home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

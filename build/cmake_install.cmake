@@ -1,4 +1,4 @@
-# Install script for directory: /home/davgalle/Documentos/aesd/repo/assignment-2-4trastos
+# Install script for directory: /home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/build/assignment-autotest/cmake_install.cmake")
+  include("/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/build/assignment-autotest/cmake_install.cmake")
 
 endif()
 
@@ -56,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

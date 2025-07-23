@@ -1,4 +1,4 @@
-# Install script for directory: /home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest
+# Install script for directory: /home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/build/assignment-autotest/Unity/cmake_install.cmake")
+  include("/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/build/assignment-autotest/Unity/cmake_install.cmake")
 
 endif()
 

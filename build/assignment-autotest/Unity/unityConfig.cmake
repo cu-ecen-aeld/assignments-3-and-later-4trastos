@@ -45,14 +45,14 @@ unset(_expectedTargets)
 add_library(unity STATIC IMPORTED)
 
 set_target_properties(unity PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/Unity/src"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/Unity/src"
 )
 
 # Import target "unity" for configuration ""
 set_property(TARGET unity APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(unity PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_NOCONFIG "C"
-  IMPORTED_LOCATION_NOCONFIG "/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/build/assignment-autotest/Unity/src/libunity.a"
+  IMPORTED_LOCATION_NOCONFIG "/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/build/assignment-autotest/Unity/src/libunity.a"
   )
 
 # This file does not depend on other imported targets which have

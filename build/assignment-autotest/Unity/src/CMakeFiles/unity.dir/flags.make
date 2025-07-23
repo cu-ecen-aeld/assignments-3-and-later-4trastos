@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/Unity/src
+C_INCLUDES = -I/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/Unity/src
 
 C_FLAGS = 
 

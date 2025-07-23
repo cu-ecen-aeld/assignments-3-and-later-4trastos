@@ -160,3 +160,3365 @@ gcc -Wall -Wextra -Werror -c writer.c -o writer.o
 gcc -Wall -Wextra -Werror -o writer writer.o
 success
 Test of assignment assignment2 complete with success
+Running test with user davgalle
+CMake Error: The current CMakeCache.txt directory /home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/build/CMakeCache.txt is different than the directory /home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/build where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source "/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/CMakeLists.txt" does not match the source "/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.
+-- Generating ;/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c
+-- Building executable including ;/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c and ../examples/autotest-validate/autotest-validate.c;../examples/systemcalls/systemcalls.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/build
+make[2]: *** No hay ninguna regla para construir el objetivo '../assignment-autotest/Unity/src/unity.c', necesario para 'assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o'.  Alto.
+make[1]: *** [CMakeFiles/Makefile2:156: assignment-autotest/Unity/src/CMakeFiles/unity.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2
+/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+No assignment-test script found for assignment3
+Running test with user davgalle
+CMake Error: The current CMakeCache.txt directory /home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/build/CMakeCache.txt is different than the directory /home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/build where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source "/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/CMakeLists.txt" does not match the source "/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.
+-- Generating ;/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c
+-- Building executable including ;/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c and ../examples/autotest-validate/autotest-validate.c;../examples/systemcalls/systemcalls.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/build
+make[2]: *** No hay ninguna regla para construir el objetivo '../assignment-autotest/Unity/src/unity.c', necesario para 'assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o'.  Alto.
+make[1]: *** [CMakeFiles/Makefile2:156: assignment-autotest/Unity/src/CMakeFiles/unity.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2
+/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/davgalle/Documentos/aesd/repo/assignment-2-4trastos/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+No assignment-test script found for assignment3
+Running test with user davgalle
+-- Generating ;/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c
+-- Building executable including ;/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c and ../examples/autotest-validate/autotest-validate.c;../examples/systemcalls/systemcalls.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/build
+[  7%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 15%] Linking C static library libunity.a
+[ 15%] Built target unity
+[ 23%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../assignment-autotest/test/assignment3/Test_systemcalls_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c test/assignment3/Test_systemcalls.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for test/assignment3/Test_systemcalls.c
+Autogenerating test/unity_runner.c
+[ 30%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 38%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 46%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment3/Test_systemcalls.c.o
+[ 53%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 61%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 69%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment3/Test_systemcalls_Runner.c.o
+[ 76%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 84%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/systemcalls/systemcalls.c.o
+[ 92%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Running tests at /home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/assignment3/Test_systemcalls.c : function test_systemcalls
+Remove trailing newline
+Read this is a test from testfile.txt
+system() echo this is a test returned this is a test
+Remove trailing newline
+Read home is /home/davgalle from testfile.txt
+system() echo home is $HOME returned: home is /home/davgalle
+/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/assignment3/Test_systemcalls.c:28:test_systemcalls:PASS
+Running tests at /home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/assignment3/Test_systemcalls.c : function test_exec_calls
+execv() failed in child: No such file or directory
+/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/assignment3/Test_systemcalls.c:58:test_exec_calls:PASS
+Running tests at /home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/assignment3/Test_systemcalls.c : function test_exec_redirect_calls
+Remove trailing newline
+Read home is /home/davgalle from testfile.txt
+execv /bin/sh -c echo home is $HOME returned home is /home/davgalle
+Remove trailing newline
+Read home is $HOME from testfile.txt
+execv /bin/echo home is $HOME returned home is $HOME
+/home/davgalle/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/assignment3/Test_systemcalls.c:72:test_exec_redirect_calls:PASS
+
+-----------------------
+3 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/assignment3 ~/Documentos/aesd/repo/assignments-3-and-later-4trastos
+starting test with SKIP_BUILD  and DO_VALIDATE 
+~/Documentos/aesd/repo/assignments-3-and-later-4trastos/finder-app ~/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/assignment3 ~/Documentos/aesd/repo/assignments-3-and-later-4trastos
+Using passed directory /tmp/aesd-autograder for output
+Creating the staging directory for the root filesystem
+Deleting rootfs directory at /tmp/aesd-autograder/rootfs and starting over
+  CLEAN   applets
+  CLEAN   .tmp_versions
+  CLEAN   busybox busybox_unstripped busybox_unstripped.map busybox_unstripped.out busybox.links .kernelrelease
+  CLEAN   scripts/basic
+  CLEAN   scripts/kconfig
+  CLEAN   include/config
+  CLEAN   .config .config.old include/NUM_APPLETS.h include/common_bufsiz.h include/autoconf.h include/bbconfigopts.h include/bbconfigopts_bz2.h include/embedded_scripts.h include/usage_compressed.h include/applet_tables.h include/applets.h include/usage.h
+  HOSTCC  scripts/basic/fixdep
+  HOSTCC  scripts/basic/split-include
+  HOSTCC  scripts/basic/docproc
+  GEN     include/applets.h
+  GEN     include/usage.h
+  GEN     e2fsprogs/Kbuild
+  GEN     e2fsprogs/Config.in
+  GEN     applets/Kbuild
+  GEN     debianutils/Kbuild
+  GEN     debianutils/Config.in
+  GEN     klibc-utils/Kbuild
+  GEN     klibc-utils/Config.in
+  GEN     coreutils/Kbuild
+  GEN     coreutils/Config.in
+  GEN     coreutils/libcoreutils/Kbuild
+  GEN     shell/Kbuild
+  GEN     shell/Config.in
+  GEN     loginutils/Kbuild
+  GEN     loginutils/Config.in
+  GEN     modutils/Kbuild
+  GEN     modutils/Config.in
+  GEN     printutils/Kbuild
+  GEN     printutils/Config.in
+  GEN     scripts/Kbuild
+  GEN     procps/Kbuild
+  GEN     procps/Config.in
+  GEN     archival/Kbuild
+  GEN     archival/Config.in
+  GEN     archival/libarchive/Kbuild
+  GEN     sysklogd/Kbuild
+  GEN     sysklogd/Config.in
+  GEN     util-linux/Kbuild
+  GEN     util-linux/Config.in
+  GEN     util-linux/volume_id/Kbuild
+  GEN     util-linux/volume_id/Config.in
+  GEN     mailutils/Kbuild
+  GEN     mailutils/Config.in
+  GEN     selinux/Kbuild
+  GEN     selinux/Config.in
+  GEN     init/Kbuild
+  GEN     init/Config.in
+  GEN     libpwdgrp/Kbuild
+  GEN     editors/Kbuild
+  GEN     editors/Config.in
+  GEN     libbb/Kbuild
+  GEN     libbb/Config.in
+  GEN     findutils/Kbuild
+  GEN     findutils/Config.in
+  GEN     console-tools/Kbuild
+  GEN     console-tools/Config.in
+  GEN     runit/Kbuild
+  GEN     runit/Config.in
+  GEN     networking/Kbuild
+  GEN     networking/Config.in
+  GEN     networking/udhcp/Kbuild
+  GEN     networking/udhcp/Config.in
+  GEN     networking/libiproute/Kbuild
+  GEN     miscutils/Kbuild
+  GEN     miscutils/Config.in
+  HOSTCC  scripts/kconfig/conf.o
+  HOSTCC  scripts/kconfig/kxgettext.o
+  HOSTCC  scripts/kconfig/mconf.o
+  SHIPPED scripts/kconfig/zconf.tab.c
+  SHIPPED scripts/kconfig/lex.zconf.c
+  SHIPPED scripts/kconfig/zconf.hash.c
+  HOSTCC  scripts/kconfig/zconf.tab.o
+  HOSTLD  scripts/kconfig/conf
+scripts/kconfig/conf -d Config.in
+*
+* Busybox Configuration
+*
+*
+* Settings
+*
+Enable compatibility for full-blown desktop systems (8kb) (DESKTOP) [Y/n/?] (NEW) y
+Provide compatible behavior for rare corner cases (bigger code) (EXTRA_COMPAT) [N/y/?] (NEW) n
+Building for Fedora distribution (FEDORA_COMPAT) [N/y/?] (NEW) n
+Enable obsolete features removed before SUSv3 (INCLUDE_SUSv2) [Y/n/?] (NEW) y
+Support --long-options (LONG_OPTS) [Y/?] (NEW) y
+Show applet usage messages (SHOW_USAGE) [Y/n/?] (NEW) y
+  Show verbose applet usage messages (FEATURE_VERBOSE_USAGE) [Y/n/?] (NEW) y
+  Store applet usage messages in compressed form (FEATURE_COMPRESS_USAGE) [Y/n/?] (NEW) y
+Support files > 2 GB (LFS) [Y/n/?] (NEW) y
+Support PAM (Pluggable Authentication Modules) (PAM) [N/y/?] (NEW) n
+Use the devpts filesystem for Unix98 PTYs (FEATURE_DEVPTS) [Y/n/?] (NEW) y
+Support utmp file (FEATURE_UTMP) [Y/n/?] (NEW) y
+  Support wtmp file (FEATURE_WTMP) [Y/n/?] (NEW) y
+Support writing pidfiles (FEATURE_PIDFILE) [Y/n/?] (NEW) y
+  Directory for pidfiles (PID_FILE_PATH) [/var/run] (NEW) /var/run
+Include busybox applet (BUSYBOX) [Y/n/?] (NEW) y
+  Support --show SCRIPT (FEATURE_SHOW_SCRIPT) [Y/n] (NEW) y
+  Support --install [-s] to install applet links at runtime (FEATURE_INSTALLER) [Y/n/?] (NEW) y
+Don't use /usr (INSTALL_NO_USR) [N/y/?] (NEW) n
+Drop SUID state for most applets (FEATURE_SUID) [Y/n/?] (NEW) y
+  Enable SUID configuration via /etc/busybox.conf (FEATURE_SUID_CONFIG) [Y/n/?] (NEW) y
+    Suppress warning message if /etc/busybox.conf is not readable (FEATURE_SUID_CONFIG_QUIET) [Y/n/?] (NEW) y
+exec prefers applets (FEATURE_PREFER_APPLETS) [N/y/?] (NEW) n
+Path to busybox executable (BUSYBOX_EXEC_PATH) [/proc/self/exe] (NEW) /proc/self/exe
+Support NSA Security Enhanced Linux (SELINUX) [N/y/?] (NEW) n
+Clean up all memory before exiting (usually not needed) (FEATURE_CLEAN_UP) [N/y/?] (NEW) n
+Support LOG_INFO level syslog messages (FEATURE_SYSLOG_INFO) [Y/n/?] (NEW) y
+*
+* Build Options
+*
+Build static binary (no shared libs) (STATIC) [N/y/?] (NEW) n
+  Build position independent executable (PIE) [N/y/?] (NEW) n
+Force NOMMU build (NOMMU) [N/y/?] (NEW) n
+Build shared libbusybox (BUILD_LIBBUSYBOX) [N/y/?] (NEW) n
+Cross compiler prefix (CROSS_COMPILER_PREFIX) [] (NEW) 
+Path to sysroot (SYSROOT) [] (NEW) 
+Additional CFLAGS (EXTRA_CFLAGS) [] (NEW) 
+Additional LDFLAGS (EXTRA_LDFLAGS) [] (NEW) 
+Additional LDLIBS (EXTRA_LDLIBS) [] (NEW) 
+Avoid using GCC-specific code constructs (USE_PORTABLE_CODE) [N/y/?] (NEW) n
+Use -mpreferred-stack-boundary=2 on i386 arch (STACK_OPTIMIZATION_386) [Y/n/?] (NEW) y
+Use -static-libgcc (STATIC_LIBGCC) [Y/n/?] (NEW) y
+*
+* Installation Options ("make install" behavior)
+*
+What kind of applet links to install
+> 1. as soft-links (INSTALL_APPLET_SYMLINKS) (NEW)
+  2. as hard-links (INSTALL_APPLET_HARDLINKS) (NEW)
+  3. as script wrappers (INSTALL_APPLET_SCRIPT_WRAPPERS) (NEW)
+  4. not installed (INSTALL_APPLET_DONT) (NEW)
+choice[1-4?]: 1
+Destination path for 'make install' (PREFIX) [./_install] (NEW) ./_install
+*
+* Debugging Options
+*
+Build with debug information (DEBUG) [N/y/?] (NEW) n
+Enable runtime sanitizers (ASAN/LSAN/USAN/etc...) (DEBUG_SANITIZE) [N/y/?] (NEW) n
+Build unit tests (UNIT_TEST) [N/y/?] (NEW) n
+Abort compilation on any warning (WERROR) [N/y/?] (NEW) n
+Warn about single parameter bb_xx_msg calls (WARN_SIMPLE_MSG) [N/y/?] (NEW) n
+Additional debugging library
+> 1. None (NO_DEBUG_LIB) (NEW)
+  2. Dmalloc (DMALLOC) (NEW)
+  3. Electric-fence (EFENCE) (NEW)
+choice[1-3?]: 1
+*
+* Library Tuning
+*
+Use the end of BSS page (FEATURE_USE_BSS_TAIL) [N/y/?] (NEW) n
+Enable fractional duration arguments (FLOAT_DURATION) [Y/n/?] (NEW) y
+Support RTMIN[+n] and RTMAX[-n] signal names (FEATURE_RTMINMAX) [Y/n/?] (NEW) y
+  Use the definitions of SIGRTMIN/SIGRTMAX provided by libc (FEATURE_RTMINMAX_USE_LIBC_DEFINITIONS) [Y/n/?] (NEW) y
+Buffer allocation policy
+> 1. Allocate with Malloc (FEATURE_BUFFERS_USE_MALLOC) (NEW)
+  2. Allocate on the Stack (FEATURE_BUFFERS_GO_ON_STACK) (NEW)
+  3. Allocate in the .bss section (FEATURE_BUFFERS_GO_IN_BSS) (NEW)
+choice[1-3?]: 1
+Minimum password length (PASSWORD_MINLEN) [6] (NEW) 6
+MD5: Trade bytes for speed (0:fast, 3:slow) (MD5_SMALL) [1] (NEW) 1
+SHA3: Trade bytes for speed (0:fast, 1:slow) (SHA3_SMALL) [1] (NEW) 1
+Faster /proc scanning code (+100 bytes) (FEATURE_FAST_TOP) [N/y/?] (NEW) n
+Support /etc/networks (FEATURE_ETC_NETWORKS) [N/y/?] (NEW) n
+Consult /etc/services even for well-known ports (FEATURE_ETC_SERVICES) [N/y/?] (NEW) n
+Command line editing (FEATURE_EDITING) [Y/n/?] (NEW) y
+  Maximum length of input (FEATURE_EDITING_MAX_LEN) [1024] (NEW) 1024
+  vi-style line editing commands (FEATURE_EDITING_VI) [N/y/?] (NEW) n
+  History size (FEATURE_EDITING_HISTORY) [255] (NEW) 255
+  History saving (FEATURE_EDITING_SAVEHISTORY) [Y/n/?] (NEW) y
+    Save history on shell exit, not after every command (FEATURE_EDITING_SAVE_ON_EXIT) [N/y/?] (NEW) n
+  Reverse history search (FEATURE_REVERSE_SEARCH) [Y/n/?] (NEW) y
+  Tab completion (FEATURE_TAB_COMPLETION) [Y/n] (NEW) y
+    Username completion (FEATURE_USERNAME_COMPLETION) [Y/n] (NEW) y
+  Fancy shell prompts (FEATURE_EDITING_FANCY_PROMPT) [Y/n/?] (NEW) y
+  Enable automatic tracking of window size changes (FEATURE_EDITING_WINCH) [Y/n] (NEW) y
+  Query cursor position from terminal (FEATURE_EDITING_ASK_TERMINAL) [N/y/?] (NEW) n
+Enable locale support (system needs locale for this to work) (LOCALE_SUPPORT) [N/y/?] (NEW) n
+Support Unicode (UNICODE_SUPPORT) [Y/n/?] (NEW) y
+  Check $LC_ALL, $LC_CTYPE and $LANG environment variables (FEATURE_CHECK_UNICODE_IN_ENV) [N/y/?] (NEW) n
+  Character code to substitute unprintable characters with (SUBST_WCHAR) [63] (NEW) 63
+  Range of supported Unicode characters (LAST_SUPPORTED_WCHAR) [767] (NEW) 767
+  Allow zero-width Unicode characters on output (UNICODE_COMBINING_WCHARS) [N/y/?] (NEW) n
+  Allow wide Unicode characters on output (UNICODE_WIDE_WCHARS) [N/y/?] (NEW) n
+  Bidirectional character-aware line input (UNICODE_BIDI_SUPPORT) [N/y/?] (NEW) n
+  Make it possible to enter sequences of chars which are not Unicode (UNICODE_PRESERVE_BROKEN) [N/y/?] (NEW) n
+Non-POSIX, but safer, copying to special nodes (FEATURE_NON_POSIX_CP) [Y/n/?] (NEW) y
+Give more precise messages when copy fails (cp, mv etc) (FEATURE_VERBOSE_CP_MESSAGE) [N/y/?] (NEW) n
+Use sendfile system call (FEATURE_USE_SENDFILE) [Y/n/?] (NEW) y
+Copy buffer size, in kilobytes (FEATURE_COPYBUF_KB) [4] (NEW) 4
+Skip rootfs in mount table (FEATURE_SKIP_ROOTFS) [Y/n/?] (NEW) y
+Use clock_gettime(CLOCK_MONOTONIC) syscall (MONOTONIC_SYSCALL) [Y/n/?] (NEW) y
+Use ioctl names rather than hex values in error messages (IOCTL_HEX2STR_ERROR) [Y/n/?] (NEW) y
+Support infiniband HW (FEATURE_HWIB) [Y/n/?] (NEW) y
+*
+* Applets
+*
+*
+* Archival Utilities
+*
+Make tar, rpm, modprobe etc understand .xz data (FEATURE_SEAMLESS_XZ) [Y/n] (NEW) y
+Make tar, rpm, modprobe etc understand .lzma data (FEATURE_SEAMLESS_LZMA) [Y/n] (NEW) y
+Make tar, rpm, modprobe etc understand .bz2 data (FEATURE_SEAMLESS_BZ2) [Y/n] (NEW) y
+Make tar, rpm, modprobe etc understand .gz data (FEATURE_SEAMLESS_GZ) [Y] (NEW) y
+Make tar, rpm, modprobe etc understand .Z data (FEATURE_SEAMLESS_Z) [N/y] (NEW) n
+ar (9.5 kb) (AR) [N/y/?] (NEW) n
+uncompress (7.1 kb) (UNCOMPRESS) [N/y/?] (NEW) n
+gunzip (11 kb) (GUNZIP) [Y/n/?] (NEW) y
+zcat (24 kb) (ZCAT) [Y/n/?] (NEW) y
+  Enable long options (FEATURE_GUNZIP_LONG_OPTIONS) [Y/n] (NEW) y
+bunzip2 (8.7 kb) (BUNZIP2) [Y/n/?] (NEW) y
+bzcat (8.7 kb) (BZCAT) [Y/n/?] (NEW) y
+unlzma (7.5 kb) (UNLZMA) [Y/n/?] (NEW) y
+lzcat (7.5 kb) (LZCAT) [Y/n/?] (NEW) y
+lzma -d (LZMA) [Y/n/?] (NEW) y
+unxz (13 kb) (UNXZ) [Y/n/?] (NEW) y
+xzcat (13 kb) (XZCAT) [Y/n/?] (NEW) y
+xz -d (XZ) [Y/n/?] (NEW) y
+bzip2 (16 kb) (BZIP2) [Y/n/?] (NEW) y
+  Trade bytes for speed (0:fast, 9:small) (BZIP2_SMALL) [8] (NEW) 8
+  Enable decompression (FEATURE_BZIP2_DECOMPRESS) [Y/?] (NEW) y
+cpio (15 kb) (CPIO) [Y/n/?] (NEW) y
+  Support archive creation (FEATURE_CPIO_O) [Y/n/?] (NEW) y
+    Support passthrough mode (FEATURE_CPIO_P) [Y/n/?] (NEW) y
+dpkg (43 kb) (DPKG) [Y/n/?] (NEW) y
+dpkg-deb (30 kb) (DPKG_DEB) [Y/n/?] (NEW) y
+gzip (17 kb) (GZIP) [Y/n/?] (NEW) y
+  Enable long options (FEATURE_GZIP_LONG_OPTIONS) [Y/n] (NEW) y
+  Trade memory for speed (0:small,slow - 2:fast,big) (GZIP_FAST) [0] (NEW) 0
+  Enable compression levels (FEATURE_GZIP_LEVELS) [N/y/?] (NEW) n
+  Enable decompression (FEATURE_GZIP_DECOMPRESS) [Y/?] (NEW) y
+lzop (12 kb) (LZOP) [Y/n/?] (NEW) y
+unlzop (13 kb) (UNLZOP) [N/y/?] (NEW) n
+lzopcat (13 kb) (LZOPCAT) [N/y/?] (NEW) n
+  lzop compression levels 7,8,9 (not very useful) (LZOP_COMPR_HIGH) [N/y/?] (NEW) n
+rpm (32 kb) (RPM) [Y/n/?] (NEW) y
+rpm2cpio (21 kb) (RPM2CPIO) [Y/n/?] (NEW) y
+tar (39 kb) (TAR) [Y/n/?] (NEW) y
+  Enable long options (FEATURE_TAR_LONG_OPTIONS) [Y/n] (NEW) y
+  Enable -c (archive creation) (FEATURE_TAR_CREATE) [Y/n] (NEW) y
+  Autodetect compressed tarballs (FEATURE_TAR_AUTODETECT) [Y/n/?] (NEW) y
+  Enable -X (exclude from) and -T (include from) options (FEATURE_TAR_FROM) [Y/n/?] (NEW) y
+  Support old tar header format (FEATURE_TAR_OLDGNU_COMPATIBILITY) [Y/n/?] (NEW) y
+  Enable untarring of tarballs with checksums produced by buggy Sun tar (FEATURE_TAR_OLDSUN_COMPATIBILITY) [Y/n/?] (NEW) y
+  Support GNU tar extensions (long filenames) (FEATURE_TAR_GNU_EXTENSIONS) [Y/n] (NEW) y
+  Support writing to an external program (--to-command) (FEATURE_TAR_TO_COMMAND) [Y/n/?] (NEW) y
+  Enable use of user and group names (FEATURE_TAR_UNAME_GNAME) [Y/n/?] (NEW) y
+  Enable -m (do not preserve time) GNU option (FEATURE_TAR_NOPRESERVE_TIME) [Y/n] (NEW) y
+unzip (26 kb) (UNZIP) [Y/n/?] (NEW) y
+  Read and use Central Directory data (FEATURE_UNZIP_CDF) [Y/n/?] (NEW) y
+    Support compression method 12 (bzip2) (FEATURE_UNZIP_BZIP2) [Y/n] (NEW) y
+    Support compression method 14 (lzma) (FEATURE_UNZIP_LZMA) [Y/n] (NEW) y
+    Support compression method 95 (xz) (FEATURE_UNZIP_XZ) [Y/n] (NEW) y
+Optimize lzma for speed (FEATURE_LZMA_FAST) [N/y/?] (NEW) n
+*
+* Coreutils
+*
+basename (438 bytes) (BASENAME) [Y/n/?] (NEW) y
+cat (5.6 kb) (CAT) [Y/n/?] (NEW) y
+  Enable -n and -b options (FEATURE_CATN) [Y/n/?] (NEW) y
+  cat -v[etA] (FEATURE_CATV) [Y/n/?] (NEW) y
+chgrp (7.6 kb) (CHGRP) [Y/n/?] (NEW) y
+chmod (5.5 kb) (CHMOD) [Y/n/?] (NEW) y
+chown (7.6 kb) (CHOWN) [Y/n/?] (NEW) y
+  Enable long options (FEATURE_CHOWN_LONG_OPTIONS) [Y/n] (NEW) y
+chroot (3.7 kb) (CHROOT) [Y/n/?] (NEW) y
+cksum (4.1 kb) (CKSUM) [Y/n/?] (NEW) y
+comm (4.2 kb) (COMM) [Y/n/?] (NEW) y
+cp (10 kb) (CP) [Y/n/?] (NEW) y
+  Enable long options (FEATURE_CP_LONG_OPTIONS) [Y/n/?] (NEW) y
+    Enable --reflink[=auto] (FEATURE_CP_REFLINK) [Y/n] (NEW) y
+cut (5.8 kb) (CUT) [Y/n/?] (NEW) y
+date (7 kb) (DATE) [Y/n/?] (NEW) y
+  Enable ISO date format output (-I) (FEATURE_DATE_ISOFMT) [Y/n/?] (NEW) y
+  Support %[num]N nanosecond format specifier (FEATURE_DATE_NANO) [N/y/?] (NEW) n
+  Support weird 'date MMDDhhmm[[YY]YY][.ss]' format (FEATURE_DATE_COMPAT) [Y/n/?] (NEW) y
+dd (7.5 kb) (DD) [Y/n/?] (NEW) y
+  Enable signal handling for status reporting (FEATURE_DD_SIGNAL_HANDLING) [Y/n/?] (NEW) y
+    Enable the third status line upon signal (FEATURE_DD_THIRD_STATUS_LINE) [Y/n/?] (NEW) y
+  Enable ibs, obs, iflag, oflag and conv options (FEATURE_DD_IBS_OBS) [Y/n/?] (NEW) y
+  Enable status display options (FEATURE_DD_STATUS) [Y/n/?] (NEW) y
+df (6.8 kb) (DF) [Y/n/?] (NEW) y
+  Enable -a, -i, -B (FEATURE_DF_FANCY) [Y/n/?] (NEW) y
+dirname (329 bytes) (DIRNAME) [Y/n/?] (NEW) y
+dos2unix (5.2 kb) (DOS2UNIX) [Y/n/?] (NEW) y
+unix2dos (5.2 kb) (UNIX2DOS) [Y/n/?] (NEW) y
+du (6.3 kb) (DU) [Y/n/?] (NEW) y
+  Use default blocksize of 1024 bytes (else it's 512 bytes) (FEATURE_DU_DEFAULT_BLOCKSIZE_1K) [Y/n] (NEW) y
+echo (1.8 kb) (ECHO) [Y/n/?] (NEW) y
+  Enable -n and -e options (FEATURE_FANCY_ECHO) [Y/n] (NEW) y
+env (4 kb) (ENV) [Y/n/?] (NEW) y
+expand (5.1 kb) (EXPAND) [Y/n/?] (NEW) y
+unexpand (5.3 kb) (UNEXPAND) [Y/n/?] (NEW) y
+expr (6.6 kb) (EXPR) [Y/n/?] (NEW) y
+  Extend Posix numbers support to 64 bit (EXPR_MATH_SUPPORT_64) [Y/n/?] (NEW) y
+factor (2.7 kb) (FACTOR) [Y/n/?] (NEW) y
+false (tiny) (FALSE) [Y/n/?] (NEW) y
+fold (4.6 kb) (FOLD) [Y/n/?] (NEW) y
+head (3.8 kb) (HEAD) [Y/n/?] (NEW) y
+  Enable -c, -q, and -v (FEATURE_FANCY_HEAD) [Y/n] (NEW) y
+hostid (286 bytes) (HOSTID) [Y/n/?] (NEW) y
+id (7 kb) (ID) [Y/n/?] (NEW) y
+groups (6.7 kb) (GROUPS) [Y/n/?] (NEW) y
+install (12 kb) (INSTALL) [Y/n/?] (NEW) y
+  Enable long options (FEATURE_INSTALL_LONG_OPTIONS) [Y/n] (NEW) y
+link (3.2 kb) (LINK) [Y/n/?] (NEW) y
+ln (4.9 kb) (LN) [Y/n/?] (NEW) y
+logname (1.1 kb) (LOGNAME) [Y/n/?] (NEW) y
+ls (14 kb) (LS) [Y/n/?] (NEW) y
+  Enable filetyping options (-p and -F) (FEATURE_LS_FILETYPES) [Y/n] (NEW) y
+  Enable symlinks dereferencing (-L) (FEATURE_LS_FOLLOWLINKS) [Y/n] (NEW) y
+  Enable recursion (-R) (FEATURE_LS_RECURSIVE) [Y/n] (NEW) y
+  Enable -w WIDTH and window size autodetection (FEATURE_LS_WIDTH) [Y/n] (NEW) y
+  Sort the file names (FEATURE_LS_SORTFILES) [Y/n/?] (NEW) y
+  Show file timestamps (FEATURE_LS_TIMESTAMPS) [Y/n/?] (NEW) y
+  Show username/groupnames (FEATURE_LS_USERNAME) [Y/n/?] (NEW) y
+  Allow use of color to identify file types (FEATURE_LS_COLOR) [Y/n/?] (NEW) y
+    Produce colored ls output by default (FEATURE_LS_COLOR_IS_DEFAULT) [Y/n/?] (NEW) y
+md5sum (6.5 kb) (MD5SUM) [Y/n/?] (NEW) y
+sha1sum (5.9 kb) (SHA1SUM) [Y/n/?] (NEW) y
+sha256sum (7 kb) (SHA256SUM) [Y/n/?] (NEW) y
+sha512sum (7.4 kb) (SHA512SUM) [Y/n/?] (NEW) y
+sha3sum (6.1 kb) (SHA3SUM) [Y/n/?] (NEW) y
+  *
+  * Common options for md5sum, sha1sum, sha256sum, sha512sum, sha3sum
+  *
+  Enable -c, -s and -w options (FEATURE_MD5_SHA1_SUM_CHECK) [Y/n/?] (NEW) y
+mkdir (4.5 kb) (MKDIR) [Y/n/?] (NEW) y
+mkfifo (3.8 kb) (MKFIFO) [Y/n/?] (NEW) y
+mknod (4.5 kb) (MKNOD) [Y/n/?] (NEW) y
+mktemp (4.2 kb) (MKTEMP) [Y/n/?] (NEW) y
+mv (10 kb) (MV) [Y/n/?] (NEW) y
+nice (2.1 kb) (NICE) [Y/n/?] (NEW) y
+nl (4.6 kb) (NL) [Y/n/?] (NEW) y
+nohup (2 kb) (NOHUP) [Y/n/?] (NEW) y
+nproc (3.7 kb) (NPROC) [Y/n/?] (NEW) y
+od (11 kb) (OD) [Y/n/?] (NEW) y
+paste (4.9 kb) (PASTE) [Y/n/?] (NEW) y
+printenv (1.3 kb) (PRINTENV) [Y/n/?] (NEW) y
+printf (3.8 kb) (PRINTF) [Y/n/?] (NEW) y
+pwd (3.7 kb) (PWD) [Y/n/?] (NEW) y
+readlink (4 kb) (READLINK) [Y/n/?] (NEW) y
+  Enable canonicalization by following all symlinks (-f) (FEATURE_READLINK_FOLLOW) [Y/n/?] (NEW) y
+realpath (1.6 kb) (REALPATH) [Y/n/?] (NEW) y
+rm (5.4 kb) (RM) [Y/n/?] (NEW) y
+rmdir (3.5 kb) (RMDIR) [Y/n/?] (NEW) y
+seq (3.8 kb) (SEQ) [Y/n/?] (NEW) y
+shred (4.9 kb) (SHRED) [Y/n/?] (NEW) y
+shuf (5.4 kb) (SHUF) [Y/n/?] (NEW) y
+sleep (2 kb) (SLEEP) [Y/n/?] (NEW) y
+  Enable multiple arguments and s/m/h/d suffixes (FEATURE_FANCY_SLEEP) [Y/n/?] (NEW) y
+sort (7.7 kb) (SORT) [Y/n/?] (NEW) y
+  Full SuSv3 compliant sort (support -ktcbdfiogM) (FEATURE_SORT_BIG) [Y/n/?] (NEW) y
+  Use less memory (but might be slower) (FEATURE_SORT_OPTIMIZE_MEMORY) [N/y/?] (NEW) n
+split (5 kb) (SPLIT) [Y/n/?] (NEW) y
+  Fancy extensions (FEATURE_SPLIT_FANCY) [Y/n/?] (NEW) y
+stat (11 kb) (STAT) [Y/n/?] (NEW) y
+  Enable custom formats (-c) (FEATURE_STAT_FORMAT) [Y/n/?] (NEW) y
+  Enable display of filesystem status (-f) (FEATURE_STAT_FILESYSTEM) [Y/n/?] (NEW) y
+stty (8.9 kb) (STTY) [Y/n/?] (NEW) y
+sum (4 kb) (SUM) [Y/n/?] (NEW) y
+sync (3.8 kb) (SYNC) [Y/n/?] (NEW) y
+  Enable -d and -f flags (requires syncfs(2) in libc) (FEATURE_SYNC_FANCY) [Y/n/?] (NEW) y
+fsync (3.6 kb) (FSYNC) [Y/n/?] (NEW) y
+tac (3.9 kb) (TAC) [Y/n/?] (NEW) y
+tail (6.8 kb) (TAIL) [Y/n/?] (NEW) y
+  Enable -q, -s, -v, and -F options (FEATURE_FANCY_TAIL) [Y/n/?] (NEW) y
+tee (4.2 kb) (TEE) [Y/n/?] (NEW) y
+  Enable block I/O (larger/faster) instead of byte I/O (FEATURE_TEE_USE_BLOCK_IO) [Y/n/?] (NEW) y
+test (4.1 kb) (TEST) [Y/n/?] (NEW) y
+test as [ (TEST1) [Y/n/?] (NEW) y
+test as [[ (TEST2) [Y/n/?] (NEW) y
+  Extend test to 64 bit (FEATURE_TEST_64) [Y/n/?] (NEW) y
+timeout (6 kb) (TIMEOUT) [Y/n/?] (NEW) y
+touch (5.9 kb) (TOUCH) [Y/n/?] (NEW) y
+  Add support for -h (FEATURE_TOUCH_NODEREF) [Y/n/?] (NEW) y
+  Add support for SUSV3 features (-d -t -r) (FEATURE_TOUCH_SUSV3) [Y/n/?] (NEW) y
+tr (5.1 kb) (TR) [Y/n/?] (NEW) y
+  Enable character classes (such as [:upper:]) (FEATURE_TR_CLASSES) [Y/n/?] (NEW) y
+  Enable equivalence classes (FEATURE_TR_EQUIV) [Y/n/?] (NEW) y
+true (tiny) (TRUE) [Y/n/?] (NEW) y
+truncate (4.2 kb) (TRUNCATE) [Y/n/?] (NEW) y
+tty (3.6 kb) (TTY) [Y/n/?] (NEW) y
+uname (3.9 kb) (UNAME) [Y/n/?] (NEW) y
+  Operating system name (UNAME_OSNAME) [GNU/Linux] (NEW) GNU/Linux
+arch (1.1 kb) (BB_ARCH) [Y/n/?] (NEW) y
+uniq (4.9 kb) (UNIQ) [Y/n/?] (NEW) y
+unlink (3.2 kb) (UNLINK) [Y/n/?] (NEW) y
+usleep (1.3 kb) (USLEEP) [Y/n/?] (NEW) y
+uudecode (5.8 kb) (UUDECODE) [Y/n/?] (NEW) y
+base32 (4.9 kb) (BASE32) [Y/n/?] (NEW) y
+base64 (4.9 kb) (BASE64) [Y/n/?] (NEW) y
+uuencode (4.4 kb) (UUENCODE) [Y/n/?] (NEW) y
+wc (4.5 kb) (WC) [Y/n/?] (NEW) y
+  Support very large counts (FEATURE_WC_LARGE) [Y/n/?] (NEW) y
+who (3.9 kb) (WHO) [Y/n/?] (NEW) y
+w (3.8 kb) (W) [Y/n/?] (NEW) y
+users (3.4 kb) (USERS) [Y/n/?] (NEW) y
+whoami (3.2 kb) (WHOAMI) [Y/n/?] (NEW) y
+yes (1.2 kb) (YES) [Y/n/?] (NEW) y
+*
+* Common options
+*
+Support verbose options (usually -v) for various applets (FEATURE_VERBOSE) [Y/n/?] (NEW) y
+*
+* Common options for cp and mv
+*
+Preserve hard links (FEATURE_PRESERVE_HARDLINKS) [Y/n/?] (NEW) y
+*
+* Common options for df, du, ls
+*
+Support human readable output (example 13k, 23M, 235G) (FEATURE_HUMAN_READABLE) [Y/n/?] (NEW) y
+*
+* Console Utilities
+*
+chvt (2 kb) (CHVT) [Y/n/?] (NEW) y
+clear (tiny) (CLEAR) [Y/n/?] (NEW) y
+deallocvt (1.9 kb) (DEALLOCVT) [Y/n/?] (NEW) y
+dumpkmap (1.6 kb) (DUMPKMAP) [Y/n/?] (NEW) y
+fgconsole (1.5 kb) (FGCONSOLE) [Y/n/?] (NEW) y
+kbd_mode (4.1 kb) (KBD_MODE) [Y/n/?] (NEW) y
+loadfont (5.2 kb) (LOADFONT) [Y/n/?] (NEW) y
+setfont (24 kb) (SETFONT) [Y/n/?] (NEW) y
+  Support reading textual screen maps (FEATURE_SETFONT_TEXTUAL_MAP) [Y/n/?] (NEW) y
+  Default directory for console-tools files (DEFAULT_SETFONT_DIR) [] (NEW) 
+  *
+  * Common options for loadfont and setfont
+  *
+  Support PSF2 console fonts (FEATURE_LOADFONT_PSF2) [Y/n] (NEW) y
+  Support old (raw) console fonts (FEATURE_LOADFONT_RAW) [Y/n] (NEW) y
+loadkmap (1.8 kb) (LOADKMAP) [Y/n/?] (NEW) y
+openvt (7.2 kb) (OPENVT) [Y/n/?] (NEW) y
+reset (345 bytes) (RESET) [Y/n/?] (NEW) y
+resize (903 bytes) (RESIZE) [Y/n/?] (NEW) y
+  Print environment variables (FEATURE_RESIZE_PRINT) [Y/n/?] (NEW) y
+setconsole (3.6 kb) (SETCONSOLE) [Y/n/?] (NEW) y
+  Enable long options (FEATURE_SETCONSOLE_LONG_OPTIONS) [Y/n] (NEW) y
+setkeycodes (2.1 kb) (SETKEYCODES) [Y/n/?] (NEW) y
+setlogcons (1.8 kb) (SETLOGCONS) [Y/n/?] (NEW) y
+showkey (4.7 kb) (SHOWKEY) [Y/n/?] (NEW) y
+*
+* Debian Utilities
+*
+pipe_progress (275 bytes) (PIPE_PROGRESS) [Y/n/?] (NEW) y
+run-parts (6.1 kb) (RUN_PARTS) [Y/n/?] (NEW) y
+  Enable long options (FEATURE_RUN_PARTS_LONG_OPTIONS) [Y/n] (NEW) y
+  Support additional arguments (FEATURE_RUN_PARTS_FANCY) [Y/n/?] (NEW) y
+start-stop-daemon (12 kb) (START_STOP_DAEMON) [Y/n/?] (NEW) y
+  Enable long options (FEATURE_START_STOP_DAEMON_LONG_OPTIONS) [Y/n] (NEW) y
+  Support additional arguments (FEATURE_START_STOP_DAEMON_FANCY) [Y/n/?] (NEW) y
+which (3.8 kb) (WHICH) [Y/n/?] (NEW) y
+*
+* klibc-utils
+*
+minips (11 kb) (MINIPS) [N/y/?] (NEW) n
+nuke (2.9 kb) (NUKE) [Y/n/?] (NEW) y
+resume (3.2 kb) (RESUME) [Y/n/?] (NEW) y
+run-init (7.7 kb) (RUN_INIT) [Y/n/?] (NEW) y
+*
+* Editors
+*
+awk (23 kb) (AWK) [Y/n/?] (NEW) y
+  Enable math functions (requires libm) (FEATURE_AWK_LIBM) [Y/n/?] (NEW) y
+  Enable a few GNU extensions (FEATURE_AWK_GNU_EXTENSIONS) [Y/n/?] (NEW) y
+cmp (4.9 kb) (CMP) [Y/n/?] (NEW) y
+diff (13 kb) (DIFF) [Y/n/?] (NEW) y
+  Enable long options (FEATURE_DIFF_LONG_OPTIONS) [Y/n] (NEW) y
+  Enable directory support (FEATURE_DIFF_DIR) [Y/n/?] (NEW) y
+ed (21 kb) (ED) [Y/n/?] (NEW) y
+patch (9.4 kb) (PATCH) [Y/n/?] (NEW) y
+sed (12 kb) (SED) [Y/n/?] (NEW) y
+vi (23 kb) (VI) [Y/n/?] (NEW) y
+  Maximum screen width (FEATURE_VI_MAX_LEN) [4096] (NEW) 4096
+  Allow to display 8-bit chars (otherwise shows dots) (FEATURE_VI_8BIT) [N/y/?] (NEW) n
+  Enable ":" colon commands (no "ex" mode) (FEATURE_VI_COLON) [Y/n/?] (NEW) y
+  Enable yank/put commands and mark cmds (FEATURE_VI_YANKMARK) [Y/n/?] (NEW) y
+  Enable search and replace cmds (FEATURE_VI_SEARCH) [Y/n/?] (NEW) y
+    Enable regex in search and replace (FEATURE_VI_REGEX_SEARCH) [N/y/?] (NEW) n
+  Catch signals (FEATURE_VI_USE_SIGNALS) [Y/n/?] (NEW) y
+  Remember previous cmd and "." cmd (FEATURE_VI_DOT_CMD) [Y/n/?] (NEW) y
+  Enable -R option and "view" mode (FEATURE_VI_READONLY) [Y/n/?] (NEW) y
+  Enable settable options, ai ic showmatch (FEATURE_VI_SETOPTS) [Y/n/?] (NEW) y
+  Support :set (FEATURE_VI_SET) [Y/n] (NEW) y
+  Handle window resize (FEATURE_VI_WIN_RESIZE) [Y/n/?] (NEW) y
+  Use 'tell me cursor position' ESC sequence to measure window (FEATURE_VI_ASK_TERMINAL) [Y/n/?] (NEW) y
+  Support undo command "u" (FEATURE_VI_UNDO) [Y/n/?] (NEW) y
+    Enable undo operation queuing (FEATURE_VI_UNDO_QUEUE) [Y/n/?] (NEW) y
+      Maximum undo character queue size (FEATURE_VI_UNDO_QUEUE_MAX) [256] (NEW) 256
+  Allow vi and awk to execute shell commands (FEATURE_ALLOW_EXEC) [Y/n/?] (NEW) y
+*
+* Finding Utilities
+*
+find (14 kb) (FIND) [Y/n/?] (NEW) y
+  Enable -print0: NUL-terminated output (FEATURE_FIND_PRINT0) [Y/n/?] (NEW) y
+  Enable -mtime: modified time matching (FEATURE_FIND_MTIME) [Y/n/?] (NEW) y
+  Enable -mmin: modified time matching by minutes (FEATURE_FIND_MMIN) [Y/n/?] (NEW) y
+  Enable -perm: permissions matching (FEATURE_FIND_PERM) [Y/n] (NEW) y
+  Enable -type: file type matching (file/dir/link/...) (FEATURE_FIND_TYPE) [Y/n/?] (NEW) y
+  Enable -executable: file is executable (FEATURE_FIND_EXECUTABLE) [Y/n] (NEW) y
+  Enable -xdev: 'stay in filesystem' (FEATURE_FIND_XDEV) [Y/n] (NEW) y
+  Enable -mindepth N and -maxdepth N (FEATURE_FIND_MAXDEPTH) [Y/n] (NEW) y
+  Enable -newer: compare file modification times (FEATURE_FIND_NEWER) [Y/n/?] (NEW) y
+  Enable -inum: inode number matching (FEATURE_FIND_INUM) [Y/n] (NEW) y
+  Enable -exec: execute commands (FEATURE_FIND_EXEC) [Y/n/?] (NEW) y
+    Enable -exec ... {} + (FEATURE_FIND_EXEC_PLUS) [Y/n/?] (NEW) y
+  Enable -user: username/uid matching (FEATURE_FIND_USER) [Y/n] (NEW) y
+  Enable -group: group/gid matching (FEATURE_FIND_GROUP) [Y/n] (NEW) y
+  Enable the 'not' (!) operator (FEATURE_FIND_NOT) [Y/n/?] (NEW) y
+  Enable -depth (FEATURE_FIND_DEPTH) [Y/n/?] (NEW) y
+  Enable parens in options (FEATURE_FIND_PAREN) [Y/n/?] (NEW) y
+  Enable -size: file size matching (FEATURE_FIND_SIZE) [Y/n] (NEW) y
+  Enable -prune: exclude subdirectories (FEATURE_FIND_PRUNE) [Y/n/?] (NEW) y
+  Enable -quit: exit (FEATURE_FIND_QUIT) [Y/n/?] (NEW) y
+  Enable -delete: delete files/dirs (FEATURE_FIND_DELETE) [Y/n/?] (NEW) y
+  Enable -empty: match empty files or directories (FEATURE_FIND_EMPTY) [Y/n/?] (NEW) y
+  Enable -path: match pathname with shell pattern (FEATURE_FIND_PATH) [Y/n/?] (NEW) y
+  Enable -regex: match pathname with regex (FEATURE_FIND_REGEX) [Y/n/?] (NEW) y
+  Enable -links: link count matching (FEATURE_FIND_LINKS) [Y/n/?] (NEW) y
+grep (8.6 kb) (GREP) [Y/n/?] (NEW) y
+egrep (7.8 kb) (EGREP) [Y/n/?] (NEW) y
+fgrep (7.8 kb) (FGREP) [Y/n/?] (NEW) y
+  Enable before and after context flags (-A, -B and -C) (FEATURE_GREP_CONTEXT) [Y/n/?] (NEW) y
+xargs (7.2 kb) (XARGS) [Y/n/?] (NEW) y
+  Enable -p: prompt and confirmation (FEATURE_XARGS_SUPPORT_CONFIRMATION) [Y/n/?] (NEW) y
+  Enable single and double quotes and backslash (FEATURE_XARGS_SUPPORT_QUOTES) [Y/n/?] (NEW) y
+  Enable -x: exit if -s or -n is exceeded (FEATURE_XARGS_SUPPORT_TERMOPT) [Y/n/?] (NEW) y
+  Enable -0: NUL-terminated input (FEATURE_XARGS_SUPPORT_ZERO_TERM) [Y/n/?] (NEW) y
+  Enable -I STR: string to replace (FEATURE_XARGS_SUPPORT_REPL_STR) [Y/n/?] (NEW) y
+  Enable -P N: processes to run in parallel (FEATURE_XARGS_SUPPORT_PARALLEL) [Y/n] (NEW) y
+  Enable -a FILE: use FILE instead of stdin (FEATURE_XARGS_SUPPORT_ARGS_FILE) [Y/n] (NEW) y
+*
+* Init Utilities
+*
+bootchartd (10 kb) (BOOTCHARTD) [Y/n/?] (NEW) y
+  Compatible, bloated header (FEATURE_BOOTCHARTD_BLOATED_HEADER) [Y/n/?] (NEW) y
+  Support bootchartd.conf (FEATURE_BOOTCHARTD_CONFIG_FILE) [Y/n/?] (NEW) y
+halt (4 kb) (HALT) [Y/n/?] (NEW) y
+poweroff (4 kb) (POWEROFF) [Y/n/?] (NEW) y
+reboot (4 kb) (REBOOT) [Y/n/?] (NEW) y
+  Before signaling init, make sure it is ready for it (FEATURE_WAIT_FOR_INIT) [Y/n/?] (NEW) y
+init (10 kb) (INIT) [Y/n/?] (NEW) y
+linuxrc: support running init from initrd (not initramfs) (LINUXRC) [Y/n/?] (NEW) y
+  Support reading an inittab file (FEATURE_USE_INITTAB) [Y/n/?] (NEW) y
+    Support killing processes that have been removed from inittab (FEATURE_KILL_REMOVED) [N/y/?] (NEW) n
+  Run commands with leading dash with controlling tty (FEATURE_INIT_SCTTY) [Y/n/?] (NEW) y
+  Enable init to write to syslog (FEATURE_INIT_SYSLOG) [Y/n/?] (NEW) y
+  Be quiet on boot (no 'init started:' message) (FEATURE_INIT_QUIET) [Y/n] (NEW) y
+  Support dumping core for child processes (debugging only) (FEATURE_INIT_COREDUMPS) [N/y/?] (NEW) n
+  Initial terminal type (INIT_TERMINAL_TYPE) [linux] (NEW) linux
+  Clear init's command line (FEATURE_INIT_MODIFY_CMDLINE) [Y/n/?] (NEW) y
+*
+* Login/Password Management Utilities
+*
+Support shadow passwords (FEATURE_SHADOWPASSWDS) [Y/n/?] (NEW) y
+Use internal password and group functions rather than system functions (USE_BB_PWD_GRP) [Y/n/?] (NEW) y
+  Use internal shadow password functions (USE_BB_SHADOW) [Y/n/?] (NEW) y
+Use internal crypt functions (USE_BB_CRYPT) [Y/n/?] (NEW) y
+  Enable SHA256/512 crypt functions (USE_BB_CRYPT_SHA) [Y/n/?] (NEW) y
+add-shell (3.1 kb) (ADD_SHELL) [Y/n/?] (NEW) y
+remove-shell (3 kb) (REMOVE_SHELL) [Y/n/?] (NEW) y
+addgroup (8.6 kb) (ADDGROUP) [Y/n/?] (NEW) y
+  Support adding users to groups (FEATURE_ADDUSER_TO_GROUP) [Y/n/?] (NEW) y
+adduser (15 kb) (ADDUSER) [Y/n/?] (NEW) y
+  Enable sanity check on user/group names in adduser and addgroup (FEATURE_CHECK_NAMES) [N/y/?] (NEW) n
+  Last valid uid or gid for adduser and addgroup (LAST_ID) [60000] (NEW) 60000
+  First valid system uid or gid for adduser and addgroup (FIRST_SYSTEM_ID) [100] (NEW) 100
+  Last valid system uid or gid for adduser and addgroup (LAST_SYSTEM_ID) [999] (NEW) 999
+chpasswd (18 kb) (CHPASSWD) [Y/n/?] (NEW) y
+  Default encryption method (passwd -a, cryptpw -m, chpasswd -c ALG) (FEATURE_DEFAULT_PASSWD_ALGO) [des] (NEW) des
+cryptpw (14 kb) (CRYPTPW) [Y/n/?] (NEW) y
+mkpasswd (15 kb) (MKPASSWD) [Y/n/?] (NEW) y
+deluser (9.1 kb) (DELUSER) [Y/n/?] (NEW) y
+delgroup (6.4 kb) (DELGROUP) [Y/n/?] (NEW) y
+  Support removing users from groups (FEATURE_DEL_USER_FROM_GROUP) [Y/n/?] (NEW) y
+getty (10 kb) (GETTY) [Y/n/?] (NEW) y
+login (24 kb) (LOGIN) [Y/n/?] (NEW) y
+  Run logged in session in a child process (LOGIN_SESSION_AS_CHILD) [N/y/?] (NEW) n
+  Support login scripts (LOGIN_SCRIPTS) [Y/n/?] (NEW) y
+  Support /etc/nologin (FEATURE_NOLOGIN) [Y/n/?] (NEW) y
+  Support /etc/securetty (FEATURE_SECURETTY) [Y/n/?] (NEW) y
+passwd (21 kb) (PASSWD) [Y/n/?] (NEW) y
+  Check new passwords for weakness (FEATURE_PASSWD_WEAK_CHECK) [Y/n/?] (NEW) y
+su (19 kb) (SU) [Y/n/?] (NEW) y
+  Log to syslog all attempts to use su (FEATURE_SU_SYSLOG) [Y/n] (NEW) y
+  If user's shell is not in /etc/shells, disallow -s PROG (FEATURE_SU_CHECKS_SHELLS) [Y/n] (NEW) y
+  Allow blank passwords only on TTYs in /etc/securetty (FEATURE_SU_BLANK_PW_NEEDS_SECURE_TTY) [N/y] (NEW) n
+sulogin (17 kb) (SULOGIN) [Y/n/?] (NEW) y
+vlock (17 kb) (VLOCK) [Y/n/?] (NEW) y
+*
+* Linux Ext2 FS Progs
+*
+chattr (3.8 kb) (CHATTR) [Y/n/?] (NEW) y
+fsck (7.4 kb) (FSCK) [Y/n/?] (NEW) y
+lsattr (5.5 kb) (LSATTR) [Y/n/?] (NEW) y
+tune2fs (4.4 kb) (TUNE2FS) [N/y/?] (NEW) n
+*
+* Linux Module Utilities
+*
+Simplified modutils (MODPROBE_SMALL) [Y/n/?] (NEW) y
+depmod (27 kb) (DEPMOD) [Y/n/?] (NEW) y
+insmod (22 kb) (INSMOD) [Y/n/?] (NEW) y
+lsmod (1.9 kb) (LSMOD) [Y/n/?] (NEW) y
+modinfo (24 kb) (MODINFO) [Y/n/?] (NEW) y
+modprobe (28 kb) (MODPROBE) [Y/n/?] (NEW) y
+rmmod (3.3 kb) (RMMOD) [Y/n/?] (NEW) y
+*
+* Options common to multiple modutils
+*
+Accept module options on modprobe command line (FEATURE_CMDLINE_MODULE_OPTIONS) [Y/n/?] (NEW) y
+Skip loading of already loaded modules (FEATURE_MODPROBE_SMALL_CHECK_ALREADY_LOADED) [Y/n/?] (NEW) y
+Default directory containing modules (DEFAULT_MODULES_DIR) [/lib/modules] (NEW) /lib/modules
+Default name of modules.dep (DEFAULT_DEPMOD_FILE) [modules.dep] (NEW) modules.dep
+*
+* Linux System Utilities
+*
+acpid (9 kb) (ACPID) [Y/n/?] (NEW) y
+  Accept and ignore redundant options (FEATURE_ACPID_COMPAT) [Y/n/?] (NEW) y
+blkdiscard (4.3 kb) (BLKDISCARD) [Y/n/?] (NEW) y
+blkid (12 kb) (BLKID) [Y/n/?] (NEW) y
+  Print filesystem type (FEATURE_BLKID_TYPE) [Y/n/?] (NEW) y
+blockdev (2.3 kb) (BLOCKDEV) [Y/n/?] (NEW) y
+cal (5.8 kb) (CAL) [Y/n/?] (NEW) y
+chrt (4.7 kb) (CHRT) [Y/n/?] (NEW) y
+dmesg (3.7 kb) (DMESG) [Y/n/?] (NEW) y
+  Pretty output (FEATURE_DMESG_PRETTY) [Y/n/?] (NEW) y
+eject (4 kb) (EJECT) [Y/n/?] (NEW) y
+  SCSI support (FEATURE_EJECT_SCSI) [Y/n/?] (NEW) y
+fallocate (4.1 kb) (FALLOCATE) [Y/n/?] (NEW) y
+fatattr (1.9 kb) (FATATTR) [Y/n/?] (NEW) y
+fbset (5.9 kb) (FBSET) [Y/n/?] (NEW) y
+  Enable extra options (FEATURE_FBSET_FANCY) [Y/n/?] (NEW) y
+  Enable readmode support (FEATURE_FBSET_READMODE) [Y/n/?] (NEW) y
+fdformat (4.4 kb) (FDFORMAT) [Y/n/?] (NEW) y
+fdisk (37 kb) (FDISK) [Y/n/?] (NEW) y
+  Write support (FEATURE_FDISK_WRITABLE) [Y/n/?] (NEW) y
+    Support AIX disklabels (FEATURE_AIX_LABEL) [N/y/?] (NEW) n
+    Support SGI disklabels (FEATURE_SGI_LABEL) [N/y/?] (NEW) n
+    Support SUN disklabels (FEATURE_SUN_LABEL) [N/y/?] (NEW) n
+    Support BSD disklabels (FEATURE_OSF_LABEL) [N/y/?] (NEW) n
+    Support GPT disklabels (FEATURE_GPT_LABEL) [N/y/?] (NEW) n
+    Support expert mode (FEATURE_FDISK_ADVANCED) [Y/n/?] (NEW) y
+findfs (12 kb) (FINDFS) [Y/n/?] (NEW) y
+flock (6.3 kb) (FLOCK) [Y/n/?] (NEW) y
+fdflush (1.3 kb) (FDFLUSH) [Y/n/?] (NEW) y
+freeramdisk (1.3 kb) (FREERAMDISK) [Y/n/?] (NEW) y
+fsck.minix (13 kb) (FSCK_MINIX) [Y/n/?] (NEW) y
+fsfreeze (3.5 kb) (FSFREEZE) [Y/n/?] (NEW) y
+fstrim (4.4 kb) (FSTRIM) [Y/n/?] (NEW) y
+getopt (5.8 kb) (GETOPT) [Y/n/?] (NEW) y
+  Support -l LONGOPTs (FEATURE_GETOPT_LONG) [Y/n/?] (NEW) y
+hexdump (8.6 kb) (HEXDUMP) [Y/n/?] (NEW) y
+hd (7.8 kb) (HD) [Y/n/?] (NEW) y
+xxd (8.9 kb) (XXD) [Y/n/?] (NEW) y
+hwclock (5.8 kb) (HWCLOCK) [Y/n/?] (NEW) y
+  Use FHS /var/lib/hwclock/adjtime (FEATURE_HWCLOCK_ADJTIME_FHS) [N/y/?] (NEW) n
+ionice (3.8 kb) (IONICE) [Y/n/?] (NEW) y
+ipcrm (3.2 kb) (IPCRM) [Y/n/?] (NEW) y
+ipcs (11 kb) (IPCS) [Y/n/?] (NEW) y
+last (6.1 kb) (LAST) [Y/n/?] (NEW) y
+  Output extra information (FEATURE_LAST_FANCY) [Y/n/?] (NEW) y
+losetup (5.5 kb) (LOSETUP) [Y/n/?] (NEW) y
+lspci (6.3 kb) (LSPCI) [Y/n/?] (NEW) y
+lsusb (4.2 kb) (LSUSB) [Y/n/?] (NEW) y
+mdev (17 kb) (MDEV) [Y/n/?] (NEW) y
+  Support /etc/mdev.conf (FEATURE_MDEV_CONF) [Y/n/?] (NEW) y
+    Support subdirs/symlinks (FEATURE_MDEV_RENAME) [Y/n/?] (NEW) y
+      Support regular expressions substitutions when renaming device (FEATURE_MDEV_RENAME_REGEXP) [Y/n/?] (NEW) y
+    Support command execution at device addition/removal (FEATURE_MDEV_EXEC) [Y/n/?] (NEW) y
+  Support loading of firmware (FEATURE_MDEV_LOAD_FIRMWARE) [Y/n/?] (NEW) y
+  Support daemon mode (FEATURE_MDEV_DAEMON) [Y/n/?] (NEW) y
+mesg (1.4 kb) (MESG) [Y/n/?] (NEW) y
+  Enable writing to tty only by group, not by everybody (FEATURE_MESG_ENABLE_ONLY_GROUP) [Y/n/?] (NEW) y
+mke2fs (10 kb) (MKE2FS) [Y/n/?] (NEW) y
+mkfs.ext2 (10 kb) (MKFS_EXT2) [Y/n/?] (NEW) y
+mkfs.minix (10 kb) (MKFS_MINIX) [Y/n/?] (NEW) y
+  Support Minix fs v2 (fsck_minix/mkfs_minix) (FEATURE_MINIX2) [Y/n/?] (NEW) y
+mkfs_reiser (MKFS_REISER) [N/y/?] (NEW) n
+mkdosfs (7.2 kb) (MKDOSFS) [Y/n/?] (NEW) y
+mkfs.vfat (7.2 kb) (MKFS_VFAT) [Y/n/?] (NEW) y
+mkswap (6.3 kb) (MKSWAP) [Y/n/?] (NEW) y
+  UUID support (FEATURE_MKSWAP_UUID) [Y/n/?] (NEW) y
+more (7 kb) (MORE) [Y/n/?] (NEW) y
+mount (23 kb) (MOUNT) [Y/n/?] (NEW) y
+  Support -f (fake mount) (FEATURE_MOUNT_FAKE) [Y/n/?] (NEW) y
+  Support -v (verbose) (FEATURE_MOUNT_VERBOSE) [Y/n/?] (NEW) y
+  Support mount helpers (FEATURE_MOUNT_HELPERS) [N/y/?] (NEW) n
+  Support specifying devices by label or UUID (FEATURE_MOUNT_LABEL) [Y/n/?] (NEW) y
+  Support mounting NFS file systems on Linux < 2.6.23 (FEATURE_MOUNT_NFS) [N/y/?] (NEW) n
+  Support mounting CIFS/SMB file systems (FEATURE_MOUNT_CIFS) [Y/n/?] (NEW) y
+  Support lots of -o flags (FEATURE_MOUNT_FLAGS) [Y/n/?] (NEW) y
+  Support /etc/fstab and -a (mount all) (FEATURE_MOUNT_FSTAB) [Y/n/?] (NEW) y
+    Support -T <alt_fstab> (FEATURE_MOUNT_OTHERTAB) [Y/n/?] (NEW) y
+mountpoint (4.9 kb) (MOUNTPOINT) [Y/n/?] (NEW) y
+nologin (NOLOGIN) [Y/n/?] (NEW) y
+  Enable dependencies for nologin (NOLOGIN_DEPENDENCIES) [N/y/?] (NEW) n
+nsenter (6.5 kb) (NSENTER) [Y/n/?] (NEW) y
+pivot_root (1.1 kb) (PIVOT_ROOT) [Y/n/?] (NEW) y
+rdate (5.6 kb) (RDATE) [Y/n/?] (NEW) y
+rdev (1.8 kb) (RDEV) [Y/n/?] (NEW) y
+readprofile (7.1 kb) (READPROFILE) [Y/n/?] (NEW) y
+renice (4.2 kb) (RENICE) [Y/n/?] (NEW) y
+rev (4.4 kb) (REV) [Y/n/?] (NEW) y
+rtcwake (6.8 kb) (RTCWAKE) [Y/n/?] (NEW) y
+script (8.6 kb) (SCRIPT) [Y/n/?] (NEW) y
+scriptreplay (2.4 kb) (SCRIPTREPLAY) [Y/n/?] (NEW) y
+setarch (3.6 kb) (SETARCH) [Y/n/?] (NEW) y
+linux32 (3.3 kb) (LINUX32) [Y/n/?] (NEW) y
+linux64 (3.3 kb) (LINUX64) [Y/n/?] (NEW) y
+setpriv (6.6 kb) (SETPRIV) [Y/n/?] (NEW) y
+  Support dumping current privilege state (FEATURE_SETPRIV_DUMP) [Y/n/?] (NEW) y
+  Support capabilities (FEATURE_SETPRIV_CAPABILITIES) [Y/n/?] (NEW) y
+    Support capability names (FEATURE_SETPRIV_CAPABILITY_NAMES) [Y/n/?] (NEW) y
+setsid (3.6 kb) (SETSID) [Y/n/?] (NEW) y
+swapon (15 kb) (SWAPON) [Y/n/?] (NEW) y
+  Support discard option -d (FEATURE_SWAPON_DISCARD) [Y/n/?] (NEW) y
+  Support priority option -p (FEATURE_SWAPON_PRI) [Y/n/?] (NEW) y
+swapoff (14 kb) (SWAPOFF) [Y/n] (NEW) y
+  Support specifying devices by label or UUID (FEATURE_SWAPONOFF_LABEL) [Y/n/?] (NEW) y
+switch_root (5.5 kb) (SWITCH_ROOT) [Y/n/?] (NEW) y
+taskset (4.2 kb) (TASKSET) [Y/n/?] (NEW) y
+  Fancy output (FEATURE_TASKSET_FANCY) [Y/n/?] (NEW) y
+    CPU list support (-c option) (FEATURE_TASKSET_CPULIST) [Y/n/?] (NEW) y
+uevent (3.1 kb) (UEVENT) [Y/n/?] (NEW) y
+umount (5.1 kb) (UMOUNT) [Y/n/?] (NEW) y
+  Support -a (unmount all) (FEATURE_UMOUNT_ALL) [Y/n/?] (NEW) y
+unshare (7.2 kb) (UNSHARE) [Y/n/?] (NEW) y
+wall (2.6 kb) (WALL) [Y/n/?] (NEW) y
+*
+* Common options for mount/umount
+*
+Support loopback mounts (FEATURE_MOUNT_LOOP) [Y/n/?] (NEW) y
+  Create new loopback devices if needed (FEATURE_MOUNT_LOOP_CREATE) [Y/n/?] (NEW) y
+Support old /etc/mtab file (FEATURE_MTAB_SUPPORT) [N/y/?] (NEW) n
+*
+* Filesystem/Volume identification
+*
+bcache filesystem (FEATURE_VOLUMEID_BCACHE) [Y/n] (NEW) y
+btrfs filesystem (FEATURE_VOLUMEID_BTRFS) [Y/n] (NEW) y
+cramfs filesystem (FEATURE_VOLUMEID_CRAMFS) [Y/n] (NEW) y
+erofs filesystem (FEATURE_VOLUMEID_EROFS) [Y/n/?] (NEW) y
+exFAT filesystem (FEATURE_VOLUMEID_EXFAT) [Y/n/?] (NEW) y
+Ext filesystem (FEATURE_VOLUMEID_EXT) [Y/n] (NEW) y
+f2fs filesystem (FEATURE_VOLUMEID_F2FS) [Y/n/?] (NEW) y
+fat filesystem (FEATURE_VOLUMEID_FAT) [Y/n] (NEW) y
+hfs filesystem (FEATURE_VOLUMEID_HFS) [Y/n] (NEW) y
+iso9660 filesystem (FEATURE_VOLUMEID_ISO9660) [Y/n] (NEW) y
+jfs filesystem (FEATURE_VOLUMEID_JFS) [Y/n] (NEW) y
+LittleFS filesystem (FEATURE_VOLUMEID_LFS) [Y/n/?] (NEW) y
+linuxraid (FEATURE_VOLUMEID_LINUXRAID) [Y/n] (NEW) y
+linux swap filesystem (FEATURE_VOLUMEID_LINUXSWAP) [Y/n] (NEW) y
+luks filesystem (FEATURE_VOLUMEID_LUKS) [Y/n] (NEW) y
+minix filesystem (FEATURE_VOLUMEID_MINIX) [Y/n] (NEW) y
+nilfs filesystem (FEATURE_VOLUMEID_NILFS) [Y/n/?] (NEW) y
+ntfs filesystem (FEATURE_VOLUMEID_NTFS) [Y/n] (NEW) y
+ocfs2 filesystem (FEATURE_VOLUMEID_OCFS2) [Y/n] (NEW) y
+Reiser filesystem (FEATURE_VOLUMEID_REISERFS) [Y/n] (NEW) y
+romfs filesystem (FEATURE_VOLUMEID_ROMFS) [Y/n] (NEW) y
+SquashFS filesystem (FEATURE_VOLUMEID_SQUASHFS) [Y/n/?] (NEW) y
+sysv filesystem (FEATURE_VOLUMEID_SYSV) [Y/n] (NEW) y
+UBIFS filesystem (FEATURE_VOLUMEID_UBIFS) [Y/n/?] (NEW) y
+udf filesystem (FEATURE_VOLUMEID_UDF) [Y/n] (NEW) y
+xfs filesystem (FEATURE_VOLUMEID_XFS) [Y/n] (NEW) y
+*
+* Miscellaneous Utilities
+*
+adjtimex (4.7 kb) (ADJTIMEX) [Y/n/?] (NEW) y
+bbconfig (9.7 kb) (BBCONFIG) [N/y/?] (NEW) n
+bc (45 kb) (BC) [Y/n/?] (NEW) y
+dc (36 kb) (DC) [Y/n/?] (NEW) y
+  Use bc code base for dc (larger, more features) (FEATURE_DC_BIG) [Y] (NEW) y
+    Interactive mode (+4kb) (FEATURE_BC_INTERACTIVE) [Y/n/?] (NEW) y
+    Enable bc/dc long options (FEATURE_BC_LONG_OPTIONS) [Y/n] (NEW) y
+beep (2.4 kb) (BEEP) [Y/n/?] (NEW) y
+  default frequency (FEATURE_BEEP_FREQ) [4000] (NEW) 4000
+  default length (FEATURE_BEEP_LENGTH_MS) [30] (NEW) 30
+chat (6.3 kb) (CHAT) [Y/n/?] (NEW) y
+  Enable NOFAIL expect strings (FEATURE_CHAT_NOFAIL) [Y/n/?] (NEW) y
+  Force STDIN to be a TTY (FEATURE_CHAT_TTY_HIFI) [N/y/?] (NEW) n
+  Enable implicit Carriage Return (FEATURE_CHAT_IMPLICIT_CR) [Y/n/?] (NEW) y
+  Swallow options (FEATURE_CHAT_SWALLOW_OPTS) [Y/n/?] (NEW) y
+  Support weird SEND escapes (FEATURE_CHAT_SEND_ESCAPES) [Y/n/?] (NEW) y
+  Support variable-length ABORT conditions (FEATURE_CHAT_VAR_ABORT_LEN) [Y/n/?] (NEW) y
+  Support revoking of ABORT conditions (FEATURE_CHAT_CLR_ABORT) [Y/n/?] (NEW) y
+conspy (10 kb) (CONSPY) [Y/n/?] (NEW) y
+crond (14 kb) (CROND) [Y/n/?] (NEW) y
+  Support -d (redirect output to stderr) (FEATURE_CROND_D) [Y/n/?] (NEW) y
+  Report command output via email (using sendmail) (FEATURE_CROND_CALL_SENDMAIL) [Y/n/?] (NEW) y
+  Support special times (@reboot, @daily, etc) in crontabs (FEATURE_CROND_SPECIAL_TIMES) [Y/n/?] (NEW) y
+  crond spool directory (FEATURE_CROND_DIR) [/var/spool/cron] (NEW) /var/spool/cron
+crontab (10 kb) (CRONTAB) [Y/n/?] (NEW) y
+devfsd (obsolete) (DEVFSD) [N/y/?] (NEW) n
+Use devfs names for all devices (obsolete) (FEATURE_DEVFS) [N/y/?] (NEW) n
+devmem (2.5 kb) (DEVMEM) [Y/n/?] (NEW) y
+fbsplash (26 kb) (FBSPLASH) [Y/n/?] (NEW) y
+flash_eraseall (5.9 kb) (FLASH_ERASEALL) [N/y/?] (NEW) n
+flash_lock (2.1 kb) (FLASH_LOCK) [N/y/?] (NEW) n
+flash_unlock (1.3 kb) (FLASH_UNLOCK) [N/y/?] (NEW) n
+flashcp (5.3 kb) (FLASHCP) [N/y/?] (NEW) n
+hdparm (25 kb) (HDPARM) [Y/n/?] (NEW) y
+  Support obtaining detailed information directly from drives (FEATURE_HDPARM_GET_IDENTITY) [Y/n/?] (NEW) y
+  Register an IDE interface (DANGEROUS) (FEATURE_HDPARM_HDIO_SCAN_HWIF) [Y/n/?] (NEW) y
+  Un-register an IDE interface (DANGEROUS) (FEATURE_HDPARM_HDIO_UNREGISTER_HWIF) [Y/n/?] (NEW) y
+  Perform device reset (DANGEROUS) (FEATURE_HDPARM_HDIO_DRIVE_RESET) [Y/n/?] (NEW) y
+  Tristate device for hotswap (DANGEROUS) (FEATURE_HDPARM_HDIO_TRISTATE_HWIF) [Y/n/?] (NEW) y
+  Get/set using_dma flag (FEATURE_HDPARM_HDIO_GETSET_DMA) [Y/n/?] (NEW) y
+hexedit (21 kb) (HEXEDIT) [Y/n/?] (NEW) y
+i2cget (5.5 kb) (I2CGET) [Y/n/?] (NEW) y
+i2cset (6.7 kb) (I2CSET) [Y/n/?] (NEW) y
+i2cdump (7.1 kb) (I2CDUMP) [Y/n/?] (NEW) y
+i2cdetect (7.1 kb) (I2CDETECT) [Y/n/?] (NEW) y
+i2ctransfer (4.0 kb) (I2CTRANSFER) [Y/n/?] (NEW) y
+inotifyd (3.6 kb) (INOTIFYD) [N/y/?] (NEW) n
+less (16 kb) (LESS) [Y/n/?] (NEW) y
+  Max number of input lines less will try to eat (FEATURE_LESS_MAXLINES) [9999999] (NEW) 9999999
+  Enable bracket searching (FEATURE_LESS_BRACKETS) [Y/n/?] (NEW) y
+  Enable -m/-M (FEATURE_LESS_FLAGS) [Y/n/?] (NEW) y
+  Enable -S (FEATURE_LESS_TRUNCATE) [Y/n/?] (NEW) y
+  Enable marks (FEATURE_LESS_MARKS) [Y/n/?] (NEW) y
+  Enable regular expressions (FEATURE_LESS_REGEXP) [Y/n/?] (NEW) y
+  Enable automatic resizing on window size changes (FEATURE_LESS_WINCH) [Y/n/?] (NEW) y
+    Use 'tell me cursor position' ESC sequence to measure window (FEATURE_LESS_ASK_TERMINAL) [Y/n/?] (NEW) y
+  Enable flag changes ('-' command) (FEATURE_LESS_DASHCMD) [Y/n/?] (NEW) y
+    Enable -N (dynamic switching of line numbers) (FEATURE_LESS_LINENUMS) [Y/n] (NEW) y
+    Enable -R ('raw control characters') (FEATURE_LESS_RAW) [Y/n/?] (NEW) y
+    Take options from $LESS environment variable (FEATURE_LESS_ENV) [Y/n/?] (NEW) y
+lsscsi (2.5 kb) (LSSCSI) [Y/n/?] (NEW) y
+makedevs (9.2 kb) (MAKEDEVS) [Y/n/?] (NEW) y
+  Choose makedevs behaviour
+    1. leaf (FEATURE_MAKEDEVS_LEAF) (NEW)
+  > 2. table (FEATURE_MAKEDEVS_TABLE) (NEW)
+  choice[1-2]: 2
+man (26 kb) (MAN) [Y/n/?] (NEW) y
+microcom (5.7 kb) (MICROCOM) [Y/n/?] (NEW) y
+mim (0.5 kb) (MIM) [Y/n/?] (NEW) y
+mt (2.5 kb) (MT) [Y/n/?] (NEW) y
+nandwrite (4.8 kb) (NANDWRITE) [Y/n/?] (NEW) y
+nanddump (5.2 kb) (NANDDUMP) [Y/n/?] (NEW) y
+partprobe (3.5 kb) (PARTPROBE) [Y/n/?] (NEW) y
+raidautorun (1.3 kb) (RAIDAUTORUN) [Y/n/?] (NEW) y
+readahead (1.5 kb) (READAHEAD) [Y/n/?] (NEW) y
+rfkill (4.4 kb) (RFKILL) [N/y/?] (NEW) n
+runlevel (559 bytes) (RUNLEVEL) [Y/n/?] (NEW) y
+rx (2.9 kb) (RX) [Y/n/?] (NEW) y
+setfattr (3.7 kb) (SETFATTR) [Y/n/?] (NEW) y
+setserial (6.9 kb) (SETSERIAL) [Y/n/?] (NEW) y
+strings (4.6 kb) (STRINGS) [Y/n/?] (NEW) y
+time (6.8 kb) (TIME) [Y/n/?] (NEW) y
+ts (450 bytes) (TS) [Y/n] (NEW) y
+ttysize (432 bytes) (TTYSIZE) [Y/n/?] (NEW) y
+ubiattach (4.2 kb) (UBIATTACH) [Y/n/?] (NEW) y
+ubidetach (4.1 kb) (UBIDETACH) [Y/n/?] (NEW) y
+ubimkvol (5.3 kb) (UBIMKVOL) [Y/n/?] (NEW) y
+ubirmvol (4.9 kb) (UBIRMVOL) [Y/n/?] (NEW) y
+ubirsvol (4.2 kb) (UBIRSVOL) [Y/n/?] (NEW) y
+ubiupdatevol (5.2 kb) (UBIUPDATEVOL) [Y/n/?] (NEW) y
+ubirename (2.4 kb) (UBIRENAME) [Y/n/?] (NEW) y
+volname (1.6 kb) (VOLNAME) [Y/n/?] (NEW) y
+watchdog (5.3 kb) (WATCHDOG) [Y/n/?] (NEW) y
+*
+* Networking Utilities
+*
+Enable IPv6 support (FEATURE_IPV6) [Y/n/?] (NEW) y
+Enable Unix domain socket support (usually not needed) (FEATURE_UNIX_LOCAL) [N/y/?] (NEW) n
+Prefer IPv4 addresses from DNS queries (FEATURE_PREFER_IPV4_ADDRESS) [Y/n/?] (NEW) y
+Verbose resolution errors (VERBOSE_RESOLUTION_ERRORS) [N/y/?] (NEW) n
+In TLS code, support ciphers which use deprecated SHA1 (FEATURE_TLS_SHA1) [N/y/?] (NEW) n
+arp (10 kb) (ARP) [Y/n/?] (NEW) y
+arping (9 kb) (ARPING) [Y/n/?] (NEW) y
+brctl (4.7 kb) (BRCTL) [Y/n/?] (NEW) y
+  Fancy options (FEATURE_BRCTL_FANCY) [Y/n/?] (NEW) y
+    Support show (FEATURE_BRCTL_SHOW) [Y/n/?] (NEW) y
+dnsd (9.8 kb) (DNSD) [Y/n/?] (NEW) y
+ether-wake (4.9 kb) (ETHER_WAKE) [Y/n/?] (NEW) y
+ftpd (30 kb) (FTPD) [Y/n/?] (NEW) y
+  Enable -w (upload commands) (FEATURE_FTPD_WRITE) [Y/n/?] (NEW) y
+  Enable workaround for RFC-violating clients (FEATURE_FTPD_ACCEPT_BROKEN_LIST) [Y/n/?] (NEW) y
+  Enable authentication (FEATURE_FTPD_AUTHENTICATION) [Y/n/?] (NEW) y
+ftpget (7.8 kb) (FTPGET) [Y/n/?] (NEW) y
+ftpput (7.5 kb) (FTPPUT) [Y/n/?] (NEW) y
+  Enable long options in ftpget/ftpput (FEATURE_FTPGETPUT_LONG_OPTIONS) [Y/n] (NEW) y
+hostname (5.5 kb) (HOSTNAME) [Y/n/?] (NEW) y
+dnsdomainname (3.6 kb) (DNSDOMAINNAME) [Y/n/?] (NEW) y
+httpd (32 kb) (HTTPD) [Y/n/?] (NEW) y
+  Support 'Ranges:' header (FEATURE_HTTPD_RANGES) [Y/n/?] (NEW) y
+  Enable -u <user> option (FEATURE_HTTPD_SETUID) [Y/n/?] (NEW) y
+  Enable HTTP authentication (FEATURE_HTTPD_BASIC_AUTH) [Y/n/?] (NEW) y
+    Support MD5-encrypted passwords in HTTP authentication (FEATURE_HTTPD_AUTH_MD5) [Y/n/?] (NEW) y
+  Support Common Gateway Interface (CGI) (FEATURE_HTTPD_CGI) [Y/n/?] (NEW) y
+    Support running scripts through an interpreter (FEATURE_HTTPD_CONFIG_WITH_SCRIPT_INTERPR) [Y/n/?] (NEW) y
+    Set REMOTE_PORT environment variable for CGI (FEATURE_HTTPD_SET_REMOTE_PORT_TO_ENV) [Y/n/?] (NEW) y
+  Enable -e option (useful for CGIs written as shell scripts) (FEATURE_HTTPD_ENCODE_URL_STR) [Y/n/?] (NEW) y
+  Support custom error pages (FEATURE_HTTPD_ERROR_PAGES) [Y/n/?] (NEW) y
+  Support reverse proxy (FEATURE_HTTPD_PROXY) [Y/n/?] (NEW) y
+  Support GZIP content encoding (FEATURE_HTTPD_GZIP) [Y/n/?] (NEW) y
+  Support caching via ETag header (FEATURE_HTTPD_ETAG) [Y/n/?] (NEW) y
+  Add Last-Modified header to response (FEATURE_HTTPD_LAST_MODIFIED) [Y/n/?] (NEW) y
+  Add Date header to response (FEATURE_HTTPD_DATE) [Y/n/?] (NEW) y
+  ACL IP (FEATURE_HTTPD_ACL_IP) [Y/n/?] (NEW) y
+ifconfig (12 kb) (IFCONFIG) [Y/n/?] (NEW) y
+  Enable status reporting output (+7k) (FEATURE_IFCONFIG_STATUS) [Y/n/?] (NEW) y
+  Enable slip-specific options "keepalive" and "outfill" (FEATURE_IFCONFIG_SLIP) [Y/n/?] (NEW) y
+  Enable options "mem_start", "io_addr", and "irq" (FEATURE_IFCONFIG_MEMSTART_IOADDR_IRQ) [Y/n/?] (NEW) y
+  Enable option "hw" (ether only) (FEATURE_IFCONFIG_HW) [Y/n/?] (NEW) y
+  Set the broadcast automatically (FEATURE_IFCONFIG_BROADCAST_PLUS) [Y/n/?] (NEW) y
+ifenslave (13 kb) (IFENSLAVE) [Y/n/?] (NEW) y
+ifplugd (10 kb) (IFPLUGD) [Y/n/?] (NEW) y
+ifup (14 kb) (IFUP) [Y/n/?] (NEW) y
+ifdown (13 kb) (IFDOWN) [Y/n/?] (NEW) y
+  Absolute path to ifstate file (IFUPDOWN_IFSTATE_PATH) [/var/run/ifstate] (NEW) /var/run/ifstate
+  Use ip tool (else ifconfig/route is used) (FEATURE_IFUPDOWN_IP) [Y/n/?] (NEW) y
+  Support IPv4 (FEATURE_IFUPDOWN_IPV4) [Y/n/?] (NEW) y
+  Support IPv6 (FEATURE_IFUPDOWN_IPV6) [Y/n/?] (NEW) y
+  Enable mapping support (FEATURE_IFUPDOWN_MAPPING) [Y/n/?] (NEW) y
+  Support external DHCP clients (FEATURE_IFUPDOWN_EXTERNAL_DHCP) [N/y/?] (NEW) n
+inetd (18 kb) (INETD) [Y/n/?] (NEW) y
+  Support echo service on port 7 (FEATURE_INETD_SUPPORT_BUILTIN_ECHO) [Y/n/?] (NEW) y
+  Support discard service on port 8 (FEATURE_INETD_SUPPORT_BUILTIN_DISCARD) [Y/n/?] (NEW) y
+  Support time service on port 37 (FEATURE_INETD_SUPPORT_BUILTIN_TIME) [Y/n/?] (NEW) y
+  Support daytime service on port 13 (FEATURE_INETD_SUPPORT_BUILTIN_DAYTIME) [Y/n/?] (NEW) y
+  Support chargen service on port 19 (FEATURE_INETD_SUPPORT_BUILTIN_CHARGEN) [Y/n/?] (NEW) y
+  Support RPC services (FEATURE_INETD_RPC) [N/y/?] (NEW) n
+ip (35 kb) (IP) [Y/n/?] (NEW) y
+ipaddr (14 kb) (IPADDR) [Y/n/?] (NEW) y
+iplink (17 kb) (IPLINK) [Y/n/?] (NEW) y
+iproute (15 kb) (IPROUTE) [Y/n/?] (NEW) y
+iptunnel (9.6 kb) (IPTUNNEL) [Y/n/?] (NEW) y
+iprule (10 kb) (IPRULE) [Y/n/?] (NEW) y
+ipneigh (8.3 kb) (IPNEIGH) [Y/n/?] (NEW) y
+ip address (FEATURE_IP_ADDRESS) [Y/?] (NEW) y
+ip link (FEATURE_IP_LINK) [Y/?] (NEW) y
+ip route (FEATURE_IP_ROUTE) [Y/?] (NEW) y
+  ip route configuration directory (FEATURE_IP_ROUTE_DIR) [/etc/iproute2] (NEW) /etc/iproute2
+ip tunnel (FEATURE_IP_TUNNEL) [Y/?] (NEW) y
+ip rule (FEATURE_IP_RULE) [Y/?] (NEW) y
+ip neighbor (FEATURE_IP_NEIGH) [Y/?] (NEW) y
+Support displaying rarely used link types (FEATURE_IP_RARE_PROTOCOLS) [N/y/?] (NEW) n
+ipcalc (4.4 kb) (IPCALC) [Y/n/?] (NEW) y
+  Enable long options (FEATURE_IPCALC_LONG_OPTIONS) [Y/n] (NEW) y
+  Fancy IPCALC, more options, adds 1 kbyte (FEATURE_IPCALC_FANCY) [Y/n/?] (NEW) y
+fakeidentd (8.7 kb) (FAKEIDENTD) [Y/n/?] (NEW) y
+nameif (6.6 kb) (NAMEIF) [Y/n/?] (NEW) y
+  Extended nameif (FEATURE_NAMEIF_EXTENDED) [Y/n/?] (NEW) y
+nbd-client (6 kb) (NBDCLIENT) [Y/n/?] (NEW) y
+nc (11 kb) (NC) [Y/n/?] (NEW) y
+netcat (11 kb) (NETCAT) [N/y/?] (NEW) n
+  Netcat server options (-l) (NC_SERVER) [Y/n/?] (NEW) y
+  Netcat extensions (-eiw and -f FILE) (NC_EXTRA) [Y/n/?] (NEW) y
+  Netcat 1.10 compatibility (+2.5k) (NC_110_COMPAT) [Y/n/?] (NEW) y
+netstat (10 kb) (NETSTAT) [Y/n/?] (NEW) y
+  Enable wide output (FEATURE_NETSTAT_WIDE) [Y/n/?] (NEW) y
+  Enable PID/Program name output (FEATURE_NETSTAT_PRG) [Y/n/?] (NEW) y
+nslookup (9.7 kb) (NSLOOKUP) [Y/n/?] (NEW) y
+  Use internal resolver code instead of libc (FEATURE_NSLOOKUP_BIG) [Y/n] (NEW) y
+    Enable long options (FEATURE_NSLOOKUP_LONG_OPTIONS) [Y/n] (NEW) y
+ntpd (22 kb) (NTPD) [Y/n/?] (NEW) y
+  Make ntpd usable as a NTP server (FEATURE_NTPD_SERVER) [Y/n/?] (NEW) y
+  Make ntpd understand /etc/ntp.conf (FEATURE_NTPD_CONF) [Y/n/?] (NEW) y
+  Support md5/sha1 message authentication codes (FEATURE_NTP_AUTH) [Y/n] (NEW) y
+ping (10 kb) (PING) [Y/n/?] (NEW) y
+ping6 (11 kb) (PING6) [Y/n/?] (NEW) y
+Enable fancy ping output (FEATURE_FANCY_PING) [Y/n/?] (NEW) y
+pscan (6 kb) (PSCAN) [Y/n/?] (NEW) y
+route (8.7 kb) (ROUTE) [Y/n/?] (NEW) y
+slattach (6.2 kb) (SLATTACH) [Y/n/?] (NEW) y
+ssl_client (25 kb) (SSL_CLIENT) [Y/n/?] (NEW) y
+tc (8.3 kb) (TC) [Y/n/?] (NEW) y
+  Enable ingress (FEATURE_TC_INGRESS) [Y/n] (NEW) y
+tcpsvd (14 kb) (TCPSVD) [Y/n/?] (NEW) y
+udpsvd (13 kb) (UDPSVD) [Y/n/?] (NEW) y
+telnet (8.8 kb) (TELNET) [Y/n/?] (NEW) y
+  Pass TERM type to remote host (FEATURE_TELNET_TTYPE) [Y/n/?] (NEW) y
+  Pass USER type to remote host (FEATURE_TELNET_AUTOLOGIN) [Y/n/?] (NEW) y
+  Enable window size autodetection (FEATURE_TELNET_WIDTH) [Y/n] (NEW) y
+telnetd (12 kb) (TELNETD) [Y/n/?] (NEW) y
+  Support standalone telnetd (not inetd only) (FEATURE_TELNETD_STANDALONE) [Y/n/?] (NEW) y
+    Support -w SEC option (inetd wait mode) (FEATURE_TELNETD_INETD_WAIT) [Y/n/?] (NEW) y
+tftp (11 kb) (TFTP) [Y/n/?] (NEW) y
+  Enable progress bar (FEATURE_TFTP_PROGRESS_BAR) [Y/n] (NEW) y
+  tftp-hpa compat (support -c get/put FILE) (FEATURE_TFTP_HPA_COMPAT) [Y/n] (NEW) y
+tftpd (10 kb) (TFTPD) [Y/n/?] (NEW) y
+  Enable 'tftp get' and/or tftpd upload code (FEATURE_TFTP_GET) [Y/n/?] (NEW) y
+  Enable 'tftp put' and/or tftpd download code (FEATURE_TFTP_PUT) [Y/n/?] (NEW) y
+  Enable 'blksize' and 'tsize' protocol options (FEATURE_TFTP_BLOCKSIZE) [Y/n/?] (NEW) y
+  Enable debug (TFTP_DEBUG) [N/y/?] (NEW) n
+traceroute (11 kb) (TRACEROUTE) [Y/n/?] (NEW) y
+traceroute6 (13 kb) (TRACEROUTE6) [Y/n/?] (NEW) y
+Enable verbose output (FEATURE_TRACEROUTE_VERBOSE) [Y/n/?] (NEW) y
+Enable -I option (use ICMP instead of UDP) (FEATURE_TRACEROUTE_USE_ICMP) [Y/n] (NEW) y
+tunctl (6.2 kb) (TUNCTL) [Y/n/?] (NEW) y
+  Support owner:group assignment (FEATURE_TUNCTL_UG) [Y/n/?] (NEW) y
+vconfig (2.3 kb) (VCONFIG) [Y/n/?] (NEW) y
+wget (38 kb) (WGET) [Y/n/?] (NEW) y
+  Enable long options (FEATURE_WGET_LONG_OPTIONS) [Y/n] (NEW) y
+  Enable progress bar (+2k) (FEATURE_WGET_STATUSBAR) [Y/n] (NEW) y
+  Enable HTTP authentication (FEATURE_WGET_AUTHENTICATION) [Y/n/?] (NEW) y
+  Enable timeout option -T SEC (FEATURE_WGET_TIMEOUT) [Y/n/?] (NEW) y
+  Support HTTPS using internal TLS code (FEATURE_WGET_HTTPS) [Y/n/?] (NEW) y
+  Try to connect to HTTPS using openssl (FEATURE_WGET_OPENSSL) [Y/n/?] (NEW) y
+whois (6.3 kb) (WHOIS) [Y/n/?] (NEW) y
+zcip (8.4 kb) (ZCIP) [Y/n/?] (NEW) y
+udhcpd (21 kb) (UDHCPD) [Y/n/?] (NEW) y
+  Select IP address based on client MAC (FEATURE_UDHCPD_BASE_IP_ON_MAC) [N/y/?] (NEW) n
+  Rewrite lease file at every new acknowledge (FEATURE_UDHCPD_WRITE_LEASES_EARLY) [Y/n/?] (NEW) y
+  Absolute path to lease file (DHCPD_LEASES_FILE) [/var/lib/misc/udhcpd.leases] (NEW) /var/lib/misc/udhcpd.leases
+dumpleases (5.1 kb) (DUMPLEASES) [Y/n/?] (NEW) y
+dhcprelay (5.2 kb) (DHCPRELAY) [Y/n/?] (NEW) y
+udhcpc (24 kb) (UDHCPC) [Y/n/?] (NEW) y
+  Verify that the offered address is free, using ARP ping (FEATURE_UDHCPC_ARPING) [Y/n/?] (NEW) y
+  Do not pass malformed host and domain names (FEATURE_UDHCPC_SANITIZEOPT) [Y/n/?] (NEW) y
+  Absolute path to config script (UDHCPC_DEFAULT_SCRIPT) [/usr/share/udhcpc/default.script] (NEW) /usr/share/udhcpc/default.script
+udhcpc6 (21 kb) (UDHCPC6) [Y/n/?] (NEW) y
+  Support RFC 3646 (DNS server and search list) (FEATURE_UDHCPC6_RFC3646) [Y/n/?] (NEW) y
+  Support RFC 4704 (Client FQDN) (FEATURE_UDHCPC6_RFC4704) [Y/n/?] (NEW) y
+  Support RFC 4833 (Timezones) (FEATURE_UDHCPC6_RFC4833) [Y/n/?] (NEW) y
+  Support RFC 5970 (Network Boot) (FEATURE_UDHCPC6_RFC5970) [Y/n/?] (NEW) y
+*
+* Common options for DHCP applets
+*
+Enable '-P port' option for udhcpd and udhcpc (FEATURE_UDHCP_PORT) [N/y/?] (NEW) n
+Maximum verbosity level (0..9) (UDHCP_DEBUG) [2] (NEW) 2
+DHCP options slack buffer size (UDHCPC_SLACK_FOR_BUGGY_SERVERS) [80] (NEW) 80
+Support RFC 3397 domain search options (FEATURE_UDHCP_RFC3397) [Y/n/?] (NEW) y
+Support 802.1Q VLAN parameters options (FEATURE_UDHCP_8021Q) [Y/n/?] (NEW) y
+ifup udhcpc command line options (IFUPDOWN_UDHCPC_CMD_OPTIONS) [-R -n] (NEW) -R -n
+*
+* Print Utilities
+*
+lpd (5.5 kb) (LPD) [Y/n/?] (NEW) y
+lpr (9.9 kb) (LPR) [Y/n/?] (NEW) y
+lpq (9.9 kb) (LPQ) [Y/n/?] (NEW) y
+*
+* Mail Utilities
+*
+makemime (5.4 kb) (MAKEMIME) [Y/n/?] (NEW) y
+popmaildir (10 kb) (POPMAILDIR) [Y/n/?] (NEW) y
+  Allow message filters and custom delivery program (FEATURE_POPMAILDIR_DELIVERY) [Y/n/?] (NEW) y
+reformime (7.5 kb) (REFORMIME) [Y/n/?] (NEW) y
+  Accept and ignore options other than -x and -X (FEATURE_REFORMIME_COMPAT) [Y/n/?] (NEW) y
+sendmail (14 kb) (SENDMAIL) [Y/n/?] (NEW) y
+  Default charset (FEATURE_MIME_CHARSET) [us-ascii] (NEW) us-ascii
+*
+* Process Utilities
+*
+free (3.1 kb) (FREE) [Y/n/?] (NEW) y
+fuser (7 kb) (FUSER) [Y/n/?] (NEW) y
+iostat (7.6 kb) (IOSTAT) [Y/n/?] (NEW) y
+kill (3.1 kb) (KILL) [Y/n/?] (NEW) y
+killall (5.6 kb) (KILLALL) [Y/n/?] (NEW) y
+killall5 (5.3 kb) (KILLALL5) [Y/n/?] (NEW) y
+lsof (3.4 kb) (LSOF) [Y/n/?] (NEW) y
+mpstat (9.8 kb) (MPSTAT) [Y/n/?] (NEW) y
+nmeter (11 kb) (NMETER) [Y/n/?] (NEW) y
+pgrep (6.5 kb) (PGREP) [Y/n/?] (NEW) y
+pkill (7.5 kb) (PKILL) [Y/n/?] (NEW) y
+pidof (6.3 kb) (PIDOF) [Y/n/?] (NEW) y
+  Enable single shot (-s) (FEATURE_PIDOF_SINGLE) [Y/n/?] (NEW) y
+  Enable omitting pids (-o PID) (FEATURE_PIDOF_OMIT) [Y/n/?] (NEW) y
+pmap (6 kb) (PMAP) [Y/n/?] (NEW) y
+powertop (9.6 kb) (POWERTOP) [Y/n/?] (NEW) y
+  Accept keyboard commands (FEATURE_POWERTOP_INTERACTIVE) [Y/n/?] (NEW) y
+ps (11 kb) (PS) [Y/n/?] (NEW) y
+  Enable -o time and -o etime specifiers (FEATURE_PS_TIME) [Y/n] (NEW) y
+    Support Linux prior to 2.4.0 and non-ELF systems (FEATURE_PS_UNUSUAL_SYSTEMS) [N/y/?] (NEW) n
+  Enable -o rgroup, -o ruser, -o nice specifiers (FEATURE_PS_ADDITIONAL_COLUMNS) [Y/n] (NEW) y
+pstree (9.3 kb) (PSTREE) [Y/n/?] (NEW) y
+pwdx (3.7 kb) (PWDX) [Y/n/?] (NEW) y
+smemcap (2.5 kb) (SMEMCAP) [Y/n/?] (NEW) y
+sysctl (7.4 kb) (BB_SYSCTL) [Y/n/?] (NEW) y
+top (18 kb) (TOP) [Y/n/?] (NEW) y
+  Accept keyboard commands (FEATURE_TOP_INTERACTIVE) [Y/n/?] (NEW) y
+  Show CPU per-process usage percentage (FEATURE_TOP_CPU_USAGE_PERCENTAGE) [Y/n/?] (NEW) y
+    Show CPU global usage percentage (FEATURE_TOP_CPU_GLOBAL_PERCENTS) [Y/n/?] (NEW) y
+      SMP CPU usage display ('c' key) (FEATURE_TOP_SMP_CPU) [Y/n/?] (NEW) y
+    Show 1/10th of a percent in CPU/mem statistics (FEATURE_TOP_DECIMALS) [Y/n/?] (NEW) y
+  Show CPU process runs on ('j' field) (FEATURE_TOP_SMP_PROCESS) [Y/n/?] (NEW) y
+  Topmem command ('s' key) (FEATURE_TOPMEM) [Y/n/?] (NEW) y
+uptime (3.7 kb) (UPTIME) [Y/n/?] (NEW) y
+  Show the number of users (FEATURE_UPTIME_UTMP_SUPPORT) [Y/n/?] (NEW) y
+watch (4.4 kb) (WATCH) [Y/n/?] (NEW) y
+Support thread display in ps/pstree/top (FEATURE_SHOW_THREADS) [Y/n/?] (NEW) y
+*
+* Runit Utilities
+*
+chpst (9 kb) (CHPST) [Y/n/?] (NEW) y
+setuidgid (4 kb) (SETUIDGID) [Y/n/?] (NEW) y
+envuidgid (3.9 kb) (ENVUIDGID) [Y/n/?] (NEW) y
+envdir (2.5 kb) (ENVDIR) [Y/n/?] (NEW) y
+softlimit (4.5 kb) (SOFTLIMIT) [Y/n/?] (NEW) y
+runsv (7.8 kb) (RUNSV) [Y/n/?] (NEW) y
+runsvdir (6.3 kb) (RUNSVDIR) [Y/n/?] (NEW) y
+  Enable scrolling argument log (FEATURE_RUNSVDIR_LOG) [N/y/?] (NEW) n
+sv (8.5 kb) (SV) [Y/n/?] (NEW) y
+  Default directory for services (SV_DEFAULT_SERVICE_DIR) [/var/service] (NEW) /var/service
+svc (8.4 kb) (SVC) [Y/n/?] (NEW) y
+svok (1.5 kb) (SVOK) [Y/n/?] (NEW) y
+svlogd (16 kb) (SVLOGD) [Y/n/?] (NEW) y
+*
+* Shells
+*
+Choose which shell is aliased to 'sh' name
+> 1. ash (SH_IS_ASH) (NEW)
+  2. hush (SH_IS_HUSH) (NEW)
+  3. none (SH_IS_NONE) (NEW)
+choice[1-3?]: 1
+Choose which shell is aliased to 'bash' name
+  1. ash (BASH_IS_ASH) (NEW)
+  2. hush (BASH_IS_HUSH) (NEW)
+> 3. none (BASH_IS_NONE) (NEW)
+choice[1-3?]: 3
+ash (78 kb) (ASH) [Y/n/?] (NEW) y
+  Optimize for size instead of speed (ASH_OPTIMIZE_FOR_SIZE) [Y/n] (NEW) y
+  Use internal glob() implementation (ASH_INTERNAL_GLOB) [Y/n/?] (NEW) y
+  bash-compatible extensions (ASH_BASH_COMPAT) [Y/n] (NEW) y
+    'source' and '.' builtins search current directory after $PATH (ASH_BASH_SOURCE_CURDIR) [N/y/?] (NEW) n
+    command_not_found_handle hook support (ASH_BASH_NOT_FOUND_HOOK) [Y/n/?] (NEW) y
+  Job control (ASH_JOB_CONTROL) [Y/n] (NEW) y
+  Alias support (ASH_ALIAS) [Y/n] (NEW) y
+  Pseudorandom generator and $RANDOM variable (ASH_RANDOM_SUPPORT) [Y/n/?] (NEW) y
+  Expand prompt string (ASH_EXPAND_PRMT) [Y/n/?] (NEW) y
+  Idle timeout variable $TMOUT (ASH_IDLE_TIMEOUT) [Y/n/?] (NEW) y
+  Check for new mail in interactive shell (ASH_MAIL) [Y/n/?] (NEW) y
+  echo builtin (ASH_ECHO) [Y/n] (NEW) y
+  printf builtin (ASH_PRINTF) [Y/n] (NEW) y
+  test builtin (ASH_TEST) [Y/n] (NEW) y
+  help builtin (ASH_HELP) [Y/n] (NEW) y
+  getopts builtin (ASH_GETOPTS) [Y/n] (NEW) y
+  command builtin (ASH_CMDCMD) [Y/n/?] (NEW) y
+cttyhack (2.4 kb) (CTTYHACK) [Y/n/?] (NEW) y
+hush (68 kb) (HUSH) [Y/n/?] (NEW) y
+Internal shell for embedded script support (SHELL_HUSH) [Y] (NEW) y
+  bash-compatible extensions (HUSH_BASH_COMPAT) [Y/n] (NEW) y
+    Brace expansion (HUSH_BRACE_EXPANSION) [Y/n/?] (NEW) y
+    $LINENO variable (HUSH_LINENO_VAR) [Y/n] (NEW) y
+    'source' and '.' builtins search current directory after $PATH (HUSH_BASH_SOURCE_CURDIR) [N/y/?] (NEW) n
+  Interactive mode (HUSH_INTERACTIVE) [Y/n/?] (NEW) y
+    Save command history to .hush_history (HUSH_SAVEHISTORY) [Y/n] (NEW) y
+    Job control (HUSH_JOB) [Y/n/?] (NEW) y
+  Support command substitution (HUSH_TICK) [Y/n/?] (NEW) y
+  Support if/then/elif/else/fi (HUSH_IF) [Y/n] (NEW) y
+  Support for, while and until loops (HUSH_LOOPS) [Y/n] (NEW) y
+  Support case ... esac statement (HUSH_CASE) [Y/n/?] (NEW) y
+  Support funcname() { commands; } syntax (HUSH_FUNCTIONS) [Y/n/?] (NEW) y
+    local builtin (HUSH_LOCAL) [Y/n/?] (NEW) y
+  Pseudorandom generator and $RANDOM variable (HUSH_RANDOM_SUPPORT) [Y/n/?] (NEW) y
+  Support 'hush -x' option and 'set -x' command (HUSH_MODE_X) [Y/n/?] (NEW) y
+  echo builtin (HUSH_ECHO) [Y/n] (NEW) y
+  printf builtin (HUSH_PRINTF) [Y/n] (NEW) y
+  test builtin (HUSH_TEST) [Y/n] (NEW) y
+  help builtin (HUSH_HELP) [Y/n] (NEW) y
+  export builtin (HUSH_EXPORT) [Y/n] (NEW) y
+    Support 'export -n' option (HUSH_EXPORT_N) [Y/n/?] (NEW) y
+  readonly builtin (HUSH_READONLY) [Y/n/?] (NEW) y
+  kill builtin (supports kill %jobspec) (HUSH_KILL) [Y/n] (NEW) y
+  wait builtin (HUSH_WAIT) [Y/n] (NEW) y
+  command builtin (HUSH_COMMAND) [Y/n] (NEW) y
+  trap builtin (HUSH_TRAP) [Y/n] (NEW) y
+  type builtin (HUSH_TYPE) [Y/n] (NEW) y
+  times builtin (HUSH_TIMES) [Y/n] (NEW) y
+  read builtin (HUSH_READ) [Y/n] (NEW) y
+  set builtin (HUSH_SET) [Y/n] (NEW) y
+  unset builtin (HUSH_UNSET) [Y/n] (NEW) y
+  ulimit builtin (HUSH_ULIMIT) [Y/n] (NEW) y
+  umask builtin (HUSH_UMASK) [Y/n] (NEW) y
+  getopts builtin (HUSH_GETOPTS) [Y/n] (NEW) y
+  memleak builtin (debugging) (HUSH_MEMLEAK) [N/y] (NEW) n
+*
+* Options common to all shells
+*
+POSIX math support (FEATURE_SH_MATH) [Y/n/?] (NEW) y
+  Extend POSIX math support to 64 bit (FEATURE_SH_MATH_64) [Y/n/?] (NEW) y
+  Support BASE#nnnn literals (FEATURE_SH_MATH_BASE) [Y/n] (NEW) y
+Hide message on interactive shell startup (FEATURE_SH_EXTRA_QUIET) [Y/n/?] (NEW) y
+Standalone shell (FEATURE_SH_STANDALONE) [N/y/?] (NEW) n
+Run 'nofork' applets directly (FEATURE_SH_NOFORK) [N/y/?] (NEW) n
+read -t N.NNN support (+110 bytes) (FEATURE_SH_READ_FRAC) [Y/n/?] (NEW) y
+Use $HISTFILESIZE (FEATURE_SH_HISTFILESIZE) [Y/n/?] (NEW) y
+Embed scripts in the binary (FEATURE_SH_EMBEDDED_SCRIPTS) [Y/n/?] (NEW) y
+*
+* System Logging Utilities
+*
+klogd (5.7 kb) (KLOGD) [Y/n/?] (NEW) y
+  *
+  * klogd should not be used together with syslog to kernel printk buffer
+  *
+  Use the klogctl() interface (FEATURE_KLOGD_KLOGCTL) [Y/n/?] (NEW) y
+logger (6.3 kb) (LOGGER) [Y/n/?] (NEW) y
+logread (4.8 kb) (LOGREAD) [Y/n/?] (NEW) y
+  Double buffering (FEATURE_LOGREAD_REDUCED_LOCKING) [Y/n/?] (NEW) y
+syslogd (13 kb) (SYSLOGD) [Y/n/?] (NEW) y
+  Rotate message files (FEATURE_ROTATE_LOGFILE) [Y/n/?] (NEW) y
+  Remote Log support (FEATURE_REMOTE_LOG) [Y/n/?] (NEW) y
+  Support -D (drop dups) option (FEATURE_SYSLOGD_DUP) [Y/n/?] (NEW) y
+  Support syslog.conf (FEATURE_SYSLOGD_CFG) [Y/n/?] (NEW) y
+  Include milliseconds in timestamps (FEATURE_SYSLOGD_PRECISE_TIMESTAMPS) [N/y/?] (NEW) n
+  Read buffer size in bytes (FEATURE_SYSLOGD_READ_BUFFER_SIZE) [256] (NEW) 256
+  Circular Buffer support (FEATURE_IPC_SYSLOG) [Y/n/?] (NEW) y
+    Circular buffer size in Kbytes (minimum 4KB) (FEATURE_IPC_SYSLOG_BUFFER_SIZE) [16] (NEW) 16
+  Linux kernel printk buffer support (FEATURE_KMSG_SYSLOG) [Y/n/?] (NEW) y
+scripts/kconfig/conf -s Config.in
+#
+# using defaults found in .config
+#
+  SPLIT   include/autoconf.h -> include/config/*
+  GEN     include/bbconfigopts.h
+  GEN     include/common_bufsiz.h
+  GEN     include/embedded_scripts.h
+  HOSTCC  applets/usage
+  HOSTCC  applets/applet_tables
+applets/usage.c: In function ‘main’:
+applets/usage.c:52:17: warning: ignoring return value of ‘write’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   52 |                 write(STDOUT_FILENO, usage_array[i].usage, strlen(usage_array[i].usage) + 1);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  GEN     include/usage_compressed.h
+  GEN     include/applet_tables.h include/NUM_APPLETS.h
+  GEN     include/applet_tables.h include/NUM_APPLETS.h
+  HOSTCC  applets/usage_pod
+applets/usage_pod.c: In function ‘main’:
+applets/usage_pod.c:74:17: warning: format not a string literal and no format arguments [-Wformat-security]
+   74 |                 printf(usage_array[i].aname);
+      |                 ^~~~~~
+  CC      applets/applets.o
+  LD      applets/built-in.o
+  DOC     busybox.pod
+  DOC     BusyBox.txt
+  DOC     busybox.1
+  DOC     BusyBox.html
+  LD      archival/built-in.o
+  CC      archival/bbunzip.o
+  CC      archival/bzip2.o
+  CC      archival/cpio.o
+  CC      archival/dpkg.o
+  CC      archival/dpkg_deb.o
+  LD      archival/libarchive/built-in.o
+  LD      console-tools/built-in.o
+  CC      archival/libarchive/common.o
+  CC      console-tools/chvt.o
+  LD      coreutils/built-in.o
+  CC      coreutils/basename.o
+En el fichero incluido desde archival/cpio.c:144:
+archival/cpio.c: En la función ‘cpio_main’:
+include/libbb.h:626:27: aviso: ‘xpipe’ accessing 8 bytes in a region of size 4 [-Wstringop-overflow=]
+  626 | #define xpiped_pair(pair) xpipe(&((pair).rd))
+      |                           ^~~~~~~~~~~~~~~~~~~
+archival/cpio.c:440:17: nota: en expansión de macro ‘xpiped_pair’
+  440 |                 xpiped_pair(pp);
+      |                 ^~~~~~~~~~~
+include/libbb.h:626:27: nota: referencing argument 1 of type ‘int[2]’
+  626 | #define xpiped_pair(pair) xpipe(&((pair).rd))
+      |                           ^~~~~~~~~~~~~~~~~~~
+archival/cpio.c:440:17: nota: en expansión de macro ‘xpiped_pair’
+  440 |                 xpiped_pair(pp);
+      |                 ^~~~~~~~~~~
+include/libbb.h:622:6: nota: in a call to function ‘xpipe’
+  622 | void xpipe(int filedes[2]) FAST_FUNC;
+      |      ^~~~~
+  CC      archival/libarchive/data_align.o
+  CC      console-tools/clear.o
+  CC      coreutils/cat.o
+  LD      coreutils/libcoreutils/built-in.o
+  CC      coreutils/libcoreutils/cp_mv_stat.o
+  CC      archival/libarchive/data_extract_all.o
+  CC      console-tools/deallocvt.o
+  LD      debianutils/built-in.o
+  CC      debianutils/pipe_progress.o
+  LD      klibc-utils/built-in.o
+  CC      klibc-utils/nuke.o
+  CC      coreutils/libcoreutils/getopt_mk_fifo_nod.o
+  CC      coreutils/chgrp.o
+  CC      console-tools/dumpkmap.o
+  CC      debianutils/run_parts.o
+  CC      archival/libarchive/data_extract_to_command.o
+  CC      klibc-utils/resume.o
+  CC      coreutils/chmod.o
+  AR      coreutils/libcoreutils/lib.a
+  CC      archival/libarchive/data_extract_to_stdout.o
+  CC      console-tools/fgconsole.o
+  CC      archival/gzip.o
+  AR      klibc-utils/lib.a
+  CC      debianutils/start_stop_daemon.o
+  CC      debianutils/which.o
+  CC      archival/libarchive/data_skip.o
+  CC      coreutils/chown.o
+  CC      console-tools/kbd_mode.o
+  CC      archival/lzop.o
+  CC      archival/libarchive/decompress_bunzip2.o
+  CC      coreutils/chroot.o
+  CC      console-tools/loadfont.o
+  AR      debianutils/lib.a
+  CC      archival/libarchive/decompress_gunzip.o
+  CC      archival/rpm.o
+  CC      coreutils/cksum.o
+  CC      console-tools/loadkmap.o
+  CC      console-tools/openvt.o
+  CC      coreutils/comm.o
+  CC      archival/libarchive/decompress_unlzma.o
+  CC      console-tools/reset.o
+  LD      e2fsprogs/built-in.o
+  CC      e2fsprogs/chattr.o
+  CC      archival/tar.o
+  CC      archival/libarchive/decompress_unxz.o
+  CC      coreutils/cp.o
+  CC      console-tools/resize.o
+  LD      editors/built-in.o
+  CC      editors/awk.o
+En el fichero incluido desde archival/tar.c:119:
+archival/tar.c: En la función ‘vfork_compressor’:
+include/libbb.h:626:27: aviso: ‘xpipe’ accessing 8 bytes in a region of size 4 [-Wstringop-overflow=]
+  626 | #define xpiped_pair(pair) xpipe(&((pair).rd))
+      |                           ^~~~~~~~~~~~~~~~~~~
+archival/tar.c:611:9: nota: en expansión de macro ‘xpiped_pair’
+  611 |         xpiped_pair(data);
+      |         ^~~~~~~~~~~
+include/libbb.h:626:27: nota: referencing argument 1 of type ‘int[2]’
+  626 | #define xpiped_pair(pair) xpipe(&((pair).rd))
+      |                           ^~~~~~~~~~~~~~~~~~~
+archival/tar.c:611:9: nota: en expansión de macro ‘xpiped_pair’
+  611 |         xpiped_pair(data);
+      |         ^~~~~~~~~~~
+include/libbb.h:622:6: nota: in a call to function ‘xpipe’
+  622 | void xpipe(int filedes[2]) FAST_FUNC;
+      |      ^~~~~
+  CC      e2fsprogs/e2fs_lib.o
+  CC      archival/unzip.o
+  CC      console-tools/setconsole.o
+  CC      coreutils/cut.o
+  LD      findutils/built-in.o
+  CC      findutils/find.o
+  CC      e2fsprogs/fsck.o
+  CC      console-tools/setkeycodes.o
+  CC      findutils/grep.o
+  CC      coreutils/date.o
+  AR      archival/lib.a
+  CC      findutils/xargs.o
+  CC      console-tools/setlogcons.o
+  CC      console-tools/showkey.o
+  CC      coreutils/dd.o
+  CC      editors/cmp.o
+  CC      archival/libarchive/filter_accept_all.o
+  CC      e2fsprogs/lsattr.o
+  AR      findutils/lib.a
+  CC      coreutils/df.o
+  CC      editors/diff.o
+  AR      console-tools/lib.a
+  CC      archival/libarchive/filter_accept_list.o
+  CC      coreutils/dirname.o
+  CC      archival/libarchive/filter_accept_list_reassign.o
+  AR      e2fsprogs/lib.a
+  CC      coreutils/dos2unix.o
+  CC      editors/ed.o
+  CC      archival/libarchive/filter_accept_reject_list.o
+  CC      editors/patch.o
+  LD      init/built-in.o
+  CC      init/bootchartd.o
+  LD      libbb/built-in.o
+  CC      libbb/appletlib.o
+  CC      archival/libarchive/find_list_entry.o
+  CC      coreutils/du.o
+  CC      init/halt.o
+  CC      archival/libarchive/get_header_ar.o
+  CC      coreutils/echo.o
+  CC      libbb/ask_confirmation.o
+  CC      init/init.o
+  CC      archival/libarchive/get_header_cpio.o
+  LD      libpwdgrp/built-in.o
+  CC      libpwdgrp/pwd_grp.o
+  CC      coreutils/env.o
+  CC      libbb/auto_string.o
+  CC      editors/sed.o
+  CC      libbb/bb_askpass.o
+  CC      archival/libarchive/get_header_tar.o
+  CC      archival/libarchive/get_header_tar_bz2.o
+  CC      libpwdgrp/uidgid_get.o
+  CC      libbb/bb_bswap_64.o
+  CC      coreutils/expand.o
+  CC      coreutils/expr.o
+  CC      libbb/bb_cat.o
+  AR      init/lib.a
+  CC      coreutils/factor.o
+  CC      archival/libarchive/get_header_tar_gz.o
+  CC      editors/vi.o
+  AR      libpwdgrp/lib.a
+  LD      loginutils/built-in.o
+  CC      loginutils/add-remove-shell.o
+  LD      mailutils/built-in.o
+  CC      mailutils/mail.o
+  CC      libbb/bb_do_delay.o
+  CC      archival/libarchive/get_header_tar_lzma.o
+  CC      libbb/bb_getgroups.o
+En el fichero incluido desde mailutils/mail.c:10:
+mailutils/mail.c: En la función ‘launch_helper’:
+include/libbb.h:626:27: aviso: ‘xpipe’ accessing 8 bytes in a region of size 4 [-Wstringop-overflow=]
+  626 | #define xpiped_pair(pair) xpipe(&((pair).rd))
+      |                           ^~~~~~~~~~~~~~~~~~~
+mailutils/mail.c:40:9: nota: en expansión de macro ‘xpiped_pair’
+   40 |         xpiped_pair(child_out);
+      |         ^~~~~~~~~~~
+include/libbb.h:626:27: nota: referencing argument 1 of type ‘int[2]’
+  626 | #define xpiped_pair(pair) xpipe(&((pair).rd))
+      |                           ^~~~~~~~~~~~~~~~~~~
+mailutils/mail.c:40:9: nota: en expansión de macro ‘xpiped_pair’
+   40 |         xpiped_pair(child_out);
+      |         ^~~~~~~~~~~
+include/libbb.h:622:6: nota: in a call to function ‘xpipe’
+  622 | void xpipe(int filedes[2]) FAST_FUNC;
+      |      ^~~~~
+include/libbb.h:626:27: aviso: ‘xpipe’ accessing 8 bytes in a region of size 4 [-Wstringop-overflow=]
+  626 | #define xpiped_pair(pair) xpipe(&((pair).rd))
+      |                           ^~~~~~~~~~~~~~~~~~~
+mailutils/mail.c:41:9: nota: en expansión de macro ‘xpiped_pair’
+   41 |         xpiped_pair(child_in);
+      |         ^~~~~~~~~~~
+include/libbb.h:626:27: nota: referencing argument 1 of type ‘int[2]’
+  626 | #define xpiped_pair(pair) xpipe(&((pair).rd))
+      |                           ^~~~~~~~~~~~~~~~~~~
+mailutils/mail.c:41:9: nota: en expansión de macro ‘xpiped_pair’
+   41 |         xpiped_pair(child_in);
+      |         ^~~~~~~~~~~
+include/libbb.h:622:6: nota: in a call to function ‘xpipe’
+  622 | void xpipe(int filedes[2]) FAST_FUNC;
+      |      ^~~~~
+  CC      loginutils/addgroup.o
+  CC      mailutils/makemime.o
+  CC      archival/libarchive/get_header_tar_xz.o
+  CC      coreutils/false.o
+  LD      miscutils/built-in.o
+  CC      miscutils/adjtimex.o
+  CC      libbb/bb_getsockname.o
+  CC      miscutils/bc.o
+  CC      archival/libarchive/header_list.o
+  CC      mailutils/popmaildir.o
+  CC      coreutils/fold.o
+  CC      loginutils/adduser.o
+  CC      libbb/bb_pwd.o
+  CC      libbb/bb_qsort.o
+  CC      archival/libarchive/header_skip.o
+  CC      mailutils/reformime.o
+  CC      coreutils/head.o
+  CC      loginutils/chpasswd.o
+  LD      modutils/built-in.o
+  CC      modutils/modinfo.o
+  CC      libbb/bb_strtonum.o
+  CC      archival/libarchive/header_verbose_list.o
+  CC      loginutils/cryptpw.o
+  CC      mailutils/sendmail.o
+  CC      coreutils/hostid.o
+  CC      archival/libarchive/init_handle.o
+  CC      modutils/modprobe-small.o
+  CC      libbb/capability.o
+  CC      loginutils/deluser.o
+  CC      coreutils/id.o
+  CC      archival/libarchive/lzo1x_1.o
+  CC      libbb/change_identity.o
+  AR      mailutils/lib.a
+  CC      modutils/modutils.o
+  CC      loginutils/getty.o
+  CC      libbb/chomp.o
+  CC      coreutils/install.o
+  CC      archival/libarchive/lzo1x_1o.o
+modutils/modutils.c: En la función ‘filename2modname’:
+modutils/modutils.c:115:1: aviso: la función puede devolver la dirección de una variable local [-Wreturn-local-addr]
+  115 | }
+      | ^
+modutils/modutils.c:94:14: nota: se declara aquí
+   94 |         char local_modname[MODULE_NAME_LEN];
+      |              ^~~~~~~~~~~~~
+  CC      loginutils/login.o
+  CC      libbb/common_bufsiz.o
+  AR      modutils/lib.a
+  CC      archival/libarchive/lzo1x_d.o
+  CC      coreutils/link.o
+  CC      miscutils/beep.o
+  CC      archival/libarchive/open_transformer.o
+  CC      libbb/compare_string_array.o
+  CC      loginutils/passwd.o
+  AR      editors/lib.a
+  CC      coreutils/ln.o
+  CC      miscutils/chat.o
+En el fichero incluido desde archival/libarchive/open_transformer.c:5:
+archival/libarchive/open_transformer.c: En la función ‘fork_transformer’:
+include/libbb.h:626:27: aviso: ‘xpipe’ accessing 8 bytes in a region of size 4 [-Wstringop-overflow=]
+  626 | #define xpiped_pair(pair) xpipe(&((pair).rd))
+      |                           ^~~~~~~~~~~~~~~~~~~
+archival/libarchive/open_transformer.c:111:9: nota: en expansión de macro ‘xpiped_pair’
+  111 |         xpiped_pair(fd_pipe);
+      |         ^~~~~~~~~~~
+include/libbb.h:626:27: nota: referencing argument 1 of type ‘int[2]’
+  626 | #define xpiped_pair(pair) xpipe(&((pair).rd))
+      |                           ^~~~~~~~~~~~~~~~~~~
+archival/libarchive/open_transformer.c:111:9: nota: en expansión de macro ‘xpiped_pair’
+  111 |         xpiped_pair(fd_pipe);
+      |         ^~~~~~~~~~~
+include/libbb.h:622:6: nota: in a call to function ‘xpipe’
+  622 | void xpipe(int filedes[2]) FAST_FUNC;
+      |      ^~~~~
+  CC      libbb/concat_path_file.o
+  CC      loginutils/su.o
+  CC      archival/libarchive/seek_by_jump.o
+  CC      coreutils/logname.o
+  CC      miscutils/conspy.o
+  LD      networking/built-in.o
+  CC      networking/arp.o
+  CC      libbb/concat_subpath_file.o
+  LD      networking/libiproute/built-in.o
+  CC      networking/libiproute/ip_parse_common_args.o
+  CC      loginutils/sulogin.o
+  CC      coreutils/ls.o
+  CC      archival/libarchive/seek_by_read.o
+  CC      libbb/copy_file.o
+  CC      networking/libiproute/ipaddress.o
+  CC      loginutils/vlock.o
+  CC      archival/libarchive/unpack_ar_archive.o
+  CC      networking/arping.o
+  LD      networking/udhcp/built-in.o
+  CC      networking/udhcp/arpping.o
+  AR      loginutils/lib.a
+  CC      networking/udhcp/common.o
+  CC      archival/libarchive/unsafe_prefix.o
+  CC      libbb/copyfd.o
+  LD      printutils/built-in.o
+  CC      printutils/lpd.o
+  CC      archival/libarchive/unsafe_symlink_target.o
+  CC      libbb/correct_password.o
+  CC      coreutils/md5_sha1_sum.o
+  CC      networking/brctl.o
+  CC      networking/libiproute/iplink.o
+  AR      archival/libarchive/lib.a
+  CC      networking/udhcp/d6_dhcpc.o
+  CC      miscutils/crond.o
+  CC      printutils/lpr.o
+  CC      libbb/crc32.o
+  CC      coreutils/mkdir.o
+  CC      coreutils/mkfifo.o
+  CC      networking/dnsd.o
+  CC      libbb/default_error_retval.o
+  AR      printutils/lib.a
+  CC      miscutils/crontab.o
+  CC      networking/libiproute/ipneigh.o
+  CC      libbb/device_open.o
+  CC      coreutils/mknod.o
+  CC      networking/ether-wake.o
+  CC      networking/udhcp/d6_packet.o
+  CC      miscutils/devmem.o
+  CC      networking/ftpd.o
+  CC      libbb/dump.o
+  CC      coreutils/mktemp.o
+  CC      networking/libiproute/iproute.o
+  CC      networking/udhcp/d6_socket.o
+En el fichero incluido desde networking/ftpd.c:84:
+networking/ftpd.c: En la función ‘popen_ls’:
+include/libbb.h:626:27: aviso: ‘xpipe’ accessing 8 bytes in a region of size 4 [-Wstringop-overflow=]
+  626 | #define xpiped_pair(pair) xpipe(&((pair).rd))
+      |                           ^~~~~~~~~~~~~~~~~~~
+networking/ftpd.c:701:9: nota: en expansión de macro ‘xpiped_pair’
+  701 |         xpiped_pair(outfd);
+      |         ^~~~~~~~~~~
+include/libbb.h:626:27: nota: referencing argument 1 of type ‘int[2]’
+  626 | #define xpiped_pair(pair) xpipe(&((pair).rd))
+      |                           ^~~~~~~~~~~~~~~~~~~
+networking/ftpd.c:701:9: nota: en expansión de macro ‘xpiped_pair’
+  701 |         xpiped_pair(outfd);
+      |         ^~~~~~~~~~~
+include/libbb.h:622:6: nota: in a call to function ‘xpipe’
+  622 | void xpipe(int filedes[2]) FAST_FUNC;
+      |      ^~~~~
+  CC      coreutils/mv.o
+  CC      miscutils/fbsplash.o
+  LD      procps/built-in.o
+  CC      procps/free.o
+  CC      libbb/duration.o
+  CC      networking/udhcp/dhcpc.o
+  CC      coreutils/nice.o
+  CC      procps/fuser.o
+  CC      networking/libiproute/iprule.o
+  CC      coreutils/nl.o
+  CC      miscutils/hdparm.o
+  CC      networking/ftpgetput.o
+  CC      libbb/endofname.o
+  CC      miscutils/hexedit.o
+  CC      procps/iostat.o
+  CC      coreutils/nohup.o
+  CC      libbb/executable.o
+  CC      networking/libiproute/iptunnel.o
+  CC      networking/hostname.o
+  CC      libbb/fclose_nonstdin.o
+  CC      coreutils/nproc.o
+  CC      procps/kill.o
+  CC      networking/httpd.o
+  CC      networking/udhcp/dhcpd.o
+  LD      runit/built-in.o
+  CC      runit/chpst.o
+  CC      libbb/fflush_stdout_and_exit.o
+  CC      coreutils/od.o
+En el fichero incluido desde networking/httpd.c:287:
+networking/httpd.c: En la función ‘send_cgi_and_exit’:
+include/libbb.h:626:27: aviso: ‘xpipe’ accessing 8 bytes in a region of size 4 [-Wstringop-overflow=]
+  626 | #define xpiped_pair(pair) xpipe(&((pair).rd))
+      |                           ^~~~~~~~~~~~~~~~~~~
+networking/httpd.c:1630:9: nota: en expansión de macro ‘xpiped_pair’
+ 1630 |         xpiped_pair(fromCgi);
+      |         ^~~~~~~~~~~
+include/libbb.h:626:27: nota: referencing argument 1 of type ‘int[2]’
+  626 | #define xpiped_pair(pair) xpipe(&((pair).rd))
+      |                           ^~~~~~~~~~~~~~~~~~~
+networking/httpd.c:1630:9: nota: en expansión de macro ‘xpiped_pair’
+ 1630 |         xpiped_pair(fromCgi);
+      |         ^~~~~~~~~~~
+include/libbb.h:622:6: nota: in a call to function ‘xpipe’
+  622 | void xpipe(int filedes[2]) FAST_FUNC;
+      |      ^~~~~
+include/libbb.h:626:27: aviso: ‘xpipe’ accessing 8 bytes in a region of size 4 [-Wstringop-overflow=]
+  626 | #define xpiped_pair(pair) xpipe(&((pair).rd))
+      |                           ^~~~~~~~~~~~~~~~~~~
+networking/httpd.c:1631:9: nota: en expansión de macro ‘xpiped_pair’
+ 1631 |         xpiped_pair(toCgi);
+      |         ^~~~~~~~~~~
+include/libbb.h:626:27: nota: referencing argument 1 of type ‘int[2]’
+  626 | #define xpiped_pair(pair) xpipe(&((pair).rd))
+      |                           ^~~~~~~~~~~~~~~~~~~
+networking/httpd.c:1631:9: nota: en expansión de macro ‘xpiped_pair’
+ 1631 |         xpiped_pair(toCgi);
+      |         ^~~~~~~~~~~
+include/libbb.h:622:6: nota: in a call to function ‘xpipe’
+  622 | void xpipe(int filedes[2]) FAST_FUNC;
+      |      ^~~~~
+  CC      networking/libiproute/libnetlink.o
+  CC      procps/lsof.o
+  CC      libbb/fgets_str.o
+  CC      runit/runsv.o
+  CC      procps/mpstat.o
+  CC      libbb/find_mount_point.o
+  CC      networking/libiproute/ll_addr.o
+  CC      networking/udhcp/dhcprelay.o
+  CC      miscutils/i2c_tools.o
+  CC      libbb/find_pid_by_name.o
+  CC      coreutils/paste.o
+  CC      runit/runsvdir.o
+  CC      networking/libiproute/ll_map.o
+  CC      networking/ifconfig.o
+  CC      networking/udhcp/domain_codec.o
+  CC      libbb/find_root_device.o
+miscutils/i2c_tools.c: En la función ‘list_i2c_busses_and_exit’:
+miscutils/i2c_tools.c:1150:46: aviso: la salida de la directiva ‘%s’ podría truncarse al escribir hasta 255 bytes en una región de tamaño 236 [-Wformat-truncation=]
+ 1150 |                 snprintf(path, NAME_MAX, "%s/%s/name",
+      |                                              ^~
+miscutils/i2c_tools.c:1150:17: nota: ‘snprintf’ manda entre 25 y 280 bytes a un destino de tamaño 255
+ 1150 |                 snprintf(path, NAME_MAX, "%s/%s/name",
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1151 |                          i2cdev_path, de->d_name);
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~
+miscutils/i2c_tools.c:1155:38: aviso: la salida de la directiva ‘%s’ podría truncarse al escribir hasta 255 bytes en una región de tamaño 236 [-Wformat-truncation=]
+ 1155 |                                  "%s/%s/device/name",
+      |                                      ^~
+  CC      coreutils/printenv.o
+miscutils/i2c_tools.c:1154:25: nota: ‘snprintf’ manda entre 32 y 287 bytes a un destino de tamaño 255
+ 1154 |                         snprintf(path, NAME_MAX,
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~
+ 1155 |                                  "%s/%s/device/name",
+      |                                  ~~~~~~~~~~~~~~~~~~~~
+ 1156 |                                  i2cdev_path, de->d_name);
+      |                                  ~~~~~~~~~~~~~~~~~~~~~~~~
+miscutils/i2c_tools.c:1163:38: aviso: la salida de la directiva ‘%s’ podría truncarse al escribir hasta 255 bytes en una región de tamaño 236 [-Wformat-truncation=]
+ 1163 |                                  "%s/%s/device/name",
+      |                                      ^~
+miscutils/i2c_tools.c:1162:25: nota: ‘snprintf’ manda entre 32 y 287 bytes a un destino de tamaño 255
+ 1162 |                         snprintf(path, NAME_MAX,
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~
+ 1163 |                                  "%s/%s/device/name",
+      |                                  ~~~~~~~~~~~~~~~~~~~~
+ 1164 |                                  i2cdev_path, de->d_name);
+      |                                  ~~~~~~~~~~~~~~~~~~~~~~~~
+miscutils/i2c_tools.c:1175:54: aviso: la salida de la directiva ‘%s’ podría truncarse al escribir hasta 255 bytes en una región de tamaño 236 [-Wformat-truncation=]
+ 1175 |                                                  "%s/%s/device/%s/name",
+      |                                                      ^~
+miscutils/i2c_tools.c:1174:41: nota: ‘snprintf’ manda entre 33 y 543 bytes a un destino de tamaño 255
+ 1174 |                                         snprintf(path, NAME_MAX,
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~
+ 1175 |                                                  "%s/%s/device/%s/name",
+      |                                                  ~~~~~~~~~~~~~~~~~~~~~~~
+ 1176 |                                                  i2cdev_path, de->d_name,
+      |                                                  ~~~~~~~~~~~~~~~~~~~~~~~~
+ 1177 |                                                  subde->d_name);
+      |                                                  ~~~~~~~~~~~~~~
+  CC      networking/libiproute/ll_proto.o
+  CC      runit/sv.o
+  CC      procps/nmeter.o
+  CC      libbb/full_write.o
+  CC      networking/udhcp/dumpleases.o
+  CC      networking/ifenslave.o
+  CC      coreutils/printf.o
+  CC      networking/libiproute/ll_types.o
+  CC      libbb/get_console.o
+  CC      networking/udhcp/packet.o
+  CC      networking/libiproute/rt_names.o
+  CC      libbb/get_cpu_count.o
+  CC      miscutils/less.o
+  CC      networking/ifplugd.o
+  CC      runit/svlogd.o
+  CC      coreutils/pwd.o
+  CC      networking/udhcp/signalpipe.o
+  CC      libbb/get_last_path_component.o
+  CC      procps/pgrep.o
+  CC      networking/libiproute/rtm_map.o
+  CC      coreutils/readlink.o
+networking/udhcp/signalpipe.c:68:46: aviso: argument 1 of type ‘struct pollfd[2]’ with mismatched bound [-Warray-parameter=]
+   68 | void FAST_FUNC udhcp_sp_fd_set(struct pollfd pfds[2], int extra_fd)
+      |                                ~~~~~~~~~~~~~~^~~~~~~
+En el fichero incluido desde networking/udhcp/signalpipe.c:21:
+networking/udhcp/common.h:350:37: nota: previously declared as ‘struct pollfd *’
+  350 | void udhcp_sp_fd_set(struct pollfd *pfds, int extra_fd) FAST_FUNC;
+      |                      ~~~~~~~~~~~~~~~^~~~
+En el fichero incluido desde networking/udhcp/common.h:11:
+networking/udhcp/signalpipe.c: En la función ‘udhcp_sp_setup’:
+include/libbb.h:626:27: aviso: ‘xpipe’ accessing 8 bytes in a region of size 4 [-Wstringop-overflow=]
+  626 | #define xpiped_pair(pair) xpipe(&((pair).rd))
+      |                           ^~~~~~~~~~~~~~~~~~~
+networking/udhcp/signalpipe.c:45:9: nota: en expansión de macro ‘xpiped_pair’
+   45 |         xpiped_pair(signal_pipe);
+      |         ^~~~~~~~~~~
+include/libbb.h:626:27: nota: referencing argument 1 of type ‘int[2]’
+  626 | #define xpiped_pair(pair) xpipe(&((pair).rd))
+      |                           ^~~~~~~~~~~~~~~~~~~
+networking/udhcp/signalpipe.c:45:9: nota: en expansión de macro ‘xpiped_pair’
+   45 |         xpiped_pair(signal_pipe);
+      |         ^~~~~~~~~~~
+include/libbb.h:622:6: nota: in a call to function ‘xpipe’
+  622 | void xpipe(int filedes[2]) FAST_FUNC;
+      |      ^~~~~
+  CC      networking/udhcp/socket.o
+  CC      libbb/get_line_from_file.o
+  CC      coreutils/realpath.o
+  CC      networking/libiproute/utils.o
+  CC      networking/ifupdown.o
+  CC      procps/pidof.o
+  AR      networking/udhcp/lib.a
+  CC      libbb/get_shell_name.o
+  CC      networking/inetd.o
+  CC      coreutils/rm.o
+En el fichero incluido desde networking/ifupdown.c:142:
+networking/ifupdown.c: En la función ‘popen2’:
+include/libbb.h:626:27: aviso: ‘xpipe’ accessing 8 bytes in a region of size 4 [-Wstringop-overflow=]
+  626 | #define xpiped_pair(pair) xpipe(&((pair).rd))
+      |                           ^~~~~~~~~~~~~~~~~~~
+networking/ifupdown.c:1240:9: nota: en expansión de macro ‘xpiped_pair’
+ 1240 |         xpiped_pair(infd);
+      |         ^~~~~~~~~~~
+include/libbb.h:626:27: nota: referencing argument 1 of type ‘int[2]’
+  626 | #define xpiped_pair(pair) xpipe(&((pair).rd))
+      |                           ^~~~~~~~~~~~~~~~~~~
+networking/ifupdown.c:1240:9: nota: en expansión de macro ‘xpiped_pair’
+ 1240 |         xpiped_pair(infd);
+      |         ^~~~~~~~~~~
+include/libbb.h:622:6: nota: in a call to function ‘xpipe’
+  622 | void xpipe(int filedes[2]) FAST_FUNC;
+      |      ^~~~~
+include/libbb.h:626:27: aviso: ‘xpipe’ accessing 8 bytes in a region of size 4 [-Wstringop-overflow=]
+  626 | #define xpiped_pair(pair) xpipe(&((pair).rd))
+      |                           ^~~~~~~~~~~~~~~~~~~
+networking/ifupdown.c:1241:9: nota: en expansión de macro ‘xpiped_pair’
+ 1241 |         xpiped_pair(outfd);
+      |         ^~~~~~~~~~~
+include/libbb.h:626:27: nota: referencing argument 1 of type ‘int[2]’
+  626 | #define xpiped_pair(pair) xpipe(&((pair).rd))
+      |                           ^~~~~~~~~~~~~~~~~~~
+networking/ifupdown.c:1241:9: nota: en expansión de macro ‘xpiped_pair’
+ 1241 |         xpiped_pair(outfd);
+      |         ^~~~~~~~~~~
+include/libbb.h:622:6: nota: in a call to function ‘xpipe’
+  622 | void xpipe(int filedes[2]) FAST_FUNC;
+      |      ^~~~~
+  CC      procps/pmap.o
+  AR      networking/libiproute/lib.a
+  CC      networking/interface.o
+  CC      coreutils/rmdir.o
+  CC      libbb/get_volsize.o
+  AR      runit/lib.a
+  CC      miscutils/lsscsi.o
+  CC      procps/powertop.o
+  CC      procps/ps.o
+  CC      libbb/getopt32.o
+  CC      coreutils/seq.o
+  CC      miscutils/makedevs.o
+procps/powertop.c: En la función ‘read_cstate_counts’:
+procps/powertop.c:181:34: aviso: directiva ‘%s’ escribiendo hasta 255 bytes en una región de tamaño 171 [-Wformat-overflow=]
+  181 |                 sprintf(buf, "%s/%s/power", "/proc/acpi/processor", d->d_name);
+      |                                  ^~
+procps/powertop.c:181:17: nota: ‘sprintf’ manda entre 28 y 283 bytes a un destino de tamaño 192
+  181 |                 sprintf(buf, "%s/%s/power", "/proc/acpi/processor", d->d_name);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  CC      miscutils/man.o
+  CC      procps/pstree.o
+  CC      coreutils/shred.o
+  LD      selinux/built-in.o
+  CC      libbb/getopt_allopts.o
+  AR      selinux/lib.a
+  CC      networking/ip.o
+  LD      shell/built-in.o
+  CC      coreutils/shuf.o
+  CC      shell/ash.o
+  CC      procps/pwdx.o
+  CC      procps/smemcap.o
+  CC      libbb/getpty.o
+  CC      networking/ipcalc.o
+  CC      miscutils/microcom.o
+  CC      coreutils/sleep.o
+  CC      networking/isrv.o
+  LD      sysklogd/built-in.o
+  CC      sysklogd/klogd.o
+  CC      libbb/hash_md5_sha.o
+  CC      procps/sysctl.o
+  CC      sysklogd/logread.o
+  CC      coreutils/sort.o
+  CC      miscutils/mt.o
+  CC      shell/ash_ptr_hack.o
+  CC      libbb/herror_msg.o
+  CC      networking/isrv_identd.o
+  CC      sysklogd/syslogd_and_logger.o
+  CC      miscutils/nandwrite.o
+  CC      procps/top.o
+  LD      util-linux/built-in.o
+  CC      util-linux/acpid.o
+  CC      networking/nameif.o
+  CC      coreutils/split.o
+  CC      libbb/human_readable.o
+  CC      miscutils/partprobe.o
+  CC      networking/nbd-client.o
+  CC      util-linux/blkdiscard.o
+  CC      coreutils/stat.o
+  CC      miscutils/raidautorun.o
+  CC      libbb/in_ether.o
+  CC      util-linux/blkid.o
+  AR      sysklogd/lib.a
+  CC      coreutils/stty.o
+  CC      procps/uptime.o
+  CC      networking/nc.o
+  CC      miscutils/readahead.o
+  CC      libbb/inet_cksum.o
+  CC      shell/cttyhack.o
+  CC      util-linux/blockdev.o
+  CC      procps/watch.o
+  CC      miscutils/runlevel.o
+  CC      libbb/inet_common.o
+  CC      coreutils/sum.o
+  CC      util-linux/cal.o
+  AR      procps/lib.a
+  CC      miscutils/rx.o
+  CC      networking/netstat.o
+  CC      libbb/inode_hash.o
+  CC      shell/hush.o
+  CC      coreutils/sync.o
+  LD      util-linux/volume_id/built-in.o
+  CC      util-linux/volume_id/bcache.o
+  CC      miscutils/setfattr.o
+  CC      libbb/isdirectory.o
+  CC      util-linux/chrt.o
+  CC      util-linux/volume_id/btrfs.o
+  CC      coreutils/tac.o
+  CC      networking/nslookup.o
+  CC      libbb/isqrt.o
+  CC      miscutils/setserial.o
+util-linux/volume_id/btrfs.c: En la función ‘volume_id_probe_btrfs’:
+util-linux/volume_id/btrfs.c:110:34: aviso: ‘sb’ may be used uninitialized [-Wmaybe-uninitialized]
+  110 |         volume_id_set_uuid(id, sb->fsid, UUID_DCE);
+      |                                ~~^~~~~~
+util-linux/volume_id/btrfs.c:93:35: nota: ‘sb’ se declaró aquí
+   93 |         struct btrfs_super_block *sb;
+      |                                   ^~
+  CC      util-linux/volume_id/cramfs.o
+  CC      coreutils/tail.o
+  CC      util-linux/dmesg.o
+En el fichero incluido desde include/busybox.h:8,
+                 desde shell/hush.c:359:
+shell/hush.c: En la función ‘run_pipe’:
+include/libbb.h:626:27: aviso: ‘xpipe’ accessing 8 bytes in a region of size 4 [-Wstringop-overflow=]
+  626 | #define xpiped_pair(pair) xpipe(&((pair).rd))
+      |                           ^~~~~~~~~~~~~~~~~~~
+shell/hush.c:9382:25: nota: en expansión de macro ‘xpiped_pair’
+ 9382 |                         xpiped_pair(pipefds);
+      |                         ^~~~~~~~~~~
+  CC      libbb/kernel_version.o
+include/libbb.h:626:27: nota: referencing argument 1 of type ‘int[2]’
+  626 | #define xpiped_pair(pair) xpipe(&((pair).rd))
+      |                           ^~~~~~~~~~~~~~~~~~~
+shell/hush.c:9382:25: nota: en expansión de macro ‘xpiped_pair’
+ 9382 |                         xpiped_pair(pipefds);
+      |                         ^~~~~~~~~~~
+include/libbb.h:622:6: nota: in a call to function ‘xpipe’
+  622 | void xpipe(int filedes[2]) FAST_FUNC;
+      |      ^~~~~
+shell/hush.c: En la función ‘setup_heredoc’:
+include/libbb.h:626:27: aviso: ‘xpipe’ accessing 8 bytes in a region of size 4 [-Wstringop-overflow=]
+  626 | #define xpiped_pair(pair) xpipe(&((pair).rd))
+      |                           ^~~~~~~~~~~~~~~~~~~
+shell/hush.c:7571:9: nota: en expansión de macro ‘xpiped_pair’
+ 7571 |         xpiped_pair(pair);
+      |         ^~~~~~~~~~~
+include/libbb.h:626:27: nota: referencing argument 1 of type ‘int[2]’
+  626 | #define xpiped_pair(pair) xpipe(&((pair).rd))
+      |                           ^~~~~~~~~~~~~~~~~~~
+shell/hush.c:7571:9: nota: en expansión de macro ‘xpiped_pair’
+ 7571 |         xpiped_pair(pair);
+      |         ^~~~~~~~~~~
+include/libbb.h:622:6: nota: in a call to function ‘xpipe’
+  622 | void xpipe(int filedes[2]) FAST_FUNC;
+      |      ^~~~~
+shell/hush.c: En la función ‘expand_one_var’:
+shell/hush.c:6407:15: aviso: ‘exp_word’ is used uninitialized [-Wuninitialized]
+ 6407 |         char *exp_word = exp_word; /* for compiler */
+      |               ^~~~~~~~
+shell/hush.c:6407:15: nota: ‘exp_word’ se declaró aquí
+ 6407 |         char *exp_word = exp_word; /* for compiler */
+      |               ^~~~~~~~
+  CC      util-linux/volume_id/erofs.o
+  CC      miscutils/strings.o
+  CC      util-linux/eject.o
+  CC      libbb/last_char_is.o
+  CC      networking/ntpd.o
+  CC      coreutils/tee.o
+  CC      util-linux/volume_id/exfat.o
+  CC      miscutils/time.o
+  CC      util-linux/fallocate.o
+  CC      libbb/lineedit.o
+  CC      coreutils/test.o
+  CC      util-linux/volume_id/ext.o
+  CC      util-linux/fatattr.o
+  CC      miscutils/ts.o
+  CC      util-linux/volume_id/f2fs.o
+  CC      util-linux/fbset.o
+  CC      coreutils/test_ptr_hack.o
+  CC      miscutils/ttysize.o
+  CC      coreutils/timeout.o
+  CC      util-linux/volume_id/fat.o
+  CC      miscutils/ubi_tools.o
+libbb/lineedit.c: En la función ‘input_tab’:
+libbb/lineedit.c:1319:25: aviso: ‘sprintf’ argument 4 may overlap destination object ‘match_buf’ [-Wrestrict]
+ 1319 |                         sprintf(&command[cursor_mb], "%s%s", chosen_match + match_pfx_len, match_buf);
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  CC      util-linux/fdformat.o
+  CC      coreutils/touch.o
+  CC      networking/parse_pasv_epsv.o
+  CC      util-linux/volume_id/get_devname.o
+  CC      coreutils/tr.o
+  CC      util-linux/fdisk.o
+  CC      miscutils/ubirename.o
+  CC      libbb/lineedit_ptr_hack.o
+  CC      networking/ping.o
+  CC      libbb/llist.o
+  CC      miscutils/volname.o
+  CC      util-linux/volume_id/hfs.o
+  CC      coreutils/true.o
+  CC      miscutils/watchdog.o
+  CC      libbb/logenv.o
+  CC      util-linux/volume_id/iso9660.o
+  AR      miscutils/lib.a
+  CC      networking/pscan.o
+  CC      coreutils/truncate.o
+  CC      coreutils/tty.o
+  CC      libbb/login.o
+  CC      util-linux/volume_id/jfs.o
+  CC      libbb/loop.o
+  CC      networking/route.o
+  CC      coreutils/uname.o
+  CC      shell/match.o
+  CC      util-linux/volume_id/lfs.o
+  CC      coreutils/uniq.o
+  CC      libbb/make_directory.o
+  CC      util-linux/volume_id/linux_raid.o
+  CC      util-linux/findfs.o
+  CC      networking/slattach.o
+  CC      libbb/makedev.o
+  CC      coreutils/unlink.o
+  CC      networking/ssl_client.o
+  CC      util-linux/volume_id/linux_swap.o
+  CC      util-linux/flock.o
+  CC      libbb/match_fstype.o
+  CC      util-linux/volume_id/luks.o
+  CC      util-linux/freeramdisk.o
+  CC      coreutils/usleep.o
+  CC      shell/math.o
+  CC      networking/tc.o
+  CC      libbb/messages.o
+  CC      coreutils/uudecode.o
+  CC      util-linux/fsck_minix.o
+  CC      util-linux/volume_id/minix.o
+  CC      shell/random.o
+  CC      networking/tcpudp.o
+  CC      libbb/missing_syscalls.o
+  CC      util-linux/volume_id/nilfs.o
+  CC      libbb/mode_string.o
+  CC      util-linux/volume_id/ntfs.o
+  CC      shell/shell_common.o
+  CC      coreutils/uuencode.o
+  CC      util-linux/volume_id/ocfs2.o
+  CC      coreutils/wc.o
+  CC      networking/tcpudp_perhost.o
+  CC      coreutils/who.o
+  CC      libbb/nuke_str.o
+  CC      util-linux/fsfreeze.o
+  CC      util-linux/volume_id/reiserfs.o
+  CC      libbb/obscure.o
+  CC      networking/telnet.o
+  AR      shell/lib.a
+  CC      coreutils/whoami.o
+  CC      util-linux/fstrim.o
+  CC      networking/telnetd.o
+  CC      networking/tftp.o
+  CC      util-linux/volume_id/romfs.o
+  CC      coreutils/yes.o
+  CC      util-linux/volume_id/squashfs.o
+  CC      util-linux/getopt.o
+  CC      libbb/parse_config.o
+networking/tftp.c: En la función ‘tftpd_main’:
+networking/tftp.c:887:15: aviso: ‘local_file’ is used uninitialized [-Wuninitialized]
+  887 |         char *local_file = local_file;
+      |               ^~~~~~~~~~
+networking/tftp.c:887:15: nota: ‘local_file’ se declaró aquí
+  887 |         char *local_file = local_file;
+      |               ^~~~~~~~~~
+  AR      coreutils/lib.a
+  CC      util-linux/volume_id/sysv.o
+  CC      util-linux/volume_id/ubifs.o
+  CC      networking/tls.o
+  CC      networking/tls_aes.o
+  CC      util-linux/hexdump.o
+  CC      libbb/parse_mode.o
+  CC      libbb/percent_decode.o
+  CC      networking/tls_aesgcm.o
+  CC      util-linux/hexdump_xxd.o
+  CC      util-linux/volume_id/udf.o
+  CC      util-linux/volume_id/util.o
+  CC      util-linux/volume_id/volume_id.o
+  CC      libbb/perror_msg.o
+  CC      libbb/perror_nomsg.o
+  CC      util-linux/volume_id/xfs.o
+  CC      util-linux/hwclock.o
+  CC      util-linux/ionice.o
+  CC      libbb/perror_nomsg_and_die.o
+  CC      util-linux/ipcrm.o
+  CC      networking/tls_fe.o
+  CC      libbb/pidfile.o
+  CC      util-linux/ipcs.o
+  AR      util-linux/volume_id/lib.a
+  CC      networking/tls_pstm.o
+  CC      util-linux/last_fancy.o
+  CC      libbb/platform.o
+  CC      networking/tls_pstm_montgomery_reduce.o
+  CC      libbb/print_flags.o
+  CC      libbb/print_numbered_lines.o
+  CC      networking/tls_pstm_mul_comba.o
+  CC      networking/tls_pstm_sqr_comba.o
+  CC      libbb/printable.o
+  CC      util-linux/losetup.o
+  CC      libbb/printable_string.o
+  CC      libbb/process_escape_sequence.o
+  CC      networking/tls_rsa.o
+  CC      libbb/procps.o
+  CC      networking/traceroute.o
+  CC      networking/tunctl.o
+  CC      util-linux/lspci.o
+  CC      networking/vconfig.o
+  CC      networking/wget.o
+  CC      util-linux/lsusb.o
+  CC      util-linux/mdev.o
+  CC      networking/whois.o
+  CC      libbb/progress.o
+  CC      libbb/ptr_to_globals.o
+  CC      libbb/pw_encrypt.o
+  CC      util-linux/mesg.o
+  CC      libbb/read.o
+  CC      util-linux/mkfs_ext2.o
+  CC      networking/zcip.o
+  CC      util-linux/mkfs_minix.o
+  CC      util-linux/mkfs_vfat.o
+  CC      libbb/read_key.o
+  CC      util-linux/mkswap.o
+  CC      libbb/read_printf.o
+  AR      networking/lib.a
+  CC      util-linux/more.o
+  CC      libbb/recursive_action.o
+  CC      libbb/remove_file.o
+  CC      util-linux/mount.o
+  CC      libbb/replace.o
+  CC      util-linux/mountpoint.o
+  CC      libbb/rtc.o
+  CC      libbb/run_shell.o
+  CC      libbb/safe_gethostname.o
+  CC      libbb/safe_poll.o
+  CC      libbb/safe_strncpy.o
+  CC      libbb/safe_write.o
+  CC      util-linux/nsenter.o
+  CC      libbb/securetty.o
+  CC      util-linux/pivot_root.o
+  CC      libbb/setup_environment.o
+  CC      util-linux/rdate.o
+  CC      util-linux/rdev.o
+  CC      util-linux/readprofile.o
+  CC      libbb/signals.o
+  CC      util-linux/renice.o
+  CC      util-linux/rev.o
+  CC      libbb/simplify_path.o
+  CC      libbb/single_argv.o
+  CC      util-linux/rtcwake.o
+  CC      libbb/skip_whitespace.o
+  CC      libbb/speed_table.o
+  CC      util-linux/script.o
+  CC      util-linux/scriptreplay.o
+  CC      libbb/str_tolower.o
+  CC      util-linux/setarch.o
+  CC      libbb/strrstr.o
+  CC      libbb/sysconf.o
+  CC      util-linux/setpriv.o
+  CC      libbb/time.o
+  CC      util-linux/setsid.o
+  CC      libbb/trim.o
+  CC      libbb/u_signal_names.o
+  CC      util-linux/swaponoff.o
+  CC      libbb/ubi.o
+  CC      util-linux/switch_root.o
+  CC      util-linux/taskset.o
+  CC      libbb/udp_io.o
+  CC      util-linux/uevent.o
+  CC      libbb/unicode.o
+  CC      util-linux/umount.o
+  CC      util-linux/unshare.o
+  CC      libbb/update_passwd.o
+  CC      util-linux/wall.o
+  CC      libbb/utmp.o
+  CC      libbb/uuencode.o
+En el fichero incluido desde util-linux/unshare.c:72:
+util-linux/unshare.c: En la función ‘unshare_main’:
+include/libbb.h:626:27: aviso: ‘xpipe’ accessing 8 bytes in a region of size 4 [-Wstringop-overflow=]
+  626 | #define xpiped_pair(pair) xpipe(&((pair).rd))
+      |                           ^~~~~~~~~~~~~~~~~~~
+util-linux/unshare.c:287:17: nota: en expansión de macro ‘xpiped_pair’
+  287 |                 xpiped_pair(fdp);
+      |                 ^~~~~~~~~~~
+include/libbb.h:626:27: nota: referencing argument 1 of type ‘int[2]’
+  626 | #define xpiped_pair(pair) xpipe(&((pair).rd))
+      |                           ^~~~~~~~~~~~~~~~~~~
+util-linux/unshare.c:287:17: nota: en expansión de macro ‘xpiped_pair’
+  287 |                 xpiped_pair(fdp);
+      |                 ^~~~~~~~~~~
+include/libbb.h:622:6: nota: in a call to function ‘xpipe’
+  622 | void xpipe(int filedes[2]) FAST_FUNC;
+      |      ^~~~~
+  CC      libbb/verror_msg.o
+  CC      libbb/vfork_daemon_rexec.o
+  CC      libbb/warn_ignoring_args.o
+  AR      util-linux/lib.a
+  CC      libbb/wfopen.o
+  CC      libbb/wfopen_input.o
+  CC      libbb/write.o
+  CC      libbb/xatonum.o
+  CC      libbb/xconnect.o
+  CC      libbb/xfunc_die.o
+  CC      libbb/xfuncs.o
+  CC      libbb/xfuncs_printf.o
+  CC      libbb/xgetcwd.o
+  CC      libbb/xgethostbyname.o
+  CC      libbb/xreadlink.o
+  CC      libbb/xrealloc_vector.o
+  CC      libbb/xregcomp.o
+  AR      libbb/lib.a
+  LINK    busybox_unstripped
+Static linking against glibc, can't use --gc-sections
+Trying libraries: crypt m resolv rt
+ Library crypt is not needed, excluding it
+ Library m is needed, can't exclude it (yet)
+ Library resolv is needed, can't exclude it (yet)
+ Library rt is not needed, excluding it
+ Library m is needed, can't exclude it (yet)
+ Library resolv is needed, can't exclude it (yet)
+Final link with: m resolv
+  /tmp/aesd-autograder/rootfs//bin/arch -> busybox
+  /tmp/aesd-autograder/rootfs//bin/ash -> busybox
+  /tmp/aesd-autograder/rootfs//bin/base32 -> busybox
+  /tmp/aesd-autograder/rootfs//bin/base64 -> busybox
+  /tmp/aesd-autograder/rootfs//bin/cat -> busybox
+  /tmp/aesd-autograder/rootfs//bin/chattr -> busybox
+  /tmp/aesd-autograder/rootfs//bin/chgrp -> busybox
+  /tmp/aesd-autograder/rootfs//bin/chmod -> busybox
+  /tmp/aesd-autograder/rootfs//bin/chown -> busybox
+  /tmp/aesd-autograder/rootfs//bin/conspy -> busybox
+  /tmp/aesd-autograder/rootfs//bin/cp -> busybox
+  /tmp/aesd-autograder/rootfs//bin/cpio -> busybox
+  /tmp/aesd-autograder/rootfs//bin/cttyhack -> busybox
+  /tmp/aesd-autograder/rootfs//bin/date -> busybox
+  /tmp/aesd-autograder/rootfs//bin/dd -> busybox
+  /tmp/aesd-autograder/rootfs//bin/df -> busybox
+  /tmp/aesd-autograder/rootfs//bin/dmesg -> busybox
+  /tmp/aesd-autograder/rootfs//bin/dnsdomainname -> busybox
+  /tmp/aesd-autograder/rootfs//bin/dumpkmap -> busybox
+  /tmp/aesd-autograder/rootfs//bin/echo -> busybox
+  /tmp/aesd-autograder/rootfs//bin/ed -> busybox
+  /tmp/aesd-autograder/rootfs//bin/egrep -> busybox
+  /tmp/aesd-autograder/rootfs//bin/false -> busybox
+  /tmp/aesd-autograder/rootfs//bin/fatattr -> busybox
+  /tmp/aesd-autograder/rootfs//bin/fdflush -> busybox
+  /tmp/aesd-autograder/rootfs//bin/fgrep -> busybox
+  /tmp/aesd-autograder/rootfs//bin/fsync -> busybox
+  /tmp/aesd-autograder/rootfs//bin/getopt -> busybox
+  /tmp/aesd-autograder/rootfs//bin/grep -> busybox
+  /tmp/aesd-autograder/rootfs//bin/gunzip -> busybox
+  /tmp/aesd-autograder/rootfs//bin/gzip -> busybox
+  /tmp/aesd-autograder/rootfs//bin/hostname -> busybox
+  /tmp/aesd-autograder/rootfs//bin/hush -> busybox
+  /tmp/aesd-autograder/rootfs//bin/ionice -> busybox
+  /tmp/aesd-autograder/rootfs//bin/iostat -> busybox
+  /tmp/aesd-autograder/rootfs//bin/ipcalc -> busybox
+  /tmp/aesd-autograder/rootfs//bin/kbd_mode -> busybox
+  /tmp/aesd-autograder/rootfs//bin/kill -> busybox
+  /tmp/aesd-autograder/rootfs//bin/link -> busybox
+  /tmp/aesd-autograder/rootfs//bin/linux32 -> busybox
+  /tmp/aesd-autograder/rootfs//bin/linux64 -> busybox
+  /tmp/aesd-autograder/rootfs//bin/ln -> busybox
+  /tmp/aesd-autograder/rootfs//bin/login -> busybox
+  /tmp/aesd-autograder/rootfs//bin/ls -> busybox
+  /tmp/aesd-autograder/rootfs//bin/lsattr -> busybox
+  /tmp/aesd-autograder/rootfs//bin/lzop -> busybox
+  /tmp/aesd-autograder/rootfs//bin/makemime -> busybox
+  /tmp/aesd-autograder/rootfs//bin/mkdir -> busybox
+  /tmp/aesd-autograder/rootfs//bin/mknod -> busybox
+  /tmp/aesd-autograder/rootfs//bin/mktemp -> busybox
+  /tmp/aesd-autograder/rootfs//bin/more -> busybox
+  /tmp/aesd-autograder/rootfs//bin/mount -> busybox
+  /tmp/aesd-autograder/rootfs//bin/mountpoint -> busybox
+  /tmp/aesd-autograder/rootfs//bin/mpstat -> busybox
+  /tmp/aesd-autograder/rootfs//bin/mt -> busybox
+  /tmp/aesd-autograder/rootfs//bin/mv -> busybox
+  /tmp/aesd-autograder/rootfs//bin/netstat -> busybox
+  /tmp/aesd-autograder/rootfs//bin/nice -> busybox
+  /tmp/aesd-autograder/rootfs//bin/nuke -> busybox
+  /tmp/aesd-autograder/rootfs//bin/pidof -> busybox
+  /tmp/aesd-autograder/rootfs//bin/ping -> busybox
+  /tmp/aesd-autograder/rootfs//bin/ping6 -> busybox
+  /tmp/aesd-autograder/rootfs//bin/pipe_progress -> busybox
+  /tmp/aesd-autograder/rootfs//bin/printenv -> busybox
+  /tmp/aesd-autograder/rootfs//bin/ps -> busybox
+  /tmp/aesd-autograder/rootfs//bin/pwd -> busybox
+  /tmp/aesd-autograder/rootfs//bin/reformime -> busybox
+  /tmp/aesd-autograder/rootfs//bin/resume -> busybox
+  /tmp/aesd-autograder/rootfs//bin/rev -> busybox
+  /tmp/aesd-autograder/rootfs//bin/rm -> busybox
+  /tmp/aesd-autograder/rootfs//bin/rmdir -> busybox
+  /tmp/aesd-autograder/rootfs//bin/rpm -> busybox
+  /tmp/aesd-autograder/rootfs//bin/run-parts -> busybox
+  /tmp/aesd-autograder/rootfs//bin/scriptreplay -> busybox
+  /tmp/aesd-autograder/rootfs//bin/sed -> busybox
+  /tmp/aesd-autograder/rootfs//bin/setarch -> busybox
+  /tmp/aesd-autograder/rootfs//bin/setpriv -> busybox
+  /tmp/aesd-autograder/rootfs//bin/setserial -> busybox
+  /tmp/aesd-autograder/rootfs//bin/sh -> busybox
+  /tmp/aesd-autograder/rootfs//bin/sleep -> busybox
+  /tmp/aesd-autograder/rootfs//bin/stat -> busybox
+  /tmp/aesd-autograder/rootfs//bin/stty -> busybox
+  /tmp/aesd-autograder/rootfs//bin/su -> busybox
+  /tmp/aesd-autograder/rootfs//bin/sync -> busybox
+  /tmp/aesd-autograder/rootfs//bin/tar -> busybox
+  /tmp/aesd-autograder/rootfs//bin/touch -> busybox
+  /tmp/aesd-autograder/rootfs//bin/true -> busybox
+  /tmp/aesd-autograder/rootfs//bin/umount -> busybox
+  /tmp/aesd-autograder/rootfs//bin/uname -> busybox
+  /tmp/aesd-autograder/rootfs//bin/usleep -> busybox
+  /tmp/aesd-autograder/rootfs//bin/vi -> busybox
+  /tmp/aesd-autograder/rootfs//bin/watch -> busybox
+  /tmp/aesd-autograder/rootfs//bin/zcat -> busybox
+  /tmp/aesd-autograder/rootfs//linuxrc -> bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/acpid -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/adjtimex -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/arp -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/blkid -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/blockdev -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/bootchartd -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/depmod -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/devmem -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/fbsplash -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/fdisk -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/findfs -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/freeramdisk -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/fsck -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/fsck.minix -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/fstrim -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/getty -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/halt -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/hdparm -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/hwclock -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/ifconfig -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/ifdown -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/ifenslave -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/ifup -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/init -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/insmod -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/ip -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/ipaddr -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/iplink -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/ipneigh -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/iproute -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/iprule -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/iptunnel -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/klogd -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/loadkmap -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/logread -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/losetup -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/lsmod -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/makedevs -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/mdev -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/mkdosfs -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/mke2fs -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/mkfs.ext2 -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/mkfs.minix -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/mkfs.vfat -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/mkswap -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/modinfo -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/modprobe -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/nameif -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/pivot_root -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/poweroff -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/raidautorun -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/reboot -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/rmmod -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/route -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/run-init -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/runlevel -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/setconsole -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/slattach -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/start-stop-daemon -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/sulogin -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/swapoff -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/swapon -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/switch_root -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/sysctl -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/syslogd -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/tc -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/tunctl -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/udhcpc -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/uevent -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/vconfig -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/watchdog -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//sbin/zcip -> ../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/[ -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/[[ -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/awk -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/basename -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/bc -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/beep -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/blkdiscard -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/bunzip2 -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/bzcat -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/bzip2 -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/cal -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/chpst -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/chrt -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/chvt -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/cksum -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/clear -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/cmp -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/comm -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/crontab -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/cryptpw -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/cut -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/dc -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/deallocvt -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/diff -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/dirname -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/dos2unix -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/dpkg -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/dpkg-deb -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/du -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/dumpleases -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/eject -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/env -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/envdir -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/envuidgid -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/expand -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/expr -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/factor -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/fallocate -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/fgconsole -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/find -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/flock -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/fold -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/free -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/ftpget -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/ftpput -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/fuser -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/groups -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/hd -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/head -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/hexdump -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/hexedit -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/hostid -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/id -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/install -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/ipcrm -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/ipcs -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/killall -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/last -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/less -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/logger -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/logname -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/lpq -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/lpr -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/lsof -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/lspci -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/lsscsi -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/lsusb -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/lzcat -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/lzma -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/man -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/md5sum -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/mesg -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/microcom -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/mkfifo -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/mkpasswd -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/nc -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/nl -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/nmeter -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/nohup -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/nproc -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/nsenter -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/nslookup -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/od -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/openvt -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/passwd -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/paste -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/patch -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/pgrep -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/pkill -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/pmap -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/printf -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/pscan -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/pstree -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/pwdx -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/readlink -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/realpath -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/renice -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/reset -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/resize -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/rpm2cpio -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/runsv -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/runsvdir -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/rx -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/script -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/seq -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/setfattr -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/setkeycodes -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/setsid -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/setuidgid -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/sha1sum -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/sha256sum -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/sha3sum -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/sha512sum -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/showkey -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/shred -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/shuf -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/smemcap -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/softlimit -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/sort -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/split -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/ssl_client -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/strings -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/sum -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/sv -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/svc -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/svok -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/tac -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/tail -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/taskset -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/tcpsvd -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/tee -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/telnet -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/test -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/tftp -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/time -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/timeout -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/top -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/tr -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/traceroute -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/traceroute6 -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/truncate -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/ts -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/tty -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/ttysize -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/udhcpc6 -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/udpsvd -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/unexpand -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/uniq -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/unix2dos -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/unlink -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/unlzma -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/unshare -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/unxz -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/unzip -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/uptime -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/users -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/uudecode -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/uuencode -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/vlock -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/volname -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/w -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/wall -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/wc -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/wget -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/which -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/who -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/whoami -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/whois -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/xargs -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/xxd -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/xz -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/xzcat -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/bin/yes -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/add-shell -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/addgroup -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/adduser -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/arping -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/brctl -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/chat -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/chpasswd -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/chroot -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/crond -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/delgroup -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/deluser -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/dhcprelay -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/dnsd -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/ether-wake -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/fakeidentd -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/fbset -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/fdformat -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/fsfreeze -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/ftpd -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/httpd -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/i2cdetect -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/i2cdump -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/i2cget -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/i2cset -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/i2ctransfer -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/ifplugd -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/inetd -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/killall5 -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/loadfont -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/lpd -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/mim -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/nanddump -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/nandwrite -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/nbd-client -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/nologin -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/ntpd -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/partprobe -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/popmaildir -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/powertop -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/rdate -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/rdev -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/readahead -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/readprofile -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/remove-shell -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/rtcwake -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/sendmail -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/setfont -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/setlogcons -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/svlogd -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/telnetd -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/tftpd -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/ubiattach -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/ubidetach -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/ubimkvol -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/ubirename -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/ubirmvol -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/ubirsvol -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/ubiupdatevol -> ../../bin/busybox
+  /tmp/aesd-autograder/rootfs//usr/sbin/udhcpd -> ../../bin/busybox
+
+
+--------------------------------------------------
+You will probably need to make your busybox binary
+setuid root to ensure all configured applets will
+work properly.
+--------------------------------------------------
+
+.
+./tmp
+./bin
+./bin/fgrep
+./bin/chattr
+./bin/lzop
+./bin/echo
+./bin/linux32
+./bin/scriptreplay
+./bin/mkdir
+./bin/ln
+./bin/gzip
+./bin/true
+./bin/mount
+./bin/cttyhack
+./bin/ash
+./bin/linux64
+./bin/cp
+./bin/rm
+./bin/reformime
+./bin/stat
+./bin/rpm
+./bin/touch
+./bin/mountpoint
+./bin/busybox
+./bin/mt
+./bin/sync
+./bin/base64
+./bin/stty
+./bin/egrep
+./bin/chgrp
+./bin/dumpkmap
+./bin/arch
+./bin/kill
+./bin/mpstat
+./bin/dd
+./bin/zcat
+./bin/link
+./bin/dmesg
+./bin/iostat
+./bin/cpio
+./bin/login
+./bin/setserial
+./bin/su
+./bin/ionice
+./bin/setpriv
+./bin/usleep
+./bin/mknod
+./bin/df
+./bin/base32
+./bin/mv
+./bin/watch
+./bin/sleep
+./bin/gunzip
+./bin/ed
+./bin/fatattr
+./bin/ping
+./bin/getopt
+./bin/fdflush
+./bin/false
+./bin/pidof
+./bin/uname
+./bin/hush
+./bin/rmdir
+./bin/fsync
+./bin/sed
+./bin/sh
+./bin/kbd_mode
+./bin/printenv
+./bin/mktemp
+./bin/grep
+./bin/run-parts
+./bin/cat
+./bin/vi
+./bin/tar
+./bin/ps
+./bin/setarch
+./bin/ping6
+./bin/makemime
+./bin/umount
+./bin/ipcalc
+./bin/netstat
+./bin/more
+./bin/conspy
+./bin/lsattr
+./bin/date
+./bin/pipe_progress
+./bin/dnsdomainname
+./bin/nuke
+./bin/chown
+./bin/chmod
+./bin/resume
+./bin/pwd
+./bin/rev
+./bin/nice
+./bin/hostname
+./bin/ls
+./lib64
+./sys
+./etc
+./usr
+./usr/bin
+./usr/bin/which
+./usr/bin/id
+./usr/bin/tty
+./usr/bin/showkey
+./usr/bin/patch
+./usr/bin/pgrep
+./usr/bin/free
+./usr/bin/telnet
+./usr/bin/sum
+./usr/bin/softlimit
+./usr/bin/setfattr
+./usr/bin/cksum
+./usr/bin/nslookup
+./usr/bin/unxz
+./usr/bin/man
+./usr/bin/ipcrm
+./usr/bin/tee
+./usr/bin/lsusb
+./usr/bin/fold
+./usr/bin/sort
+./usr/bin/passwd
+./usr/bin/udpsvd
+./usr/bin/ts
+./usr/bin/pkill
+./usr/bin/sha1sum
+./usr/bin/users
+./usr/bin/fuser
+./usr/bin/chpst
+./usr/bin/hostid
+./usr/bin/tac
+./usr/bin/unix2dos
+./usr/bin/crontab
+./usr/bin/uniq
+./usr/bin/install
+./usr/bin/expr
+./usr/bin/logger
+./usr/bin/fallocate
+./usr/bin/head
+./usr/bin/wall
+./usr/bin/unlink
+./usr/bin/lpr
+./usr/bin/uuencode
+./usr/bin/lzma
+./usr/bin/smemcap
+./usr/bin/comm
+./usr/bin/unshare
+./usr/bin/renice
+./usr/bin/bzip2
+./usr/bin/nproc
+./usr/bin/uptime
+./usr/bin/setuidgid
+./usr/bin/realpath
+./usr/bin/flock
+./usr/bin/time
+./usr/bin/logname
+./usr/bin/expand
+./usr/bin/[
+./usr/bin/nl
+./usr/bin/pmap
+./usr/bin/tftp
+./usr/bin/awk
+./usr/bin/lspci
+./usr/bin/ftpget
+./usr/bin/sha512sum
+./usr/bin/hexdump
+./usr/bin/lsof
+./usr/bin/xxd
+./usr/bin/envuidgid
+./usr/bin/who
+./usr/bin/printf
+./usr/bin/find
+./usr/bin/nsenter
+./usr/bin/svc
+./usr/bin/udhcpc6
+./usr/bin/traceroute6
+./usr/bin/[[
+./usr/bin/md5sum
+./usr/bin/cryptpw
+./usr/bin/factor
+./usr/bin/dos2unix
+./usr/bin/blkdiscard
+./usr/bin/microcom
+./usr/bin/uudecode
+./usr/bin/mkpasswd
+./usr/bin/svok
+./usr/bin/runsvdir
+./usr/bin/runsv
+./usr/bin/resize
+./usr/bin/du
+./usr/bin/paste
+./usr/bin/fgconsole
+./usr/bin/whoami
+./usr/bin/sv
+./usr/bin/wget
+./usr/bin/od
+./usr/bin/yes
+./usr/bin/env
+./usr/bin/cut
+./usr/bin/basename
+./usr/bin/xargs
+./usr/bin/mesg
+./usr/bin/bc
+./usr/bin/nc
+./usr/bin/readlink
+./usr/bin/timeout
+./usr/bin/lzcat
+./usr/bin/setkeycodes
+./usr/bin/pscan
+./usr/bin/pwdx
+./usr/bin/killall
+./usr/bin/envdir
+./usr/bin/sha3sum
+./usr/bin/last
+./usr/bin/bzcat
+./usr/bin/dpkg
+./usr/bin/lpq
+./usr/bin/wc
+./usr/bin/setsid
+./usr/bin/strings
+./usr/bin/tail
+./usr/bin/pstree
+./usr/bin/hexedit
+./usr/bin/split
+./usr/bin/shuf
+./usr/bin/tcpsvd
+./usr/bin/hd
+./usr/bin/groups
+./usr/bin/tr
+./usr/bin/ttysize
+./usr/bin/diff
+./usr/bin/rpm2cpio
+./usr/bin/reset
+./usr/bin/xz
+./usr/bin/truncate
+./usr/bin/lsscsi
+./usr/bin/dumpleases
+./usr/bin/less
+./usr/bin/seq
+./usr/bin/top
+./usr/bin/dpkg-deb
+./usr/bin/dirname
+./usr/bin/chrt
+./usr/bin/bunzip2
+./usr/bin/rx
+./usr/bin/volname
+./usr/bin/nohup
+./usr/bin/taskset
+./usr/bin/traceroute
+./usr/bin/unlzma
+./usr/bin/nmeter
+./usr/bin/whois
+./usr/bin/xzcat
+./usr/bin/unexpand
+./usr/bin/shred
+./usr/bin/beep
+./usr/bin/ftpput
+./usr/bin/ipcs
+./usr/bin/script
+./usr/bin/cal
+./usr/bin/mkfifo
+./usr/bin/vlock
+./usr/bin/eject
+./usr/bin/openvt
+./usr/bin/chvt
+./usr/bin/sha256sum
+./usr/bin/test
+./usr/bin/w
+./usr/bin/deallocvt
+./usr/bin/dc
+./usr/bin/cmp
+./usr/bin/unzip
+./usr/bin/ssl_client
+./usr/bin/clear
+./usr/sbin
+./usr/sbin/ubirsvol
+./usr/sbin/ubirmvol
+./usr/sbin/add-shell
+./usr/sbin/ubiupdatevol
+./usr/sbin/sendmail
+./usr/sbin/i2cdetect
+./usr/sbin/fdformat
+./usr/sbin/i2ctransfer
+./usr/sbin/setfont
+./usr/sbin/rtcwake
+./usr/sbin/ether-wake
+./usr/sbin/fakeidentd
+./usr/sbin/dnsd
+./usr/sbin/dhcprelay
+./usr/sbin/i2cdump
+./usr/sbin/nologin
+./usr/sbin/mim
+./usr/sbin/inetd
+./usr/sbin/adduser
+./usr/sbin/remove-shell
+./usr/sbin/addgroup
+./usr/sbin/crond
+./usr/sbin/delgroup
+./usr/sbin/i2cget
+./usr/sbin/loadfont
+./usr/sbin/nbd-client
+./usr/sbin/killall5
+./usr/sbin/fbset
+./usr/sbin/tftpd
+./usr/sbin/svlogd
+./usr/sbin/ftpd
+./usr/sbin/chpasswd
+./usr/sbin/popmaildir
+./usr/sbin/deluser
+./usr/sbin/ifplugd
+./usr/sbin/lpd
+./usr/sbin/nanddump
+./usr/sbin/rdev
+./usr/sbin/httpd
+./usr/sbin/setlogcons
+./usr/sbin/nandwrite
+./usr/sbin/chroot
+./usr/sbin/rdate
+./usr/sbin/fsfreeze
+./usr/sbin/ubiattach
+./usr/sbin/readahead
+./usr/sbin/udhcpd
+./usr/sbin/ubirename
+./usr/sbin/telnetd
+./usr/sbin/ntpd
+./usr/sbin/partprobe
+./usr/sbin/readprofile
+./usr/sbin/chat
+./usr/sbin/brctl
+./usr/sbin/i2cset
+./usr/sbin/ubimkvol
+./usr/sbin/arping
+./usr/sbin/powertop
+./usr/sbin/ubidetach
+./sbin
+./sbin/rmmod
+./sbin/udhcpc
+./sbin/poweroff
+./sbin/logread
+./sbin/run-init
+./sbin/findfs
+./sbin/swapon
+./sbin/blockdev
+./sbin/ipneigh
+./sbin/loadkmap
+./sbin/raidautorun
+./sbin/hdparm
+./sbin/reboot
+./sbin/iptunnel
+./sbin/iplink
+./sbin/pivot_root
+./sbin/mkswap
+./sbin/sulogin
+./sbin/uevent
+./sbin/tunctl
+./sbin/zcip
+./sbin/ifenslave
+./sbin/sysctl
+./sbin/start-stop-daemon
+./sbin/mkfs.vfat
+./sbin/ipaddr
+./sbin/klogd
+./sbin/fsck
+./sbin/arp
+./sbin/mkfs.minix
+./sbin/halt
+./sbin/mkdosfs
+./sbin/makedevs
+./sbin/watchdog
+./sbin/iproute
+./sbin/adjtimex
+./sbin/runlevel
+./sbin/freeramdisk
+./sbin/slattach
+./sbin/ifconfig
+./sbin/swapoff
+./sbin/fsck.minix
+./sbin/modprobe
+./sbin/tc
+./sbin/fbsplash
+./sbin/ip
+./sbin/route
+./sbin/acpid
+./sbin/init
+./sbin/ifup
+./sbin/fdisk
+./sbin/blkid
+./sbin/setconsole
+./sbin/mkfs.ext2
+./sbin/switch_root
+./sbin/vconfig
+./sbin/lsmod
+./sbin/iprule
+./sbin/mke2fs
+./sbin/hwclock
+./sbin/modinfo
+./sbin/insmod
+./sbin/losetup
+./sbin/nameif
+./sbin/syslogd
+./sbin/bootchartd
+./sbin/getty
+./sbin/mdev
+./sbin/ifdown
+./sbin/devmem
+./sbin/depmod
+./sbin/fstrim
+./dev
+./dev/console
+./dev/null
+./lib
+./home
+./home/writer.sh
+./home/finder.sh
+./home/autorun-qemu.sh
+./home/conf
+./home/conf/username.txt
+./home/conf/assignment.txt
+./home/finder-test.sh
+./home/writer
+./proc
+./var
+./linuxrc
+4141 bloques
+✅ Build complete: Kernel image and initramfs created in /tmp/aesd-autograder
+~/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/assignment3 ~/Documentos/aesd/repo/assignments-3-and-later-4trastos
+~/Documentos/aesd/repo/assignments-3-and-later-4trastos/finder-app ~/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/assignment3 ~/Documentos/aesd/repo/assignments-3-and-later-4trastos
+Kick off qemu in the background
+Wait for app to finish
+Booting the kernel
+[    0.000000] Booting Linux on physical CPU 0x0000000000 [0x410fd034]
+[    0.000000] Linux version 5.15.163 (davgalle@davgalle-MacBookPro) (aarch64-none-linux-gnu-gcc (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 13.3.1 20240614, GNU ld (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 2.42.0.20240614) #1 SMP PREEMPT Wed Jul 23 15:38:08 CEST 2025
+[    0.000000] Machine model: linux,dummy-virt
+[    0.000000] efi: UEFI not found.
+[    0.000000] NUMA: No NUMA configuration found
+[    0.000000] NUMA: Faking a node at [mem 0x0000000040000000-0x000000004fffffff]
+[    0.000000] NUMA: NODE_DATA [mem 0x4ff73c00-0x4ff75fff]
+[    0.000000] Zone ranges:
+[    0.000000]   DMA      [mem 0x0000000040000000-0x000000004fffffff]
+[    0.000000]   DMA32    empty
+[    0.000000]   Normal   empty
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x0000000040000000-0x000000004fffffff]
+[    0.000000] Initmem setup node 0 [mem 0x0000000040000000-0x000000004fffffff]
+[    0.000000] cma: Reserved 32 MiB at 0x000000004d800000
+[    0.000000] psci: probing for conduit method from DT.
+[    0.000000] psci: PSCIv0.2 detected in firmware.
+[    0.000000] psci: Using standard PSCI v0.2 function IDs
+[    0.000000] psci: Trusted OS migration not required
+[    0.000000] percpu: Embedded 20 pages/cpu s41560 r8192 d32168 u81920
+[    0.000000] Detected VIPT I-cache on CPU0
+[    0.000000] CPU features: kernel page table isolation forced ON by KASLR
+[    0.000000] CPU features: detected: Kernel page table isolation (KPTI)
+[    0.000000] CPU features: detected: ARM erratum 843419
+[    0.000000] CPU features: detected: ARM erratum 845719
+[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 64512
+[    0.000000] Policy zone: DMA
+[    0.000000] Kernel command line: rdinit=/home/autorun-qemu.sh console=ttyAMA0
+[    0.000000] Dentry cache hash table entries: 32768 (order: 6, 262144 bytes, linear)
+[    0.000000] Inode-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+[    0.000000] mem auto-init: stack:all(zero), heap alloc:off, heap free:off
+[    0.000000] Memory: 188656K/262144K available (15232K kernel code, 3092K rwdata, 8288K rodata, 6208K init, 497K bss, 40720K reserved, 32768K cma-reserved)
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[    0.000000] rcu: Preemptible hierarchical RCU implementation.
+[    0.000000] rcu: 	RCU event tracing is enabled.
+[    0.000000] rcu: 	RCU restricting CPUs from NR_CPUS=256 to nr_cpu_ids=1.
+[    0.000000] 	Trampoline variant of Tasks RCU enabled.
+[    0.000000] rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+[    0.000000] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1
+[    0.000000] NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0
+[    0.000000] Root IRQ handler: gic_handle_irq
+[    0.000000] GICv2m: range[mem 0x08020000-0x08020fff], SPI[80:143]
+[    0.000000] arch_timer: cp15 timer(s) running at 62.50MHz (virt).
+[    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x1cd42e208c, max_idle_ns: 881590405314 ns
+[    0.000088] sched_clock: 56 bits at 62MHz, resolution 16ns, wraps every 4398046511096ns
+[    0.008741] Console: colour dummy device 80x25
+[    0.011064] Calibrating delay loop (skipped), value calculated using timer frequency.. 125.00 BogoMIPS (lpj=250000)
+[    0.011203] pid_max: default: 32768 minimum: 301
+[    0.012255] LSM: Security Framework initializing
+[    0.015065] Mount-cache hash table entries: 512 (order: 0, 4096 bytes, linear)
+[    0.015108] Mountpoint-cache hash table entries: 512 (order: 0, 4096 bytes, linear)
+[    0.040623] /cpus/cpu-map: empty cluster
+[    0.048876] rcu: Hierarchical SRCU implementation.
+[    0.053043] EFI services will not be available.
+[    0.053486] smp: Bringing up secondary CPUs ...
+[    0.053669] smp: Brought up 1 node, 1 CPU
+[    0.053703] SMP: Total of 1 processors activated.
+[    0.053764] CPU features: detected: 32-bit EL0 Support
+[    0.053789] CPU features: detected: 32-bit EL1 Support
+[    0.053854] CPU features: detected: CRC32 instructions
+[    0.072963] CPU: All CPU(s) started at EL1
+[    0.073494] alternatives: patching kernel code
+[    0.087801] devtmpfs: initialized
+[    0.096272] KASLR enabled
+[    0.097402] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+[    0.097668] futex hash table entries: 256 (order: 2, 16384 bytes, linear)
+[    0.103266] pinctrl core: initialized pinctrl subsystem
+[    0.114261] DMI not present or invalid.
+[    0.121767] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+[    0.131915] DMA: preallocated 128 KiB GFP_KERNEL pool for atomic allocations
+[    0.132328] DMA: preallocated 128 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+[    0.132546] DMA: preallocated 128 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+[    0.132799] audit: initializing netlink subsys (disabled)
+[    0.139177] audit: type=2000 audit(0.124:1): state=initialized audit_enabled=0 res=1
+[    0.140668] thermal_sys: Registered thermal governor 'step_wise'
+[    0.140714] thermal_sys: Registered thermal governor 'power_allocator'
+[    0.143307] cpuidle: using governor menu
+[    0.144240] hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+[    0.144943] ASID allocator initialised with 32768 entries
+[    0.149289] Serial: AMBA PL011 UART driver
+[    0.184349] 9000000.pl011: ttyAMA0 at MMIO 0x9000000 (irq = 47, base_baud = 0) is a PL011 rev1
+[    0.209726] printk: console [ttyAMA0] enabled
+[    0.243876] HugeTLB registered 1.00 GiB page size, pre-allocated 0 pages
+[    0.244328] HugeTLB registered 32.0 MiB page size, pre-allocated 0 pages
+[    0.244696] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+[    0.245066] HugeTLB registered 64.0 KiB page size, pre-allocated 0 pages
+[    0.256273] cryptd: max_cpu_qlen set to 1000
+[    0.264915] ACPI: Interpreter disabled.
+[    0.270024] iommu: Default domain type: Translated 
+[    0.270427] iommu: DMA domain TLB invalidation policy: strict mode 
+[    0.272547] vgaarb: loaded
+[    0.274350] SCSI subsystem initialized
+[    0.277317] usbcore: registered new interface driver usbfs
+[    0.277954] usbcore: registered new interface driver hub
+[    0.278489] usbcore: registered new device driver usb
+[    0.281064] pps_core: LinuxPPS API ver. 1 registered
+[    0.281387] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    0.282033] PTP clock support registered
+[    0.282797] EDAC MC: Ver: 3.0.0
+[    0.287316] FPGA manager framework
+[    0.288326] Advanced Linux Sound Architecture Driver Initialized.
+[    0.301193] clocksource: Switched to clocksource arch_sys_counter
+[    0.302549] VFS: Disk quotas dquot_6.6.0
+[    0.303004] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    0.306588] pnp: PnP ACPI: disabled
+[    0.321877] NET: Registered PF_INET protocol family
+[    0.323327] IP idents hash table entries: 4096 (order: 3, 32768 bytes, linear)
+[    0.328615] tcp_listen_portaddr_hash hash table entries: 256 (order: 0, 4096 bytes, linear)
+[    0.330115] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+[    0.330629] TCP established hash table entries: 2048 (order: 2, 16384 bytes, linear)
+[    0.331274] TCP bind hash table entries: 2048 (order: 3, 32768 bytes, linear)
+[    0.331848] TCP: Hash tables configured (established 2048 bind 2048)
+[    0.333410] UDP hash table entries: 256 (order: 1, 8192 bytes, linear)
+[    0.334074] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes, linear)
+[    0.335856] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[    0.339086] RPC: Registered named UNIX socket transport module.
+[    0.339633] RPC: Registered udp transport module.
+[    0.339908] RPC: Registered tcp transport module.
+[    0.340191] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    0.340701] PCI: CLS 0 bytes, default 64
+[    0.348877] Unpacking initramfs...
+[    0.353335] hw perfevents: enabled with armv8_pmuv3 PMU driver, 5 counters available
+[    0.354440] kvm [1]: HYP mode not available
+[    0.412155] Initialise system trusted keyrings
+[    0.414779] workingset: timestamp_bits=42 max_order=16 bucket_order=0
+[    0.440832] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[    0.450385] NFS: Registering the id_resolver key type
+[    0.451199] Key type id_resolver registered
+[    0.451481] Key type id_legacy registered
+[    0.452163] nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+[    0.452638] nfs4flexfilelayout_init: NFSv4 Flexfile Layout Driver Registering...
+[    0.458136] 9p: Installing v9fs 9p2000 file system support
+[    0.503078] Freeing initrd memory: 1104K
+[    0.509384] Key type asymmetric registered
+[    0.509790] Asymmetric key parser 'x509' registered
+[    0.510447] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 245)
+[    0.511006] io scheduler mq-deadline registered
+[    0.511367] io scheduler kyber registered
+[    0.531134] pl061_gpio 9030000.pl061: PL061 GPIO chip registered
+[    0.537841] pci-host-generic 4010000000.pcie: host bridge /pcie@10000000 ranges:
+[    0.539145] pci-host-generic 4010000000.pcie:       IO 0x003eff0000..0x003effffff -> 0x0000000000
+[    0.540167] pci-host-generic 4010000000.pcie:      MEM 0x0010000000..0x003efeffff -> 0x0010000000
+[    0.540756] pci-host-generic 4010000000.pcie:      MEM 0x8000000000..0xffffffffff -> 0x8000000000
+[    0.541924] pci-host-generic 4010000000.pcie: Memory resource size exceeds max for 32 bits
+[    0.542911] pci-host-generic 4010000000.pcie: ECAM at [mem 0x4010000000-0x401fffffff] for [bus 00-ff]
+[    0.544587] pci-host-generic 4010000000.pcie: PCI host bridge to bus 0000:00
+[    0.545350] pci_bus 0000:00: root bus resource [bus 00-ff]
+[    0.545796] pci_bus 0000:00: root bus resource [io  0x0000-0xffff]
+[    0.546161] pci_bus 0000:00: root bus resource [mem 0x10000000-0x3efeffff]
+[    0.546558] pci_bus 0000:00: root bus resource [mem 0x8000000000-0xffffffffff]
+[    0.548594] pci 0000:00:00.0: [1b36:0008] type 00 class 0x060000
+[    0.552841] pci 0000:00:01.0: [1af4:1000] type 00 class 0x020000
+[    0.553657] pci 0000:00:01.0: reg 0x10: [io  0x0000-0x001f]
+[    0.554066] pci 0000:00:01.0: reg 0x14: [mem 0x00000000-0x00000fff]
+[    0.554547] pci 0000:00:01.0: reg 0x20: [mem 0x00000000-0x00003fff 64bit pref]
+[    0.554933] pci 0000:00:01.0: reg 0x30: [mem 0x00000000-0x0007ffff pref]
+[    0.559217] pci 0000:00:01.0: BAR 6: assigned [mem 0x10000000-0x1007ffff pref]
+[    0.560040] pci 0000:00:01.0: BAR 4: assigned [mem 0x8000000000-0x8000003fff 64bit pref]
+[    0.560738] pci 0000:00:01.0: BAR 1: assigned [mem 0x10080000-0x10080fff]
+[    0.561414] pci 0000:00:01.0: BAR 0: assigned [io  0x1000-0x101f]
+[    0.569936] EINJ: ACPI disabled.
+[    0.599744] virtio-pci 0000:00:01.0: enabling device (0000 -> 0003)
+[    0.614337] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+[    0.620560] SuperH (H)SCI(F) driver initialized
+[    0.622045] msm_serial: driver initialized
+[    0.625919] cacheinfo: Unable to detect cache hierarchy for CPU 0
+[    0.645011] loop: module loaded
+[    0.647545] megasas: 07.717.02.00-rc1
+[    0.654104] physmap-flash 0.flash: physmap platform flash device: [mem 0x00000000-0x03ffffff]
+[    0.656024] 0.flash: Found 2 x16 devices at 0x0 in 32-bit bank. Manufacturer ID 0x000000 Chip ID 0x000000
+[    0.656962] Intel/Sharp Extended Query Table at 0x0031
+[    0.658563] Using buffer write method
+[    0.659672] physmap-flash 0.flash: physmap platform flash device: [mem 0x04000000-0x07ffffff]
+[    0.661062] 0.flash: Found 2 x16 devices at 0x0 in 32-bit bank. Manufacturer ID 0x000000 Chip ID 0x000000
+[    0.662038] Intel/Sharp Extended Query Table at 0x0031
+[    0.663212] Using buffer write method
+[    0.663784] Concatenating MTD devices:
+[    0.664033] (0): "0.flash"
+[    0.664198] (1): "0.flash"
+[    0.664357] into device "0.flash"
+[    0.743452] tun: Universal TUN/TAP device driver, 1.6
+[    0.756406] thunder_xcv, ver 1.0
+[    0.756924] thunder_bgx, ver 1.0
+[    0.757835] nicpf, ver 1.0
+[    0.760938] hns3: Hisilicon Ethernet Network Driver for Hip08 Family - version
+[    0.761570] hns3: Copyright (c) 2017 Huawei Corporation.
+[    0.762259] hclge is initializing
+[    0.762668] e1000: Intel(R) PRO/1000 Network Driver
+[    0.763015] e1000: Copyright (c) 1999-2006 Intel Corporation.
+[    0.763575] e1000e: Intel(R) PRO/1000 Network Driver
+[    0.763937] e1000e: Copyright(c) 1999 - 2015 Intel Corporation.
+[    0.764468] igb: Intel(R) Gigabit Ethernet Network Driver
+[    0.764836] igb: Copyright (c) 2007-2014 Intel Corporation.
+[    0.765427] igbvf: Intel(R) Gigabit Virtual Function Network Driver
+[    0.765910] igbvf: Copyright (c) 2009 - 2012 Intel Corporation.
+[    0.766961] sky2: driver version 1.30
+[    0.769676] VFIO - User Level meta-driver version: 0.3
+[    0.775154] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    0.775760] ehci-pci: EHCI PCI platform driver
+[    0.776299] ehci-platform: EHCI generic platform driver
+[    0.776961] ehci-orion: EHCI orion driver
+[    0.777791] ehci-exynos: EHCI Exynos driver
+[    0.778435] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    0.779005] ohci-pci: OHCI PCI platform driver
+[    0.779618] ohci-platform: OHCI generic platform driver
+[    0.780367] ohci-exynos: OHCI Exynos driver
+[    0.782594] usbcore: registered new interface driver usb-storage
+[    0.791418] rtc-pl031 9010000.pl031: registered as rtc0
+[    0.792640] rtc-pl031 9010000.pl031: setting system clock to 2025-07-23T15:37:22 UTC (1753285042)
+[    0.795675] i2c_dev: i2c /dev entries driver
+[    0.807881] sdhci: Secure Digital Host Controller Interface driver
+[    0.808188] sdhci: Copyright(c) Pierre Ossman
+[    0.810964] Synopsys Designware Multimedia Card Interface Driver
+[    0.813598] sdhci-pltfm: SDHCI platform and OF driver helper
+[    0.816912] ledtrig-cpu: registered to indicate activity on CPUs
+[    0.821723] usbcore: registered new interface driver usbhid
+[    0.822075] usbhid: USB HID core driver
+[    0.834293] NET: Registered PF_PACKET protocol family
+[    0.836099] 9pnet: Installing 9P2000 support
+[    0.836810] Key type dns_resolver registered
+[    0.838831] Loading compiled-in X.509 certificates
+[    0.851305] input: gpio-keys as /devices/platform/gpio-keys/input/input0
+[    0.859047] clk: Disabling unused clocks
+[    0.859723] ALSA device list:
+[    0.859997]   No soundcards found.
+[    0.864697] uart-pl011 9000000.pl011: no DMA platform data
+[    0.910640] Freeing unused kernel memory: 6208K
+[    0.911711] Run /home/autorun-qemu.sh as init process
+Running test script
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+The number of files are 10 and the number of matching lines are 10
+success
+Completed with success!!
+finder-app execution complete, dropping to terminal
+qemu-system-aarch64: terminating on signal 15 from pid 309227 ()
+~/Documentos/aesd/repo/assignments-3-and-later-4trastos/assignment-autotest/test/assignment3 ~/Documentos/aesd/repo/assignments-3-and-later-4trastos
+Test of assignment assignment3 complete with success
