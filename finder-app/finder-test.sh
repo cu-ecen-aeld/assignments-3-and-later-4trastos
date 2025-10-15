@@ -1,74 +1,65 @@
 #!/bin/sh
-# finder-test.sh (corregido para Buildroot)
-# Tester script for assignment 1 and assignment 2
-# Autor: Adaptado por ChatGPT
+# finder-test-fixed.sh
+# Tester script for assignment 1 and assignment 2 (robust version)
+# Uses absolute paths and writer.sh for Buildroot
 
 set -e
 set -u
 
-# Valores por defecto
+# Configuración por defecto
 NUMFILES=10
-WRITESTR=AELD_IS_FUN
-WRITEDIR=/tmp/aeld-data
+WRITESTR="AELD_IS_FUN"
+WRITEDIR="/tmp/aeld-data"
+CONF_DIR="/etc/finder-app/conf"
+WRITER="/etc/finder-app/writer.sh"
+FINDER="/etc/finder-app/finder.sh"
 
-# Leer username y assignment de los archivos de configuración
-CONFIG_DIR=/etc/finder-app/conf
-username=$(cat "$CONFIG_DIR/username.txt")
-assignment=$(cat "$CONFIG_DIR/assignment.txt")
+# Leer usuario y asignación desde conf
+if [ ! -f "$CONF_DIR/username.txt" ] || [ ! -f "$CONF_DIR/assignment.txt" ]; then
+    echo "Error: Missing conf files in $CONF_DIR"
+    exit 1
+fi
 
-# Manejo de argumentos
-if [ $# -lt 3 ]; then
-    echo "Using default value ${WRITESTR} for string to write"
-    if [ $# -lt 1 ]; then
-        echo "Using default value ${NUMFILES} for number of files to write"
-    else
-        NUMFILES=$1
-    fi
-else
+username=$(cat "$CONF_DIR/username.txt")
+assignment=$(cat "$CONF_DIR/assignment.txt")
+
+# Sobrescribir valores si se pasan argumentos
+if [ $# -ge 1 ]; then
     NUMFILES=$1
+fi
+if [ $# -ge 2 ]; then
     WRITESTR=$2
-    WRITEDIR=/tmp/aeld-data/$3
+fi
+if [ $# -ge 3 ]; then
+    WRITEDIR="/tmp/aeld-data/$3"
 fi
 
 MATCHSTR="The number of files are ${NUMFILES} and the number of matching lines are ${NUMFILES}"
 
-echo "Writing ${NUMFILES} files containing string ${WRITESTR} to ${WRITEDIR}"
+echo "Writing ${NUMFILES} files containing string '${WRITESTR}' to ${WRITEDIR}"
 
-# Limpiar directorio anterior
-rm -rf "${WRITEDIR}"
+# Limpiar y crear directorio de escritura
+rm -rf "$WRITEDIR"
+mkdir -p "$WRITEDIR"
 
-# Crear directorio solo si no es assignment1
-if [ "$assignment" != "assignment1" ]; then
-    mkdir -p "$WRITEDIR"
-    if [ -d "$WRITEDIR" ]; then
-        echo "$WRITEDIR created"
-    else
-        echo "Error: Failed to create directory"
-        exit 1
-    fi
-fi
-
-# Escribir archivos usando writer.sh en lugar de binario ELF
+# Crear archivos usando writer.sh
 for i in $(seq 1 $NUMFILES); do
-    /etc/finder-app/writer.sh "$WRITEDIR/${username}_$i.txt" "$WRITESTR"
+    sh "$WRITER" "$WRITEDIR/${username}_$i.txt" "$WRITESTR"
 done
 
-# Ejecutar finder.sh y capturar salida
-OUTPUTSTRING=$(/etc/finder-app/finder.sh "$WRITEDIR" "$WRITESTR")
+# Ejecutar finder.sh
+OUTPUTSTRING=$(sh "$FINDER" "$WRITEDIR" "$WRITESTR")
 
-# Guardar resultado en assignment4-result.txt
+# Guardar resultado
 echo "$OUTPUTSTRING" > /tmp/assignment4-result.txt
 
-# Limpiar archivos temporales
-rm -rf /tmp/aeld-data
-
-# Verificar resultado
-set +e
-echo "$OUTPUTSTRING" | grep "${MATCHSTR}"
+# Validación
+echo "$OUTPUTSTRING" | grep -q "$MATCHSTR"
 if [ $? -eq 0 ]; then
     echo "success"
     exit 0
 else
-    echo "failed: expected '${MATCHSTR}' in ${OUTPUTSTRING} but instead found"
+    echo "failed: expected '${MATCHSTR}' in output but found:"
+    echo "$OUTPUTSTRING"
     exit 1
 fi
