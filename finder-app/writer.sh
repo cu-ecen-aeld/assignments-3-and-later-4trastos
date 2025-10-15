@@ -1,38 +1,32 @@
 #!/bin/sh
 
-# writer.sh
-# Arguments:
-#   $1 - full path to the file to write (writefile)
-#   $2 - string to write into the file (writestr)
+# writer.sh created by Andrea Fuggetta for assignment 1
 
-# Check if both arguments are provided
-if [ $# -ne 2 ]; then
-    echo "Error: Two arguments required."
-    echo "Usage: $0 <writefile> <writestr>"
+# We are expecting two arguments:
+# - filepath
+# - filecontent
+if [ "$#" -ne 2 ]; then
+    echo "Error: missing parameter(s). You need to provide two arguments."
     exit 1
 fi
 
-writefile=$1
-writestr=$2
+# Store arguments into variables
+FILEPATH=$1
+WRITESTR=$2
 
-# Extract directory path from the file path
-dirpath=$(dirname "$writefile")
+DIRPATH=$(dirname "$FILEPATH")
 
-# Check if directory exists, if not create it
-if [ ! -d "$dirpath" ]; then
-    mkdir -p "$dirpath" || {
-        echo "Error: Could not create directory $dirpath"
-        exit 1
-    }
+# Directory in $1 has to exist
+if [ ! -d "$DIRPATH" ]; then
+    mkdir -p "$DIRPATH"
 fi
 
-# Write the string into the file (overwrite)
-echo "$writestr" > "$writefile" 2>/dev/null
+echo "$WRITESTR" >> "$FILEPATH"
 
-# Check if writing succeeded
-if [ $? -ne 0 ]; then
-    echo "Error: Failed to write to file $writefile"
+# Directory in $1 has to exist
+if [ -f "$FILEPATH" ]; then
+    echo "$FILEPATH created"
+else
+    echo "Error: Failed to create file!"
     exit 1
 fi
-
-exit 0

@@ -1,29 +1,35 @@
 #!/bin/sh
 
-# Check if exactly two arguments are provided
+# finder.sh created by Andrea Fuggetta for assignment 1
+
+# We are expecting two arguments:
+# - filesdir
+# - searchstr
 if [ "$#" -ne 2 ]; then
-    echo "Error: Two arguments required."
-    echo "Usage: $0 <directory> <search_string>"
+    echo "Error: missing parameter(s). You need to provide two arguments."
     exit 1
 fi
 
-filesdir="$1"
-searchstr="$2"
+# Store arguments into variables
+WRITEDIR=$1
+WRITESTR=$2
 
-# Check if the directory exists
-if [ ! -d "$filesdir" ]; then
-    echo "Error: '$filesdir' is not a valid directory."
+# Directory in $1 has to exist
+if [ -d "$WRITEDIR" ]; then
+    echo "$WRITEDIR created"
+else
+    echo "Error: directory passed does not exist!"
     exit 1
 fi
 
-# Count number of files (recursively)
-num_files=$(find "$filesdir" -type f | wc -l)
+FILENUMBER=0
+MATCHNUMBER=0
+for FILE in "$WRITEDIR"/*; do
+    if [ -f "$FILE" ]; then
+        FILENUMBER=$((FILENUMBER + 1))
+        TEMPMATCHNUMBER=$(grep -o "$WRITESTR" "$FILE" | wc -l)
+        MATCHNUMBER=$((MATCHNUMBER + $TEMPMATCHNUMBER))
+    fi
+done
 
-# Count matching lines
-num_matches=$(grep -r "$searchstr" "$filesdir" 2>/dev/null | wc -l)
-
-# Output as per requirement
-echo "The number of files are $num_files and the number of matching lines are $num_matches"
-
-# Exit successfully
-exit 0
+echo "The number of files are $FILENUMBER and the number of matching lines are $MATCHNUMBER"
