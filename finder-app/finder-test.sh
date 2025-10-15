@@ -9,6 +9,7 @@ NUMFILES=10
 WRITESTR=AELD_IS_FUN
 WRITEDIR=/tmp/aeld-data
 username=$(cat /etc/finder-app/conf/username.txt)
+assignment=$(cat /etc/finder-app/conf/assignment.txt)
 
 if [ $# -lt 3 ]
 then
