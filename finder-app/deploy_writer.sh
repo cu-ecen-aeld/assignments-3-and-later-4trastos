@@ -1,25 +1,19 @@
 #!/bin/sh
 # deploy_writer.sh
-# Compila writer.c para ARM64 y lo copia al rootfs Buildroot
+# Compila writer.c para ARM64 y lo copia al rootfs de Buildroot
 
 set -e
 
-# Ruta al rootfs Buildroot
-ROOTFS=/etc/finder-app/rootfs
+# Ruta al rootfs del sistema embebido
+ROOTFS=~/Documentos/Linux_Development/assignment-4-4trastos/buildroot/output/target
 
-# Directorio donde está writer.c y Makefile
-SRC_DIR=$(pwd)
-
-# Compilar writer
 echo "Compiling writer.c for ARM64..."
+make clean
 make CROSS_COMPILE=aarch64-linux-gnu-
 
-# Crear carpeta bin en rootfs si no existe
-mkdir -p "$ROOTFS/bin"
-
-# Copiar binario
 echo "Deploying writer to $ROOTFS/bin..."
+mkdir -p "$ROOTFS/bin"
 cp writer "$ROOTFS/bin/writer"
 chmod +x "$ROOTFS/bin/writer"
 
-echo "Deployment completed successfully!"
+echo "✅ Deployment completed successfully!"
