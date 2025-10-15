@@ -1,21 +1,22 @@
 #!/bin/sh
+# finder-test.sh (corregido para Buildroot)
 # Tester script for assignment 1 and assignment 2
-# Author: Siddhant Jajoo
-# Corrected version by ChatGPT
+# Autor: Adaptado por ChatGPT
 
 set -e
 set -u
 
-# Default values
+# Valores por defecto
 NUMFILES=10
 WRITESTR=AELD_IS_FUN
 WRITEDIR=/tmp/aeld-data
 
-# Use absolute paths
-USERNAME=$(cat /etc/finder-app/conf/username.txt)
-ASSIGNMENT=$(cat /etc/finder-app/conf/assignment.txt)
+# Leer username y assignment de los archivos de configuración
+CONFIG_DIR=/etc/finder-app/conf
+username=$(cat "$CONFIG_DIR/username.txt")
+assignment=$(cat "$CONFIG_DIR/assignment.txt")
 
-# Handle optional script arguments
+# Manejo de argumentos
 if [ $# -lt 3 ]; then
     echo "Using default value ${WRITESTR} for string to write"
     if [ $# -lt 1 ]; then
@@ -33,40 +34,41 @@ MATCHSTR="The number of files are ${NUMFILES} and the number of matching lines a
 
 echo "Writing ${NUMFILES} files containing string ${WRITESTR} to ${WRITEDIR}"
 
-# Remove old directory if exists
-rm -rf "$WRITEDIR"
+# Limpiar directorio anterior
+rm -rf "${WRITEDIR}"
 
-# Always create the directory to avoid writer failures
-mkdir -p "$WRITEDIR"
-
-if [ -d "$WRITEDIR" ]; then
-    echo "$WRITEDIR created"
-else
-    echo "Error: failed to create $WRITEDIR"
-    exit 1
+# Crear directorio solo si no es assignment1
+if [ "$assignment" != "assignment1" ]; then
+    mkdir -p "$WRITEDIR"
+    if [ -d "$WRITEDIR" ]; then
+        echo "$WRITEDIR created"
+    else
+        echo "Error: Failed to create directory"
+        exit 1
+    fi
 fi
 
-# Loop to write files using writer
+# Escribir archivos usando writer.sh en lugar de binario ELF
 for i in $(seq 1 $NUMFILES); do
-    /bin/writer "$WRITEDIR/${USERNAME}_$i.txt" "$WRITESTR"
+    /etc/finder-app/writer.sh "$WRITEDIR/${username}_$i.txt" "$WRITESTR"
 done
 
-# Run finder.sh on the created files
-OUTPUTSTRING=$(finder.sh "$WRITEDIR" "$WRITESTR")
+# Ejecutar finder.sh y capturar salida
+OUTPUTSTRING=$(/etc/finder-app/finder.sh "$WRITEDIR" "$WRITESTR")
 
-# Save result for assignment 4
+# Guardar resultado en assignment4-result.txt
 echo "$OUTPUTSTRING" > /tmp/assignment4-result.txt
 
-# Clean temporary files
-rm -rf "$WRITEDIR"
+# Limpiar archivos temporales
+rm -rf /tmp/aeld-data
 
-# Validate output
+# Verificar resultado
 set +e
-echo "$OUTPUTSTRING" | grep "$MATCHSTR"
+echo "$OUTPUTSTRING" | grep "${MATCHSTR}"
 if [ $? -eq 0 ]; then
     echo "success"
     exit 0
 else
-    echo "failed: expected '${MATCHSTR}' in '${OUTPUTSTRING}' but instead found"
+    echo "failed: expected '${MATCHSTR}' in ${OUTPUTSTRING} but instead found"
     exit 1
 fi
