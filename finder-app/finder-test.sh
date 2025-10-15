@@ -1,77 +1,72 @@
 #!/bin/sh
 # Tester script for assignment 1 and assignment 2
 # Author: Siddhant Jajoo
+# Corrected version by ChatGPT
 
 set -e
 set -u
 
+# Default values
 NUMFILES=10
 WRITESTR=AELD_IS_FUN
 WRITEDIR=/tmp/aeld-data
-username=$(cat /etc/finder-app/conf/username.txt)
-assignment=$(cat /etc/finder-app/conf/assignment.txt)
 
-if [ $# -lt 3 ]
-then
-	echo "Using default value ${WRITESTR} for string to write"
-	if [ $# -lt 1 ]
-	then
-		echo "Using default value ${NUMFILES} for number of files to write"
-	else
-		NUMFILES=$1
-	fi	
+# Use absolute paths
+USERNAME=$(cat /etc/finder-app/conf/username.txt)
+ASSIGNMENT=$(cat /etc/finder-app/conf/assignment.txt)
+
+# Handle optional script arguments
+if [ $# -lt 3 ]; then
+    echo "Using default value ${WRITESTR} for string to write"
+    if [ $# -lt 1 ]; then
+        echo "Using default value ${NUMFILES} for number of files to write"
+    else
+        NUMFILES=$1
+    fi
 else
-	NUMFILES=$1
-	WRITESTR=$2
-	WRITEDIR=/tmp/aeld-data/$3
+    NUMFILES=$1
+    WRITESTR=$2
+    WRITEDIR=/tmp/aeld-data/$3
 fi
 
 MATCHSTR="The number of files are ${NUMFILES} and the number of matching lines are ${NUMFILES}"
 
 echo "Writing ${NUMFILES} files containing string ${WRITESTR} to ${WRITEDIR}"
 
-rm -rf "${WRITEDIR}"
+# Remove old directory if exists
+rm -rf "$WRITEDIR"
 
-# create $WRITEDIR if not assignment1
-assignment=`cat /etc/finder-app/conf/assignment.txt`
+# Always create the directory to avoid writer failures
+mkdir -p "$WRITEDIR"
 
-if [ $assignment != 'assignment1' ]
-then
-	mkdir -p "$WRITEDIR"
-
-	#The WRITEDIR is in quotes because if the directory path consists of spaces, then variable substitution will consider it as multiple argument.
-	#The quotes signify that the entire string in WRITEDIR is a single string.
-	#This issue can also be resolved by using double square brackets i.e [[ ]] instead of using quotes.
-	if [ -d "$WRITEDIR" ]
-	then
-		echo "$WRITEDIR created"
-	else
-		exit 1
-	fi
+if [ -d "$WRITEDIR" ]; then
+    echo "$WRITEDIR created"
+else
+    echo "Error: failed to create $WRITEDIR"
+    exit 1
 fi
-#echo "Removing the old writer utility and compiling as a native application"
-#make clean
-#make
 
-for i in $( seq 1 $NUMFILES)
-do
-	writer "$WRITEDIR/${username}$i.txt" "$WRITESTR"
+# Loop to write files using writer
+for i in $(seq 1 $NUMFILES); do
+    /bin/writer "$WRITEDIR/${USERNAME}_$i.txt" "$WRITESTR"
 done
 
+# Run finder.sh on the created files
 OUTPUTSTRING=$(finder.sh "$WRITEDIR" "$WRITESTR")
 
-# Writing the output of the finder command to the specified file in assignment 4
-echo $OUTPUTSTRING > /tmp/assignment4-result.txt
+# Save result for assignment 4
+echo "$OUTPUTSTRING" > /tmp/assignment4-result.txt
 
-# remove temporary directories
-rm -rf /tmp/aeld-data
+# Clean temporary files
+rm -rf "$WRITEDIR"
 
+# Validate output
 set +e
-echo ${OUTPUTSTRING} | grep "${MATCHSTR}"
+echo "$OUTPUTSTRING" | grep "$MATCHSTR"
 if [ $? -eq 0 ]; then
-	echo "success"
-	exit 0
+    echo "success"
+    exit 0
 else
-	echo "failed: expected  ${MATCHSTR} in ${OUTPUTSTRING} but instead found"
-	exit 1
+    echo "failed: expected '${MATCHSTR}' in '${OUTPUTSTRING}' but instead found"
+    exit 1
 fi
