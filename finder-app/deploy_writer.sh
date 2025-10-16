@@ -5,15 +5,30 @@
 set -e
 
 # Ruta al rootfs del sistema embebido
-ROOTFS=~/Documentos/Linux_Development/assignment-4-4trastos/buildroot/output/target
+ROOTFS="$HOME/Documentos/Linux_Development/assignment-4-4trastos/buildroot/output/target"
+
+# Directorio actual (donde está writer.c y Makefile)
+SRC_DIR=$(pwd)
+
+echo "Cleaning previous build..."
+make clean
 
 echo "Compiling writer.c for ARM64..."
-make clean
 make CROSS_COMPILE=aarch64-linux-gnu-
 
-echo "Deploying writer to $ROOTFS/bin..."
+# Crear carpeta bin en el rootfs si no existe
 mkdir -p "$ROOTFS/bin"
-cp writer "$ROOTFS/bin/writer"
+
+# Copiar binario al rootfs
+echo "Deploying writer to $ROOTFS/bin..."
+cp "$SRC_DIR/writer" "$ROOTFS/bin/writer"
 chmod +x "$ROOTFS/bin/writer"
+
+# Opcional: copiar los archivos de configuración si no existen
+if [ -d "$SRC_DIR/conf" ]; then
+    echo "Deploying configuration files to $ROOTFS/etc/finder-app/conf..."
+    mkdir -p "$ROOTFS/etc/finder-app/conf"
+    cp -r "$SRC_DIR/conf/"* "$ROOTFS/etc/finder-app/conf/"
+fi
 
 echo "✅ Deployment completed successfully!"
