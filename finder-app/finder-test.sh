@@ -10,15 +10,15 @@ add_validate_error() {
     return 1
 }
 
-# Configuración por defecto
+# Configuración por defecto - RUTAS CORREGIDAS
 NUMFILES=10
 WRITESTR="AELD_IS_FUN"
 WRITEDIR="/tmp/aeld-data"
-CONF_DIR="/etc/finder-app/conf"
-WRITER="/bin/writer"  # Cambiado a /bin/writer (donde realmente está)
-FINDER="/bin/finder.sh"  # Cambiado a /bin/finder.sh
+CONF_DIR="/etc/finder-app/conf"  # Ruta absoluta correcta
+WRITER="/bin/writer"            # Ruta absoluta correcta  
+FINDER="/bin/finder.sh"         # Ruta absoluta correcta
 
-# SOLUCIÓN: Usar ruta absoluta correcta
+# SOLUCIÓN: Usar rutas absolutas en lugar de relativas
 if [ ! -f "$CONF_DIR/username.txt" ] || [ ! -f "$CONF_DIR/assignment.txt" ]; then
     echo "Error: Missing conf files in $CONF_DIR"
     exit 1
