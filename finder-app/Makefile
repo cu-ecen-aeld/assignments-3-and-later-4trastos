@@ -1,24 +1,13 @@
-# Cross-compile settings
-CROSS_COMPILE ?= aarch64-linux-gnu-
-CC := $(CROSS_COMPILE)gcc
+# Makefile para finder-app - Buildroot compatible
+CC ?= gcc
+CFLAGS ?= -Wall -Werror
 
-CFLAGS  ?= -Wall -Wextra -Werror -O2 -g
-LDFLAGS ?=
-LDLIBS  ?=
+all: writer
 
-TARGET := writer
-SRCS   := writer.c
-OBJS   := $(SRCS:.c=.o)
-
-.PHONY: all clean
-
-all: $(TARGET)
-
-$(TARGET): $(OBJS)
-	$(CC) $(LDFLAGS) -o $@ $^ $(LDLIBS)
-
-%.o: %.c
-	$(CC) $(CFLAGS) -c $< -o $@
+writer: writer.c
+	$(CC) $(CFLAGS) -o writer writer.c
 
 clean:
-	$(RM) -f $(TARGET) $(OBJS)
+	rm -f writer
+
+.PHONY: all clean
