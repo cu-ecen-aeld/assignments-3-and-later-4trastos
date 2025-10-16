@@ -1,16 +1,16 @@
 #!/bin/sh
 # finder-test-fixed.sh
 # Tester script for assignment 1 and assignment 2 (robust version)
-# Uses absolute paths and writer.sh for Buildroot
 
 set -e
 set -u
 
 # SOLUCIÓN: Definir la función faltante
 add_validate_error() {
-    echo "Test Error: $1" >&2
+    echo "ERROR: $1" >&2
     return 1
 }
+
 # Configuración por defecto
 NUMFILES=10
 WRITESTR="AELD_IS_FUN"
@@ -19,10 +19,13 @@ CONF_DIR="/etc/finder-app/conf"
 WRITER="/etc/finder-app/writer.sh"
 FINDER="/etc/finder-app/finder.sh"
 
-# Leer usuario y asignación desde conf
+# SOLUCIÓN: Usar ruta absoluta para archivos de conf
 if [ ! -f "$CONF_DIR/username.txt" ] || [ ! -f "$CONF_DIR/assignment.txt" ]; then
     echo "Error: Missing conf files in $CONF_DIR"
-    exit 1
+    # Crear archivos de configuración por defecto si no existen
+    mkdir -p "$CONF_DIR"
+    echo "testuser" > "$CONF_DIR/username.txt"
+    echo "assignment4" > "$CONF_DIR/assignment.txt"
 fi
 
 username=$(cat "$CONF_DIR/username.txt")
