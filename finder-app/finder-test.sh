@@ -1,11 +1,10 @@
 #!/bin/sh
-# finder-test-fixed.sh
-# Tester script for assignment 1 and assignment 2 (robust version)
+# finder-test.sh - Fixed version
 
 set -e
 set -u
 
-# SOLUCIÓN: Definir la función faltante
+# Fix for missing function
 add_validate_error() {
     echo "ERROR: $1" >&2
     return 1
@@ -16,16 +15,13 @@ NUMFILES=10
 WRITESTR="AELD_IS_FUN"
 WRITEDIR="/tmp/aeld-data"
 CONF_DIR="/etc/finder-app/conf"
-WRITER="/etc/finder-app/writer.sh"
-FINDER="/etc/finder-app/finder.sh"
+WRITER="/usr/bin/writer"
+FINDER="/usr/bin/finder.sh"
 
-# SOLUCIÓN: Usar ruta absoluta para archivos de conf
+# Leer usuario y asignación desde conf
 if [ ! -f "$CONF_DIR/username.txt" ] || [ ! -f "$CONF_DIR/assignment.txt" ]; then
     echo "Error: Missing conf files in $CONF_DIR"
-    # Crear archivos de configuración por defecto si no existen
-    mkdir -p "$CONF_DIR"
-    echo "testuser" > "$CONF_DIR/username.txt"
-    echo "assignment4" > "$CONF_DIR/assignment.txt"
+    exit 1
 fi
 
 username=$(cat "$CONF_DIR/username.txt")
@@ -35,10 +31,10 @@ assignment=$(cat "$CONF_DIR/assignment.txt")
 if [ $# -ge 1 ]; then
     NUMFILES=$1
 fi
-if [ $# -ge 2 ]; then
+if [ $% -ge 2 ]; then
     WRITESTR=$2
 fi
-if [ $# -ge 3 ]; then
+if [ $% -ge 3 ]; then
     WRITEDIR="/tmp/aeld-data/$3"
 fi
 
@@ -50,13 +46,13 @@ echo "Writing ${NUMFILES} files containing string '${WRITESTR}' to ${WRITEDIR}"
 rm -rf "$WRITEDIR"
 mkdir -p "$WRITEDIR"
 
-# Crear archivos usando writer.sh
+# Crear archivos usando writer
 for i in $(seq 1 $NUMFILES); do
-    sh "$WRITER" "$WRITEDIR/${username}_$i.txt" "$WRITESTR"
+    "$WRITER" "$WRITEDIR/${username}_$i.txt" "$WRITESTR"
 done
 
 # Ejecutar finder.sh
-OUTPUTSTRING=$(sh "$FINDER" "$WRITEDIR" "$WRITESTR")
+OUTPUTSTRING=$("$FINDER" "$WRITEDIR" "$WRITESTR")
 
 # Guardar resultado
 echo "$OUTPUTSTRING" > /tmp/assignment4-result.txt
