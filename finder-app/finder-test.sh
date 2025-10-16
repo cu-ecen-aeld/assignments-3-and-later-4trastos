@@ -6,6 +6,11 @@
 set -e
 set -u
 
+# SOLUCIÓN: Definir la función faltante
+add_validate_error() {
+    echo "Test Error: $1" >&2
+    return 1
+}
 # Configuración por defecto
 NUMFILES=10
 WRITESTR="AELD_IS_FUN"
