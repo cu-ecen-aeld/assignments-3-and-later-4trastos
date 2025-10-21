@@ -30,12 +30,6 @@ typedef struct {
     struct sockaddr_in client_addr;
 } client_data_t;
 
-/**
- * @brief Manejador de señales. Solo establece la bandera de parada.
- * Para asegurar que accept() se interrumpe y el servidor cierra, 
- * cerramos server_fd en main() después de que la señal llegue.
- * @param signum Número de señal capturada.
- */
 void signal_handler(int signum) {
     (void)signum;
     syslog(LOG_INFO, "Caught signal %d, setting stop flag.", signum);

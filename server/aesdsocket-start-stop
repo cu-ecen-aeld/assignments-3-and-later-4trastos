@@ -1,0 +1,21 @@
+#!/bin/sh
+
+DAEMON_NAME="aesdsocket"
+DAEMON_PATH="/usr/bin/aesdsocket"
+
+case "$1" in
+    start)
+        echo "Starting aesdsocket..."
+        start-stop-daemon -S -n $DAEMON_NAME -x $DAEMON_PATH -- -d
+        ;;
+    stop)
+        echo "Stopping aesdsocket..."
+        start-stop-daemon -K -n $DAEMON_NAME
+        ;;
+    *)
+        echo "Usage: $0 {start|stop}"
+        exit 1
+        ;;
+esac
+
+exit 0

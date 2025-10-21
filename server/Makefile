@@ -1,16 +1,16 @@
-CC := gcc
-CFLAGS := -Wall -Werror -Wextra -g -pthread
-LDFLAGS := -pthread
-TARGET := aesdsocket
+# Ejemplo básico
+CC = gcc
+CFLAGS = -Wall -Wextra
+TARGET = aesdsocket
+SRC = aesdsocket.c
 
 all: $(TARGET)
 
-$(TARGET): aesdsocket.c
-	$(CC) $(CFLAGS) -o $(TARGET) aesdsocket.c $(LDFLAGS)
+$(TARGET): $(SRC)
+	$(CC) $(CFLAGS) -o $(TARGET) $(SRC)
 
 clean:
 	rm -f $(TARGET)
-	sudo rm -f /var/tmp/aesdsocketdata
 
-.PHONY: all clean
-default: all
+install: $(TARGET)
+	install -m 0755 $(TARGET) $(DESTDIR)/usr/bin/$(TARGET)
