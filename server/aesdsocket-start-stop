@@ -1,16 +1,15 @@
 #!/bin/sh
 
-DAEMON_NAME="aesdsocket"
-DAEMON_PATH="/usr/bin/aesdsocket"
-
 case "$1" in
     start)
         echo "Starting aesdsocket..."
-        start-stop-daemon -S -n $DAEMON_NAME -x $DAEMON_PATH -- -d
+        # -S: Start, -b: Background, -m: Make PID file, -x: Executable
+        start-stop-daemon -S -b -m -p /var/run/aesdsocket.pid -x /usr/bin/aesdsocket -- -d
         ;;
     stop)
         echo "Stopping aesdsocket..."
-        start-stop-daemon -K -n $DAEMON_NAME
+        start-stop-daemon -K -p /var/run/aesdsocket.pid
+        rm -f /var/run/aesdsocket.pid
         ;;
     *)
         echo "Usage: $0 {start|stop}"

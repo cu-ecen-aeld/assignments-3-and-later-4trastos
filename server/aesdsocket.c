@@ -1,4 +1,4 @@
-#define _POSIX_C_SOURCE 199309L
+#define _POSIX_C_SOURCE 200809L 
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -14,6 +14,8 @@
 #include <fcntl.h>
 #include <errno.h>
 #include <pthread.h>
+#include <time.h>
+#include <sys/select.h>
 
 #define PORT 9000
 #define DATA_FILE "/var/tmp/aesdsocketdata"
@@ -31,9 +33,15 @@ typedef struct {
 } client_data_t;
 
 void signal_handler(int signum) {
-    (void)signum;
     syslog(LOG_INFO, "Caught signal %d, setting stop flag.", signum);
     stop_server = 1;
+    
+    // Forzar el cierre del socket para que select() salga
+    if (server_fd != -1) {
+        shutdown(server_fd, SHUT_RDWR);
+        close(server_fd);
+        server_fd = -1;
+    }
 }
 
 /**
@@ -62,7 +70,6 @@ int setup_server_socket(void) {
         return -1;
     }
     
-    // **APLICACIÓN DE CONSEJO:** Permite reuso rápido del puerto (SO_REUSEADDR)
     if (setsockopt(fd, SOL_SOCKET, SO_REUSEADDR, &opt, sizeof(opt)) < 0) {
         syslog(LOG_ERR, "Failed to set socket options: %s", strerror(errno));
         close(fd);
@@ -81,6 +88,19 @@ int setup_server_socket(void) {
     
     if (listen(fd, 10) < 0) {
         syslog(LOG_ERR, "Failed to listen on socket: %s", strerror(errno));
+        close(fd);
+        return -1;
+    }
+    
+    // HACER EL SOCKET NO BLOQUEANTE
+    int flags = fcntl(fd, F_GETFL, 0);
+    if (flags == -1) {
+        syslog(LOG_ERR, "fcntl F_GETFL failed: %s", strerror(errno));
+        close(fd);
+        return -1;
+    }
+    if (fcntl(fd, F_SETFL, flags | O_NONBLOCK) == -1) {
+        syslog(LOG_ERR, "fcntl F_SETFL failed: %s", strerror(errno));
         close(fd);
         return -1;
     }
@@ -241,27 +261,70 @@ cleanup:
 }
 
 /**
- * @brief Implementa el proceso de demonización (fork, setsid, close FDs).
+ * @brief Implementa el proceso de demonización correctamente.
  */
 void daemonize(void) {
     pid_t pid = fork();
     
     if (pid < 0) {
+        syslog(LOG_ERR, "Failed to fork for daemon: %s", strerror(errno));
         exit(EXIT_FAILURE);
     }
     
     if (pid > 0) {
+        // Proceso padre - sale exitosamente
+        syslog(LOG_INFO, "Daemon started with PID: %d", pid);
         exit(EXIT_SUCCESS);
     }
     
+    // Proceso hijo (daemon) continúa aquí
+    
+    // Crear nueva sesión y ser líder del grupo de procesos
     if (setsid() < 0) {
+        syslog(LOG_ERR, "Failed to create new session: %s", strerror(errno));
         exit(EXIT_FAILURE);
     }
     
-    // Cierra descriptores de archivo estándar
+    // Segundo fork para asegurar que no somos líder de sesión
+    pid = fork();
+    if (pid < 0) {
+        syslog(LOG_ERR, "Second fork failed: %s", strerror(errno));
+        exit(EXIT_FAILURE);
+    }
+    
+    if (pid > 0) {
+        // Primer hijo sale
+        exit(EXIT_SUCCESS);
+    }
+    
+    // Proceso daemon real continúa aquí
+    
+    // Cambiar directorio de trabajo a root
+    if (chdir("/") < 0) {
+        syslog(LOG_ERR, "Failed to change directory to /: %s", strerror(errno));
+        exit(EXIT_FAILURE);
+    }
+    
+    // Resetear file mask
+    umask(0);
+    
+    // Cerrar descriptores de archivo estándar
     close(STDIN_FILENO);
     close(STDOUT_FILENO);
     close(STDERR_FILENO);
+    
+    // Redirigir stdin, stdout, stderr a /dev/null para evitar problemas
+    int devnull = open("/dev/null", O_RDWR);
+    if (devnull >= 0) {
+        dup2(devnull, STDIN_FILENO);
+        dup2(devnull, STDOUT_FILENO);
+        dup2(devnull, STDERR_FILENO);
+        if (devnull > STDERR_FILENO) {
+            close(devnull);
+        }
+    }
+    
+    syslog(LOG_INFO, "Daemon initialization complete");
 }
 
 /**
@@ -296,38 +359,64 @@ int main(int argc, char* argv[]) {
     
     // Bucle principal para aceptar conexiones
     while (!stop_server) {
-        int client_fd = accept(server_fd, (struct sockaddr*)&client_addr, &client_len);
+        fd_set read_fds;
+        struct timeval timeout;
+        int client_fd;
         
-        if (client_fd < 0) {
-            // Si accept() fue interrumpido por una señal
+        FD_ZERO(&read_fds);
+        FD_SET(server_fd, &read_fds);
+        
+        timeout.tv_sec = 1;
+        timeout.tv_usec = 0;
+        
+        int activity = select(server_fd + 1, &read_fds, NULL, NULL, &timeout);
+        
+        if (activity < 0) {
             if (errno == EINTR) {
-                continue; 
+                // Señal recibida, continuar para verificar stop_server
+                continue;
+            }
+            syslog(LOG_ERR, "select error: %s", strerror(errno));
+            break;
+        }
+        
+        if (activity == 0) {
+            // Timeout, verificar si debemos parar
+            continue;
+        }
+        
+        if (FD_ISSET(server_fd, &read_fds)) {
+            client_fd = accept(server_fd, (struct sockaddr*)&client_addr, &client_len);
+            
+            if (client_fd < 0) {
+                if (errno != EWOULDBLOCK && errno != EAGAIN) {
+                    syslog(LOG_ERR, "Failed to accept connection: %s", strerror(errno));
+                }
+                continue;
             }
             
-            if (!stop_server) {
-                syslog(LOG_ERR, "Failed to accept connection: %s", strerror(errno));
+            // Configurar socket del cliente como bloqueante
+            int flags = fcntl(client_fd, F_GETFL, 0);
+            fcntl(client_fd, F_SETFL, flags & ~O_NONBLOCK);
+            
+            // Asignación de datos del cliente
+            client_data_t* client_data = malloc(sizeof(client_data_t));
+            if (!client_data) {
+                syslog(LOG_ERR, "Failed to allocate client data");
+                close(client_fd);
+                continue;
             }
-            continue;
-        }
-        
-        // Asignación de datos del cliente (se liberará en el hilo)
-        client_data_t* client_data = malloc(sizeof(client_data_t));
-        if (!client_data) {
-            syslog(LOG_ERR, "Failed to allocate client data");
-            close(client_fd); // **Cierre de FD**
-            continue;
-        }
-        client_data->client_fd = client_fd;
-        client_data->client_addr = client_addr;
-        
-        pthread_t thread_id;
-        if (pthread_create(&thread_id, NULL, handle_client_thread, client_data) != 0) {
-            syslog(LOG_ERR, "Failed to create client thread: %s", strerror(errno));
-            free(client_data); // **Liberación de memoria**
-            close(client_fd);  // **Cierre de FD**
-        } else {
-            // Separar el hilo para liberar recursos al terminar.
-            pthread_detach(thread_id);
+            client_data->client_fd = client_fd;
+            client_data->client_addr = client_addr;
+            
+            pthread_t thread_id;
+            if (pthread_create(&thread_id, NULL, handle_client_thread, client_data) != 0) {
+                syslog(LOG_ERR, "Failed to create client thread: %s", strerror(errno));
+                free(client_data);
+                close(client_fd);
+            } else {
+                pthread_detach(thread_id);
+            }
         }
     }
     

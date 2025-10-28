@@ -1,0 +1,40 @@
+#!/bin/sh
+
+### BEGIN INIT INFO
+# Provides:          generate-ssh-keys
+# Required-Start:    $local_fs
+# Required-Stop:     
+# Default-Start:     S
+# Default-Stop:      
+# Short-Description: Generate SSH host keys if missing
+# Description:       Generates Dropbear SSH host keys on first boot
+### END INIT INFO
+
+case "$1" in
+    start)
+        echo "Checking SSH host keys..."
+        
+        # Crear directorio si no existe
+        mkdir -p /etc/dropbear
+        
+        # Generar clave RSA si no existe
+        if [ ! -f /etc/dropbear/dropbear_rsa_host_key ]; then
+            echo "Generating RSA host key..."
+            dropbearkey -t rsa -f /etc/dropbear/dropbear_rsa_host_key
+        fi
+        
+        # Generar clave ECDSA si no existe  
+        if [ ! -f /etc/dropbear/dropbear_ecdsa_host_key ]; then
+            echo "Generating ECDSA host key..."
+            dropbearkey -t ecdsa -f /etc/dropbear/dropbear_ecdsa_host_key
+        fi
+        
+        echo "SSH host keys ready"
+        ;;
+    *)
+        echo "Usage: $0 {start}"
+        exit 1
+        ;;
+esac
+
+exit 0
