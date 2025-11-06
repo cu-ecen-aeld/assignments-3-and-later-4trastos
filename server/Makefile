@@ -1,6 +1,5 @@
-# Ejemplo básico
-CC = gcc
-CFLAGS = -Wall -Wextra
+CC ?= gcc
+CFLAGS ?= -Wall -Wextra -pthread -lrt
 TARGET = aesdsocket
 SRC = aesdsocket.c
 
@@ -13,4 +12,5 @@ clean:
 	rm -f $(TARGET)
 
 install: $(TARGET)
+	install -d $(DESTDIR)/usr/bin
 	install -m 0755 $(TARGET) $(DESTDIR)/usr/bin/$(TARGET)
