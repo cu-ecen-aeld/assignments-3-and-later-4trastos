@@ -5,7 +5,7 @@
 set -e
 
 # Ruta al rootfs del sistema embebido
-ROOTFS="$HOME/Documentos/Linux_Development/assignment-4-4trastos/buildroot/output/target"
+ROOTFS="$HOME/Documents/Linux_Development/assignment-4-4trastos/buildroot/output/target"
 
 # Directorio actual (donde está writer.c y Makefile)
 SRC_DIR=$(pwd)
